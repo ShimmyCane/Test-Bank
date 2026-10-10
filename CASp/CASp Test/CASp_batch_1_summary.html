@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><title>CASp_batch_1.json Summary</title>
+<style>body { font-family: Arial,sans-serif; max-width: 980px; margin: 2rem auto; padding: 0 1rem; color:#1f2937; line-height:1.5; }
+code { background:#f3f4f6; padding:2px 6px; border-radius:4px; }
+section { border:1px solid #dbe2ea; border-radius:12px; padding:1rem 1.25rem; margin:1.25rem 0; background:#fafbfc; }
+table { border-collapse: collapse; width:100%; } th,td { border:1px solid #dbe2ea; padding:.6rem .75rem; text-align:left; vertical-align:top; } th { background:#f1f5f9; }</style></head><body>
+<h1>CASp_batch_1.json summary</h1>
+<p><strong>Purpose:</strong> This file is a question bank batch for the quiz app.</p>
+<p><strong>Question count:</strong> 60</p>
+<p><strong>Question fields:</strong> <code>id</code>, <code>category</code>, <code>topic</code>, <code>difficulty</code>, <code>source_authority</code>, <code>question_text</code>, <code>choices</code>, <code>correct_answer</code>, <code>explanation</code>, <code>traps</code></p>
+<section>
+<h2>Field overview</h2>
+<ul>
+<li><code>id</code>: Unique question identifier.</li>
+<li><code>category</code>: Top-level category or subject bucket.</li>
+<li><code>subcategory</code>: More specific area.</li>
+<li><code>topic</code>: Topic label or context.</li>
+<li><code>difficulty</code>: 1?5 learning difficulty estimate.</li>
+<li><code>source_authority</code>: The authority or governing reference tied to the item.</li>
+<li><code>question_text</code>: Prompt text.</li>
+<li><code>choices</code>: Multiple-choice answers.</li>
+<li><code>correct_answer</code>: Keyed answer.</li>
+<li><code>knowledge_node_ids</code>: Links to the taxonomy.</li>
+</ul>
+</section>
+<section>
+<h2>Category breakdown</h2>
+<table><tr><th>Category</th><th>Count</th></tr>
+<tr><td>Accessible parking and EV charging</td><td>3</td></tr><tr><td>Accessible routes and site circulation</td><td>6</td></tr><tr><td>Building elements and door/threshold requirements</td><td>2</td></tr><tr><td>CASp responsibility and California law</td><td>6</td></tr><tr><td>Code framework and governing standards</td><td>24</td></tr><tr><td>Housing and federal law comparison</td><td>13</td></tr><tr><td>Plumbing and toilet-room requirements</td><td>1</td></tr><tr><td>Scoping and alteration triggers</td><td>5</td></tr></table></section><section><h2>Example record</h2><pre>{
+  &quot;id&quot;: &quot;CASP-001&quot;,
+  &quot;category&quot;: &quot;Code framework and governing standards&quot;,
+  &quot;topic&quot;: &quot;CBC / ADAAG public accommodation and commercial facility scoping and technical application&quot;,
+  &quot;difficulty&quot;: 2,
+  &quot;source_authority&quot;: &quot;CBC 11B / ADA (as applicable)&quot;,
+  &quot;question_text&quot;: &quot;A retail tenant improvement is proposed in a commercial building. Before selecting the technical accessibility requirement, what is the most important first step?&quot;,
+  &quot;choices&quot;: [
+    &quot;Determine which standard governs the project and the adopted code edition.&quot;,
+    &quot;Count the number of restrooms in the building.&quot;,
+    &quot;Assume the ADA applies because the project is commercial.&quot;,
+    &quot;Check whether the building has a website.&quot;
+  ],
+  &quot;correct_answer&quot;: &quot;Determine which standard governs the project and the adopted code edition.&quot;,
+  &quot;explanation&quot;: &quot;The governing authority and edition must be identified before technical dimensions or fixture counts are applied. Facility type, project scope, and authority matter before answering technical questions.&quot;,
+  &quot;traps&quot;: [],
+  &quot;subcategory&quot;: &quot;Authority and code-edition selection&quot;,
+  &quot;knowledge_node_ids&quot;: [
+    &quot;topic-1&quot;,
+    &quot;topic-1-authority-and-code-edition-selection&quot;
+  ]
+}</pre></section><section><h2>How this file is used</h2><p>Each record is read by the quiz app and rendered as a multiple-choice item. The app tracks selection, timing, flags, and explanations, then summarizes mastery by category and subcategory.</p></section></body></html>

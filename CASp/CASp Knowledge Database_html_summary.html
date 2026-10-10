@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><title>CASp Knowledge Database HTML Summary</title><style>body { font-family: Arial,sans-serif; margin:2rem auto; max-width:980px; padding:0 1rem; color:#1f2937; line-height:1.5; } h2 { margin-top:1.5rem; } table { border-collapse: collapse; width:100%; } th,td { border:1px solid #dbe2ea; padding: .6rem .75rem; text-align:left; vertical-align:top; } th { background:#f1f5f9; } code { background:#f3f4f6; border-radius:4px; padding:2px 6px; } </style></head><body>
+<h1>CASp Knowledge Database HTML summary</h1>
+<p><strong>Purpose:</strong> This page is the frontend visualization for the subject taxonomy. It lets the map be explored, expanded, edited, and exported without duplicating the underlying question bank.</p>
+<p><strong>File size:</strong> 865 lines / 42065 characters</p>
+<h2>Likely sections</h2>
+<table><tr><th>Section</th><th>Approx line range</th><th>Role</th></tr>
+<tr><td>Document shell</td><td>1?80</td><td>Base page, styling, and root layout.</td></tr>
+<tr><td>Knowledge-map rendering</td><td>81?220</td><td>Building the taxonomy hierarchy and node display.</td></tr>
+<tr><td>Node editing / interaction layer</td><td>221?420</td><td>Add, remove, collapse, and flag nodes and links.</td></tr>
+<tr><td>Data import / export</td><td>421?520</td><td>Load JSON, keep metadata, and export updated database versions.</td></tr>
+<tr><td>Reference and question linking UI</td><td>521?end</td><td>Show linked batch files and question IDs for a selected node.</td></tr>
+</table>
+<h2>What this file is doing</h2>
+<ul><li>Loads the knowledge-map JSON rather than the full question bank.</li><li>Represents taxonomy as a nested tree or graph.</li><li>Lets users inspect topic relationships and importance flags.</li><li>Allows question links to be reviewed without editing question content.</li><li>Supports export/backing up the map in versioned JSON form.</li></ul>
+<h2>Key knobs to tweak</h2>
+<table><tr><th>Element</th><th>Why it matters</th><th>Adjustment idea</th></tr>
+<tr><td><code>taxonomy</code> data</td><td>Controls all map structure</td><td>Change nesting depth, node names, and importance flags.</td></tr>
+<tr><td>renderTree()</td><td>Builds visual nodes</td><td>Adjust node spacing, depth, or collapse behavior.</td></tr>
+<tr><td>selectedNode</td><td>Focus state</td><td>Update highlighting or inspector layout for a chosen topic.</td></tr>
+<tr><td>test_bank_links</td><td>Shows mapping to source files</td><td>Modify how linked question IDs are displayed or grouped.</td></tr>
+</table>
+<p>Overall, this HTML file acts as the knowledge-graph interface for the broader test-bank architecture.</p>
+</body></html>

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "CASP-061",
+    "category": "Code framework and governing standards",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "When a technical requirement is in dispute, what is the first question to resolve?",
+    "choices": [
+      "Which authority and edition govern the project?",
+      "Which furniture style is shown in the plans?",
+      "What is the nearest coffee shop?",
+      "What is the project manager's preferred detail?"
+    ],
+    "correct_answer": "Which authority and edition govern the project?",
+    "explanation": "The governing code sets the applicable standard and exceptions; technical review starts from the controlling authority and edition.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-062",
+    "category": "Accessible parking and EV charging",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Accessible parking is best addressed by reference to which starting point?",
+    "choices": [
+      "The project's applicable parking table and authority.",
+      "The contractor's parking preference.",
+      "The number of employees only.",
+      "The site landscaping plan."
+    ],
+    "correct_answer": "The project's applicable parking table and authority.",
+    "explanation": "Counts and dimensions depend on the governing rule and project conditions.",
+    "traps": [],
+    "subcategory": "Accessible parking authority and site conditions",
+    "knowledge_node_ids": [
+      "topic-2",
+      "topic-2-accessible-parking-authority-and-site-conditions"
+    ]
+  },
+  {
+    "id": "CASP-063",
+    "category": "Code framework and governing standards",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "What most directly affects whether a route is considered usable?",
+    "choices": [
+      "Grade, cross-slopes, transitions, and conflicts with vehicles or edges.",
+      "The color of the path pavement.",
+      "The project schedule.",
+      "The building owner's recommendation."
+    ],
+    "correct_answer": "Grade, cross-slopes, transitions, and conflicts with vehicles or edges.",
+    "explanation": "Usable route analysis is based on actual conditions and safety, not surface appearance alone.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-064",
+    "category": "Building elements and door/threshold requirements",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A 36-inch door leaf is shown. What else must be checked?",
+    "choices": [
+      "The clear opening and maneuvering clearances around the door.",
+      "Whether the door has a decorative handle.",
+      "The number of door hinges.",
+      "The lockset brand name."
+    ],
+    "correct_answer": "The clear opening and maneuvering clearances around the door.",
+    "explanation": "Door accessibility depends on the actual usable opening and the surrounding conditions.",
+    "traps": [],
+    "subcategory": "Doors, clear openings, and maneuvering clearances",
+    "knowledge_node_ids": [
+      "topic-5",
+      "topic-5-doors-clear-openings-and-maneuvering-clearances"
+    ]
+  },
+  {
+    "id": "CASP-065",
+    "category": "Plumbing and toilet-room requirements",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A toilet room is being reviewed. What is the essential question?",
+    "choices": [
+      "Does the project scope require the accessible fixture and is the required clear space present?",
+      "Is the room close to the lobby?",
+      "Is the sink countertop finished?",
+      "Does the room have enough decorative tile?"
+    ],
+    "correct_answer": "Does the project scope require the accessible fixture and is the required clear space present?",
+    "explanation": "Scope and technical dimensions both matter when evaluating accessible fixtures and clearances.",
+    "traps": [],
+    "subcategory": "Accessible toilet rooms, fixtures, and clearances",
+    "knowledge_node_ids": [
+      "topic-6",
+      "topic-6-accessible-toilet-rooms-fixtures-and-clearances"
+    ]
+  },
+  {
+    "id": "CASP-066",
+    "category": "Code framework and governing standards",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A small tenant improvement is proposed. What is the correct general approach?",
+    "choices": [
+      "Check scope triggers before applying technical standards.",
+      "Apply all public accommodation rules to the entire building.",
+      "Ignore alteration questions.",
+      "Use the most common rule from memory."
+    ],
+    "correct_answer": "Check scope triggers before applying technical standards.",
+    "explanation": "The authority and project scope determine the applicable requirements before technical details are applied.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-067",
+    "category": "Code framework and governing standards",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Which sequence is sound for accessibility review?",
+    "choices": [
+      "Authority, scope, then technical requirement.",
+      "Finish schedule, then route review.",
+      "Door hardware, then legal analysis.",
+      "Parking counts, then building type."
+    ],
+    "correct_answer": "Authority, scope, then technical requirement.",
+    "explanation": "A structured sequence reduces errors and wrong-rule assignments.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-068",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A minor alteration occurs in a building with many existing elements. The reviewer should not do what?",
+    "choices": [
+      "Assume all non-affected elements must be fully brought to current code without checking project scope.",
+      "Review only economic impacts.",
+      "Ignore the project because it is minor.",
+      "Skip code citation entirely."
+    ],
+    "correct_answer": "Assume all non-affected elements must be fully brought to current code without checking project scope.",
+    "explanation": "Alteration obligations are limited by scope and context; not every non-affected element is automatically fully upgraded.",
+    "traps": [],
+    "subcategory": "Alteration, addition, and new-construction triggers",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-alteration-addition-and-new-construction-triggers"
+    ]
+  },
+  {
+    "id": "CASP-069",
+    "category": "Accessible routes and site circulation",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "The site plan shows a route crossing a vehicle circulation aisle. Which issue is most important?",
+    "choices": [
+      "Whether the crossing is permitted and the path remains usable under the governing standard.",
+      "Whether the route is painted.",
+      "Whether there is a nearby planter.",
+      "Whether the sidewalk is at the correct width for tables."
+    ],
+    "correct_answer": "Whether the crossing is permitted and the path remains usable under the governing standard.",
+    "explanation": "Route conflicts are fact-sensitive and must be reviewed in context.",
+    "traps": [],
+    "subcategory": "Route crossings and vehicle conflicts",
+    "knowledge_node_ids": [
+      "topic-3",
+      "topic-3-route-crossings-and-vehicle-conflicts"
+    ]
+  },
+  {
+    "id": "CASP-070",
+    "category": "Accessible routes and site circulation",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A campus includes several separate entrances. What should the reviewer evaluate?",
+    "choices": [
+      "Whether required accessible connections are continuous and usable between destinations.",
+      "Whether each entrance has matching signage.",
+      "Whether all entrance doors match the same finish.",
+      "Whether the campus has a central mailbox."
+    ],
+    "correct_answer": "Whether required accessible connections are continuous and usable between destinations.",
+    "explanation": "Accessibility is about continuity and usability, not just the existence of an entrance.",
+    "traps": [],
+    "subcategory": "Route continuity across campuses and multiple buildings",
+    "knowledge_node_ids": [
+      "topic-3",
+      "topic-3-route-continuity-across-campuses-and-multiple-buildings"
+    ]
+  },
+  {
+    "id": "CASP-071",
+    "category": "Accessible routes and site circulation",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A project includes a new entrance and a sidewalk route to a public lobby. What should be reviewed before deciding whether the route is acceptable?",
+    "choices": [
+      "The actual route conditions, elevation changes, and conflicts with circulation.",
+      "Only whether the project has a parking lot.",
+      "Only whether the building is in a commercial area.",
+      "Only whether a sign exists at the entrance."
+    ],
+    "correct_answer": "The actual route conditions, elevation changes, and conflicts with circulation.",
+    "explanation": "The route must function properly in context, not simply exist on paper.",
+    "traps": [],
+    "subcategory": "Accessible route continuity, geometry, and usability",
+    "knowledge_node_ids": [
+      "topic-3",
+      "topic-3-accessible-route-continuity-geometry-and-usability"
+    ]
+  },
+  {
+    "id": "CASP-072",
+    "category": "Accessible routes and site circulation",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Which statement best reflects the principal fact pattern behind accessible route review?",
+    "choices": [
+      "A route is not evaluated only by its presence; it must remain usable under applicable conditions.",
+      "Any paved path is automatically accessible.",
+      "All surface materials are equally acceptable without review.",
+      "Site access is separate from code review."
+    ],
+    "correct_answer": "A route is not evaluated only by its presence; it must remain usable under applicable conditions.",
+    "explanation": "Actual route geometry, transitions, and conflicts are critical to usability and compliance.",
+    "traps": [],
+    "subcategory": "Accessible route continuity, geometry, and usability",
+    "knowledge_node_ids": [
+      "topic-3",
+      "topic-3-accessible-route-continuity-geometry-and-usability"
+    ]
+  },
+  {
+    "id": "CASP-073",
+    "category": "Building elements and door/threshold requirements",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A reviewer sees a nominal door dimension in a plan but not the surrounding conditions. What is the most important next question?",
+    "choices": [
+      "What is the clear opening and maneuvering clearance under the applicable standard?",
+      "What is the door color?",
+      "Which contractor installed the frame?",
+      "Is the door near a restroom?"
+    ],
+    "correct_answer": "What is the clear opening and maneuvering clearance under the applicable standard?",
+    "explanation": "The actual opening and surrounding usable space matter more than nominal dimensions alone.",
+    "traps": [],
+    "subcategory": "Doors, clear openings, and maneuvering clearances",
+    "knowledge_node_ids": [
+      "topic-5",
+      "topic-5-doors-clear-openings-and-maneuvering-clearances"
+    ]
+  },
+  {
+    "id": "CASP-074",
+    "category": "Code framework and governing standards",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 4,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Which issue is most central when reviewing a public accommodation project in a mixed-use building?",
+    "choices": [
+      "Whether the project is in scope and what standard applies to each use area.",
+      "Whether the owner likes the plan set.",
+      "Whether the lobby has decorative lighting.",
+      "Whether the building is taller than nearby structures."
+    ],
+    "correct_answer": "Whether the project is in scope and what standard applies to each use area.",
+    "explanation": "Mixed-use projects often require separate analysis of the applicable standards by use and authority.",
+    "traps": [],
+    "subcategory": "Standards identification in mixed-use and multi-authority projects",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-standards-identification-in-mixed-use-and-multi-authority-projects"
+    ]
+  },
+  {
+    "id": "CASP-075",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A project includes a limited building alteration to a public facility. What is the reviewer’s strongest starting point?",
+    "choices": [
+      "Identify the applicable scope and affected routes or areas before finalizing compliance conclusions.",
+      "Assume the whole building must comply fully without checking scope.",
+      "Ignore the alteration because it is small.",
+      "Skip the code reference because the work is minor."
+    ],
+    "correct_answer": "Identify the applicable scope and affected routes or areas before finalizing compliance conclusions.",
+    "explanation": "Alteration scope is a controlling issue and must be reviewed before broad conclusions are made.",
+    "traps": [],
+    "subcategory": "Alteration, addition, and new-construction triggers",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-alteration-addition-and-new-construction-triggers"
+    ]
+  },
+  {
+    "id": "CASP-076",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Which general principle should guide QA review for accessible route and door issues?",
+    "choices": [
+      "Technical requirements apply only after authority and scope are clarified.",
+      "All sites have the same accessible route issues.",
+      "Only the visible route width matters.",
+      "Only the nominal opening matters."
+    ],
+    "correct_answer": "Technical requirements apply only after authority and scope are clarified.",
+    "explanation": "Good review follows the legal and factual sequence before technical criteria are applied.",
+    "traps": [],
+    "subcategory": "Scoping versus technical application",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-scoping-versus-technical-application"
+    ]
+  },
+  {
+    "id": "CASP-077",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A public accommodation project includes a curb ramp and a parking lot connection. What should the reviewer investigate?",
+    "choices": [
+      "Whether the route, turning areas, and crossings are usable, permitted, and continuous.",
+      "Whether the curb ramp has decorative edges.",
+      "Whether there are enough signs nearby.",
+      "Whether the project has trees planted at the perimeter."
+    ],
+    "correct_answer": "Whether the route, turning areas, and crossings are usable, permitted, and continuous.",
+    "explanation": "Route usability is a practical question of actual circulation, not just the presence of a feature.",
+    "traps": [],
+    "subcategory": "Scoping versus technical application",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-scoping-versus-technical-application"
+    ]
+  },
+  {
+    "id": "CASP-078",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Which factor most strongly distinguishes a technical accessibility issue from a scoping issue?",
+    "choices": [
+      "Whether the question is about whether the requirement applies versus how it is met.",
+      "Whether the building has an entrance sign.",
+      "Whether the project is on a busy street.",
+      "Whether a parking count table exists."
+    ],
+    "correct_answer": "Whether the question is about whether the requirement applies versus how it is met.",
+    "explanation": "Scoping asks whether a requirement applies; technical review asks how it is met.",
+    "traps": [],
+    "subcategory": "Scoping versus technical application",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-scoping-versus-technical-application"
+    ]
+  },
+  {
+    "id": "CASP-079",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A campus site has multiple building connections and one public entrance. What should the reviewer ask?",
+    "choices": [
+      "Are the required accessible connections continuous, usable, and governed by the correct authority?",
+      "Are all walkways the same width?",
+      "Are all entrances at the same elevation?",
+      "Is the project near a major road?"
+    ],
+    "correct_answer": "Are the required accessible connections continuous, usable, and governed by the correct authority?",
+    "explanation": "Accessibility review is about the usable path and the governing authority, not just similarity in appearance.",
+    "traps": [],
+    "subcategory": "Scoping versus technical application",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-scoping-versus-technical-application"
+    ]
+  },
+  {
+    "id": "CASP-080",
+    "category": "Accessible routes and site circulation",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Which statement best describes a common trap in accessibility review?",
+    "choices": [
+      "Treating a technical requirement as if it applies automatically without checking scope and authority.",
+      "Reading every plan sheet in detail before any legal analysis.",
+      "Ignoring the site because the building is already existing.",
+      "Assuming all projects have similar permit histories."
+    ],
+    "correct_answer": "Treating a technical requirement as if it applies automatically without checking scope and authority.",
+    "explanation": "A common error is to skip the required authority and scope analysis and jump directly to technical standards.",
+    "traps": [],
+    "subcategory": "Route crossings and vehicle conflicts",
+    "knowledge_node_ids": [
+      "topic-3",
+      "topic-3-route-crossings-and-vehicle-conflicts"
+    ]
+  },
+  {
+    "id": "CASP-081",
+    "category": "Accessible routes and site circulation",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A site access route crosses a vehicle maneuvering area. What is the most important question?",
+    "choices": [
+      "Whether the route is continuous and permitted under the applicable project conditions and authority.",
+      "Whether the landscaping is installed.",
+      "Whether the parking lot is striped.",
+      "Whether there are decorative lights."
+    ],
+    "correct_answer": "Whether the route is continuous and permitted under the applicable project conditions and authority.",
+    "explanation": "Route compliance depends on actual path conditions and the governing rule.",
+    "traps": [],
+    "subcategory": "Route crossings and vehicle conflicts",
+    "knowledge_node_ids": [
+      "topic-3",
+      "topic-3-route-crossings-and-vehicle-conflicts"
+    ]
+  },
+  {
+    "id": "CASP-082",
+    "category": "Building elements and door/threshold requirements",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A swinging door is shown in a plan set. Which issue is most likely to matter more than the nominal door width alone?",
+    "choices": [
+      "Clear opening, maneuvering clearance, and approach conditions.",
+      "The door color.",
+      "The hardware finish.",
+      "The hinge brand."
+    ],
+    "correct_answer": "Clear opening, maneuvering clearance, and approach conditions.",
+    "explanation": "Accessibility depends on usable opening and surrounding conditions, not nominal width alone.",
+    "traps": [],
+    "subcategory": "Doors, clear openings, and maneuvering clearances",
+    "knowledge_node_ids": [
+      "topic-5",
+      "topic-5-doors-clear-openings-and-maneuvering-clearances"
+    ]
+  },
+  {
+    "id": "CASP-083",
+    "category": "Accessible parking and EV charging",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 2,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "Accessible parking requirements should be analyzed using which method?",
+    "choices": [
+      "Applicable table, project type, and governing authority.",
+      "One standard formula for all projects.",
+      "The parking lot design chosen by the contractor.",
+      "The total number of employee spaces only."
+    ],
+    "correct_answer": "Applicable table, project type, and governing authority.",
+    "explanation": "Accessible parking is project-specific and authority-specific.",
+    "traps": [],
+    "subcategory": "Accessible parking authority and site conditions",
+    "knowledge_node_ids": [
+      "topic-2",
+      "topic-2-accessible-parking-authority-and-site-conditions"
+    ]
+  },
+  {
+    "id": "CASP-084",
+    "category": "Scoping and alteration triggers",
+    "topic": "CBC / ADA / public accommodation and commercial facility analysis",
+    "difficulty": 3,
+    "source_authority": "CBC 11B / ADA (as applicable)",
+    "question_text": "A project includes only a limited alteration to an existing building. What should the reviewer avoid doing?",
+    "choices": [
+      "Assuming the entire building or all routes are fully required to be brought into compliance without checking the scope rules.",
+      "Ignoring the alteration because the project is small.",
+      "Writing a report without any code references.",
+      "Leaving out parking because it is a site issue."
+    ],
+    "correct_answer": "Assuming the entire building or all routes are fully required to be brought into compliance without checking the scope rules.",
+    "explanation": "Alteration scope matters; not all conditions automatically receive full-code upgrades.",
+    "traps": [],
+    "subcategory": "Alteration, addition, and new-construction triggers",
+    "knowledge_node_ids": [
+      "topic-4",
+      "topic-4-alteration-addition-and-new-construction-triggers"
+    ]
+  },
+  {
+    "id": "CASP-085",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 1,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "Which set of standards is most directly associated with private housing accessibility in California?",
+    "choices": [
+      "CBC Chapter 11A and FHA-related housing accessibility rules.",
+      "Public accommodation restroom requirements.",
+      "Elevator lobby standards for parking garages.",
+      "Fire department signage standards."
+    ],
+    "correct_answer": "CBC Chapter 11A and FHA-related housing accessibility rules.",
+    "explanation": "Housing accessibility is distinct from public accommodation standards.",
+    "traps": [],
+    "subcategory": "Private, public, and multifamily housing applicability",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-private-public-and-multifamily-housing-applicability"
+    ]
+  },
+  {
+    "id": "CASP-086",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "Which concept is central to understanding housing standards?",
+    "choices": [
+      "Public housing, private housing, and multifamily applicability can differ.",
+      "Every multifamily project is governed by the same grocery store rules.",
+      "Housing standards do not consider common areas.",
+      "Private housing is never subject to accessibility review."
+    ],
+    "correct_answer": "Public housing, private housing, and multifamily applicability can differ.",
+    "explanation": "Housing standards depend on project type and authority.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-087",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "Which statement about FHA is most accurate?",
+    "choices": [
+      "FHA is a federal housing accessibility framework that must be considered alongside the applicable state and local standards.",
+      "FHA governs all commercial and public buildings.",
+      "FHA is only a construction inspection checklist for parking lots.",
+      "FHA never affects multifamily dwellings."
+    ],
+    "correct_answer": "FHA is a federal housing accessibility framework that must be considered alongside the applicable state and local standards.",
+    "explanation": "FHA may apply in residential contexts alongside other applicable rules.",
+    "traps": [],
+    "subcategory": "CBC Chapter 11A and FHA applicability",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-cbc-chapter-11a-and-fha-applicability"
+    ]
+  },
+  {
+    "id": "CASP-088",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "What is the key risk in treating CBC Chapter 11A and FHA as interchangeable?",
+    "choices": [
+      "They may address different housing contexts and legal triggers.",
+      "They always mean exactly the same thing.",
+      "They do not affect accessibility at all.",
+      "They are both limited to public restrooms."
+    ],
+    "correct_answer": "They may address different housing contexts and legal triggers.",
+    "explanation": "The standards can overlap but are not automatically identical in scope or application.",
+    "traps": [],
+    "subcategory": "CBC Chapter 11A and FHA applicability",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-cbc-chapter-11a-and-fha-applicability"
+    ]
+  },
+  {
+    "id": "CASP-089",
+    "category": "Code framework and governing standards",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 4,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "A mixed-use project includes residential units above a commercial space. What should the reviewer consider?",
+    "choices": [
+      "Whether different sections apply to the residential and commercial portions.",
+      "That all parts of the project are governed by one single rule.",
+      "That the residential units are not subject to code review.",
+      "That only the retail portion matters for accessibility."
+    ],
+    "correct_answer": "Whether different sections apply to the residential and commercial portions.",
+    "explanation": "Mixed-use projects may involve multiple standards depending on use and authority.",
+    "traps": [],
+    "subcategory": "Standards identification in mixed-use and multi-authority projects",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-standards-identification-in-mixed-use-and-multi-authority-projects"
+    ]
+  },
+  {
+    "id": "CASP-090",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "Which statement best captures the housing review problem described in the study materials?",
+    "choices": [
+      "The same project may be subject to more than one accessibility framework.",
+      "Housing review never involves technical dimensions.",
+      "Residential projects are not reviewed for accessibility.",
+      "The project type is irrelevant to housing standards."
+    ],
+    "correct_answer": "The same project may be subject to more than one accessibility framework.",
+    "explanation": "Overlap among legal frameworks is common in housing contexts.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-091",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "Which issue is especially important when comparing Chapter 11A and Chapter 11B?",
+    "choices": [
+      "Whether the project is private housing or public housing/commercial facility use.",
+      "The number of elevators in nearby buildings.",
+      "Whether the site has visible landscaping.",
+      "The size of the windows in the lobby."
+    ],
+    "correct_answer": "Whether the project is private housing or public housing/commercial facility use.",
+    "explanation": "The distinction between housing categories matters when selecting the standard.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-092",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "What is the safest study approach for housing and federal law questions?",
+    "choices": [
+      "Build a comparison matrix that distinguishes authority, housing type, and project facts.",
+      "Memorize a single rule for every housing project.",
+      "Ignore federal law unless the building is publicly owned.",
+      "Skip housing questions because they are not part of accessibility."
+    ],
+    "correct_answer": "Build a comparison matrix that distinguishes authority, housing type, and project facts.",
+    "explanation": "Strong study practice uses comparison by authority and project type.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-093",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "Which statement is most accurate about public housing and private housing analysis?",
+    "choices": [
+      "They are different legal and technical contexts and should not be merged.",
+      "They are always identical in scope.",
+      "Private housing is never a study topic for accessibility.",
+      "Public housing rules apply only to offices."
+    ],
+    "correct_answer": "They are different legal and technical contexts and should not be merged.",
+    "explanation": "Private and public housing require different standards and reasoning.",
+    "traps": [],
+    "subcategory": "Private, public, and multifamily housing applicability",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-private-public-and-multifamily-housing-applicability"
+    ]
+  },
+  {
+    "id": "CASP-094",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 3,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "A multifamily complex is being reviewed. Which question should come first?",
+    "choices": [
+      "What is the governing authority and housing classification for this project?",
+      "Which unit has the largest living room?",
+      "How many parking spaces are available for guests?",
+      "Whether the building has a roof deck."
+    ],
+    "correct_answer": "What is the governing authority and housing classification for this project?",
+    "explanation": "Authority and classification determine applicable housing rules before technical review.",
+    "traps": [],
+    "subcategory": "Private, public, and multifamily housing applicability",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-private-public-and-multifamily-housing-applicability"
+    ]
+  },
+  {
+    "id": "CASP-095",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "A housing project can be governed by more than one legal framework. What is the key learning point?",
+    "choices": [
+      "The governing authority must be matched to the housing type and project facts first.",
+      "The owner chooses the law after design.",
+      "Only one law can ever apply to a housing project.",
+      "Residential projects are never regulated by federal law."
+    ],
+    "correct_answer": "The governing authority must be matched to the housing type and project facts first.",
+    "explanation": "Housing legal overlap requires authority matching before technical questions.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-096",
+    "category": "Housing and federal law comparison",
+    "topic": "Housing / FHA / private and multifamily accessibility",
+    "difficulty": 2,
+    "source_authority": "CBC 11A / FHA (as applicable)",
+    "question_text": "What is the best final rule for housing standards selection?",
+    "choices": [
+      "Identify use, housing type, and governing authority before choosing the technical standard.",
+      "Use a single rule for all housing projects.",
+      "Ignore legal overlap when a single plan set is used.",
+      "Review only the common areas."
+    ],
+    "correct_answer": "Identify use, housing type, and governing authority before choosing the technical standard.",
+    "explanation": "Housing questions require authority and factual classification before technical analysis.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-097",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 1,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Which standard is generally associated with federally funded programs and facilities?",
+    "choices": [
+      "Section 504.",
+      "CBC Chapter 11A only.",
+      "Elevator emergency alarm law only.",
+      "Fire code signage standards only."
+    ],
+    "correct_answer": "Section 504.",
+    "explanation": "Section 504 is tied to federally funded programs and facilities.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-098",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 1,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Which statement best reflects the purpose of ADA Title II?",
+    "choices": [
+      "It applies to state and local government programs and facilities.",
+      "It applies only to private residential development.",
+      "It applies only to parking lot striping.",
+      "It is identical to CBC Chapter 11A in every case."
+    ],
+    "correct_answer": "It applies to state and local government programs and facilities.",
+    "explanation": "Title II addresses state and local government operations and facilities.",
+    "traps": [],
+    "subcategory": "ADA Titles II/III, Section 504, and funding triggers",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-ada-titles-ii-iii-section-504-and-funding-triggers"
+    ]
+  },
+  {
+    "id": "CASP-099",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 2,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Which statement best reflects ADA Title III?",
+    "choices": [
+      "It is associated with public accommodations and commercial facilities.",
+      "It applies only to detached residential homes.",
+      "It only governs bus stop signage.",
+      "It replaces all California code requirements."
+    ],
+    "correct_answer": "It is associated with public accommodations and commercial facilities.",
+    "explanation": "Title III addresses public accommodations and commercial facilities.",
+    "traps": [],
+    "subcategory": "ADA Titles II/III, Section 504, and funding triggers",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-ada-titles-ii-iii-section-504-and-funding-triggers"
+    ]
+  },
+  {
+    "id": "CASP-100",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 2,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Which topic should be kept distinct from the parking-count discussion when studying federal accessibility law?",
+    "choices": [
+      "The distinction between accessibility standards and funding-based requirements.",
+      "The number of bathrooms in a lobby.",
+      "Whether a project has an exterior sign.",
+      "The color of the building's fascia."
+    ],
+    "correct_answer": "The distinction between accessibility standards and funding-based requirements.",
+    "explanation": "Funding-based obligations can create different regulatory layers.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-101",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 2,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Which concept is especially important to remember in federal law study?",
+    "choices": [
+      "The same project may have both a code requirement and a funding-related requirement.",
+      "Federal law has no role in housing.",
+      "Section 504 never interacts with state law.",
+      "All federal standards are identical to CBC Chapter 11B."
+    ],
+    "correct_answer": "The same project may have both a code requirement and a funding-related requirement.",
+    "explanation": "Multiple legal frameworks can apply to the same project.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-102",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 2,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Which statement best describes the relationship between ADA and CBC in many commercial cases?",
+    "choices": [
+      "They can overlap but are not identical in all respects.",
+      "They are always identical.",
+      "ADA replaces all CBC requirements.",
+      "CBC always governs commercial projects regardless of federal law."
+    ],
+    "correct_answer": "They can overlap but are not identical in all respects.",
+    "explanation": "Overlap is common, but the legal and technical rules are not necessarily identical.",
+    "traps": [],
+    "subcategory": "CBC 11A/11B, ADA, and governing-standard selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-cbc-11a-11b-ada-and-governing-standard-selection"
+    ]
+  },
+  {
+    "id": "CASP-103",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 3,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "A facility receives federal funding. What is the most important practical issue?",
+    "choices": [
+      "Whether federal funding triggers additional accessibility obligations.",
+      "Whether the roof has skylights.",
+      "Whether the site has decorative planters.",
+      "Whether the project has a lobby bench."
+    ],
+    "correct_answer": "Whether federal funding triggers additional accessibility obligations.",
+    "explanation": "Funding can trigger obligations beyond the ordinary code baseline.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-104",
+    "category": "Code framework and governing standards",
+    "topic": "Federal regulations, ADA, and Section 504",
+    "difficulty": 2,
+    "source_authority": "ADA / Section 504 (as applicable)",
+    "question_text": "Why should a reviewer avoid using a single “one size fits all” rule across federal and state standards?",
+    "choices": [
+      "Different legal frameworks are tied to different project types, authorities, and scope triggers.",
+      "It saves time to use only one rule.",
+      "The standards never overlap.",
+      "Federal standards are irrelevant to accessibility."
+    ],
+    "correct_answer": "Different legal frameworks are tied to different project types, authorities, and scope triggers.",
+    "explanation": "Legal overlap requires careful distinction among the governing rules.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-105",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 2,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "Which topic belongs in a CASp study set focused on California legal requirements?",
+    "choices": [
+      "CASp responsibilities and California statutory requirements for disability access.",
+      "The color of accessible signs.",
+      "The preferred roofing material.",
+      "The building owner's favorite interior finish."
+    ],
+    "correct_answer": "CASp responsibilities and California statutory requirements for disability access.",
+    "explanation": "CASp study includes program responsibilities and statutory requirements.",
+    "traps": [],
+    "subcategory": "CASp responsibilities and California accessibility law",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-casp-responsibilities-and-california-accessibility-law"
+    ]
+  },
+  {
+    "id": "CASP-106",
+    "category": "Code framework and governing standards",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 1,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "Which code sources are explicitly important in California disability-access study?",
+    "choices": [
+      "Civil Code, Government Code, and Health and Safety Code.",
+      "Only the local plumbing code.",
+      "Only the permit application checklist.",
+      "Only elevator maintenance logs."
+    ],
+    "correct_answer": "Civil Code, Government Code, and Health and Safety Code.",
+    "explanation": "California disability-access study often involves multiple statute families.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-107",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 3,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "A reviewer is preparing a report on a facility's accessibility compliance. Which approach best fits CASp responsibility?",
+    "choices": [
+      "Document findings with the observation, location, applicable requirement, and disposition.",
+      "Assume the contractor already fixed the issue.",
+      "Ignore the applicable code because the project is already built.",
+      "Base the review only on general impressions."
+    ],
+    "correct_answer": "Document findings with the observation, location, applicable requirement, and disposition.",
+    "explanation": "CASp reporting requires a structured basis for findings.",
+    "traps": [],
+    "subcategory": "CASp inspection, documentation, and reporting responsibilities",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-casp-inspection-documentation-and-reporting-responsibilities"
+    ]
+  },
+  {
+    "id": "CASP-108",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 2,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "Why is project documentation important in CASp practice?",
+    "choices": [
+      "It connects the observation to the applicable requirement and the disposition.",
+      "It replaces the code.",
+      "It guarantees compliance.",
+      "It allows the reviewer to skip the field review."
+    ],
+    "correct_answer": "It connects the observation to the applicable requirement and the disposition.",
+    "explanation": "Documentation grounds the report in actual findings and the applicable standard.",
+    "traps": [],
+    "subcategory": "CASp inspection, documentation, and reporting responsibilities",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-casp-inspection-documentation-and-reporting-responsibilities"
+    ]
+  },
+  {
+    "id": "CASP-109",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 2,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "Which statement best reflects a proper legal and code mindset for CASp work?",
+    "choices": [
+      "Identify the governing authority, then support the conclusion with the applicable requirement and fact pattern.",
+      "Start with the most familiar rule and ignore the project facts.",
+      "Use a single default standard for every project.",
+      "Avoid reporting because compliance is not a legal issue."
+    ],
+    "correct_answer": "Identify the governing authority, then support the conclusion with the applicable requirement and fact pattern.",
+    "explanation": "CASp work requires authority, facts, and the applicable rule to be connected.",
+    "traps": [],
+    "subcategory": "CASp responsibilities and California accessibility law",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-casp-responsibilities-and-california-accessibility-law"
+    ]
+  },
+  {
+    "id": "CASP-110",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 2,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "Which topic belongs in a California statutory review set?",
+    "choices": [
+      "CASp program regulations and disability-access statutory context.",
+      "The number of employee parking spaces.",
+      "The location of the janitor closet.",
+      "The ownership of neighboring property."
+    ],
+    "correct_answer": "CASp program regulations and disability-access statutory context.",
+    "explanation": "California statutory context includes obligations and CASp-related duties.",
+    "traps": [],
+    "subcategory": "California disability-access statutes and CASp program requirements",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-california-disability-access-statutes-and-casp-program-requirements"
+    ]
+  },
+  {
+    "id": "CASP-111",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 2,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "What is the strongest content to include in a CASp report finding?",
+    "choices": [
+      "Observation, location, requirement, and disposition stated clearly.",
+      "Only the final conclusion.",
+      "A summary without code citation.",
+      "Only a rough cost estimate."
+    ],
+    "correct_answer": "Observation, location, requirement, and disposition stated clearly.",
+    "explanation": "A finding is strongest when it ties the observation to a rule and a disposition.",
+    "traps": [],
+    "subcategory": "CASp inspection, documentation, and reporting responsibilities",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-casp-inspection-documentation-and-reporting-responsibilities"
+    ]
+  },
+  {
+    "id": "CASP-112",
+    "category": "CASp responsibility and California law",
+    "topic": "CASp / California legal and reporting context",
+    "difficulty": 2,
+    "source_authority": "California disability-access statutes / CASp requirements",
+    "question_text": "A strong CASp review should begin by doing what?",
+    "choices": [
+      "Confirming the authority and fact pattern before selecting the rule.",
+      "Assuming the easiest rule is the correct one.",
+      "Reviewing only the latest plans.",
+      "Ignoring the governing law and focusing only on cosmetic features."
+    ],
+    "correct_answer": "Confirming the authority and fact pattern before selecting the rule.",
+    "explanation": "Good analysis connects authority, facts, and the applicable requirement.",
+    "traps": [],
+    "subcategory": "CASp responsibilities and California accessibility law",
+    "knowledge_node_ids": [
+      "topic-8",
+      "topic-8-casp-responsibilities-and-california-accessibility-law"
+    ]
+  },
+  {
+    "id": "CASP-113",
+    "category": "Housing and federal law comparison",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 2,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "A privately owned multifamily housing project is being reviewed. Which standard should be evaluated first?",
+    "choices": [
+      "The applicable housing accessibility framework, including the housing-type rules and jurisdiction.",
+      "The public accommodation restroom fixture table.",
+      "The public hospital matrix.",
+      "The local curb paint specification."
+    ],
+    "correct_answer": "The applicable housing accessibility framework, including the housing-type rules and jurisdiction.",
+    "explanation": "Housing projects require review under the applicable housing framework before technical standards.",
+    "traps": [],
+    "subcategory": "Private, public, and multifamily housing applicability",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-private-public-and-multifamily-housing-applicability"
+    ]
+  },
+  {
+    "id": "CASP-114",
+    "category": "Code framework and governing standards",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 3,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "A public accommodation building receives federal funding. Which issue must be considered alongside CBC or ADA requirements?",
+    "choices": [
+      "Whether Section 504 or other funding-based requirements apply.",
+      "Whether the parking lot has a loading bay.",
+      "Whether the office has a fire extinguisher.",
+      "Whether the exterior wall finish is stucco."
+    ],
+    "correct_answer": "Whether Section 504 or other funding-based requirements apply.",
+    "explanation": "Funding source can create additional obligations beyond the code baseline.",
+    "traps": [],
+    "subcategory": "ADA Titles II/III, Section 504, and funding triggers",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-ada-titles-ii-iii-section-504-and-funding-triggers"
+    ]
+  },
+  {
+    "id": "CASP-115",
+    "category": "Code framework and governing standards",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 2,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "Which scenario most clearly calls for standards identification?",
+    "choices": [
+      "A mixed-use project where different building uses and legal authorities may create overlapping obligations.",
+      "A project with a single standard bathroom layout.",
+      "A building with only one sign on the facade.",
+      "A site with a single parking aisle."
+    ],
+    "correct_answer": "A mixed-use project where different building uses and legal authorities may create overlapping obligations.",
+    "explanation": "Mixed-use and multi-authority projects require identifying which rule applies to which part.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-116",
+    "category": "Housing and federal law comparison",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 4,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "A commercial project uses both a public accommodation and a private residential component. What should the reviewer ask first?",
+    "choices": [
+      "Which portion of the project is subject to which authority?",
+      "Which unit has the larger kitchen?",
+      "Which parking spaces are furthest from the entrance?",
+      "Which color is used for the lobby signage?"
+    ],
+    "correct_answer": "Which portion of the project is subject to which authority?",
+    "explanation": "Mixed-use conditions often require dividing the project into distinct uses and standards.",
+    "traps": [],
+    "subcategory": "Housing and nonresidential standards in mixed-use projects",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-and-nonresidential-standards-in-mixed-use-projects"
+    ]
+  },
+  {
+    "id": "CASP-117",
+    "category": "Code framework and governing standards",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 2,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "Which statement best reflects the purpose of a standards-identification question?",
+    "choices": [
+      "It tests whether the learner can match the project facts to the governing rule set.",
+      "It tests whether the learner can memorize a single table.",
+      "It tests whether the learner can identify all building materials.",
+      "It asks the learner to pick a favorite code section."
+    ],
+    "correct_answer": "It tests whether the learner can match the project facts to the governing rule set.",
+    "explanation": "Standards identification is about selecting the correct authority, not memorizing numbers.",
+    "traps": [],
+    "subcategory": "CBC 11A/11B, ADA, and governing-standard selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-cbc-11a-11b-ada-and-governing-standard-selection"
+    ]
+  },
+  {
+    "id": "CASP-118",
+    "category": "Code framework and governing standards",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 4,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "A project includes a commercial renovation and a state-owned facility component. Which issue is most important?",
+    "choices": [
+      "Whether different standards apply to different parts of the project and what the governing authority is for each.",
+      "The owner's preferred contractor schedule.",
+      "The number of windows in the office suite.",
+      "Whether the lobby has a reception desk."
+    ],
+    "correct_answer": "Whether different standards apply to different parts of the project and what the governing authority is for each.",
+    "explanation": "Different portions of a project can have different governing standards and project triggers.",
+    "traps": [],
+    "subcategory": "Authority and code-edition selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-authority-and-code-edition-selection"
+    ]
+  },
+  {
+    "id": "CASP-119",
+    "category": "Housing and federal law comparison",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 2,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "A housing project can be governed by more than one legal framework. What is the key learning point?",
+    "choices": [
+      "The governing authority must be matched to the housing type and project facts first.",
+      "The owner chooses the law after design.",
+      "Only one law can ever apply to a housing project.",
+      "Residential projects are never regulated by federal law."
+    ],
+    "correct_answer": "The governing authority must be matched to the housing type and project facts first.",
+    "explanation": "Housing legal overlap requires authority matching before technical questions.",
+    "traps": [],
+    "subcategory": "Housing accessibility and federal-law overlap",
+    "knowledge_node_ids": [
+      "topic-7",
+      "topic-7-housing-accessibility-and-federal-law-overlap"
+    ]
+  },
+  {
+    "id": "CASP-120",
+    "category": "Code framework and governing standards",
+    "topic": "Standards identification and rule-matching scenarios",
+    "difficulty": 2,
+    "source_authority": "Multiple authorities (project-dependent)",
+    "question_text": "What is the final and most reliable rule for standards-identification scenarios?",
+    "choices": [
+      "Identify the use, project scope, authority, and adopted code edition before selecting the technical standard.",
+      "Choose the most familiar standard from memory.",
+      "Use a generic rule for every commercial project.",
+      "Ignore the project facts once a code title is known."
+    ],
+    "correct_answer": "Identify the use, project scope, authority, and adopted code edition before selecting the technical standard.",
+    "explanation": "This is the decisive method for accurate standards identification and reduces risk of using the wrong rule set.",
+    "traps": [],
+    "subcategory": "CBC 11A/11B, ADA, and governing-standard selection",
+    "knowledge_node_ids": [
+      "topic-1",
+      "topic-1-cbc-11a-11b-ada-and-governing-standard-selection"
+    ]
+  }
+]

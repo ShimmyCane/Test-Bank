@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset="utf-8"><title>CASp_batch_2.json Summary</title>
+<style>body { font-family: Arial,sans-serif; max-width: 980px; margin: 2rem auto; padding: 0 1rem; color:#1f2937; line-height:1.5; }
+code { background:#f3f4f6; padding:2px 6px; border-radius:4px; }
+section { border:1px solid #dbe2ea; border-radius:12px; padding:1rem 1.25rem; margin:1.25rem 0; background:#fafbfc; }
+table { border-collapse: collapse; width:100%; } th,td { border:1px solid #dbe2ea; padding:.6rem .75rem; text-align:left; vertical-align:top; } th { background:#f1f5f9; }</style></head><body>
+<h1>CASp_batch_2.json summary</h1>
+<p><strong>Purpose:</strong> This file is a question bank batch for the quiz app.</p>
+<p><strong>Question count:</strong> 60</p>
+<p><strong>Question fields:</strong> <code>id</code>, <code>category</code>, <code>topic</code>, <code>difficulty</code>, <code>source_authority</code>, <code>question_text</code>, <code>choices</code>, <code>correct_answer</code>, <code>explanation</code>, <code>traps</code></p>
+<section>
+<h2>Field overview</h2>
+<ul>
+<li><code>id</code>: Unique question identifier.</li>
+<li><code>category</code>: Top-level category or subject bucket.</li>
+<li><code>subcategory</code>: More specific area.</li>
+<li><code>topic</code>: Topic label or context.</li>
+<li><code>difficulty</code>: 1?5 learning difficulty estimate.</li>
+<li><code>source_authority</code>: The authority or governing reference tied to the item.</li>
+<li><code>question_text</code>: Prompt text.</li>
+<li><code>choices</code>: Multiple-choice answers.</li>
+<li><code>correct_answer</code>: Keyed answer.</li>
+<li><code>knowledge_node_ids</code>: Links to the taxonomy.</li>
+</ul>
+</section>
+<section>
+<h2>Category breakdown</h2>
+<table><tr><th>Category</th><th>Count</th></tr>
+<tr><td>Accessible parking and EV charging</td><td>2</td></tr><tr><td>Accessible routes and site circulation</td><td>6</td></tr><tr><td>Building elements and door/threshold requirements</td><td>3</td></tr><tr><td>CASp responsibility and California law</td><td>7</td></tr><tr><td>Code framework and governing standards</td><td>20</td></tr><tr><td>Housing and federal law comparison</td><td>14</td></tr><tr><td>Plumbing and toilet-room requirements</td><td>1</td></tr><tr><td>Scoping and alteration triggers</td><td>7</td></tr></table></section><section><h2>Example record</h2><pre>{
+  &quot;id&quot;: &quot;CASP-061&quot;,
+  &quot;category&quot;: &quot;Code framework and governing standards&quot;,
+  &quot;topic&quot;: &quot;CBC / ADA / public accommodation and commercial facility analysis&quot;,
+  &quot;difficulty&quot;: 2,
+  &quot;source_authority&quot;: &quot;CBC 11B / ADA (as applicable)&quot;,
+  &quot;question_text&quot;: &quot;When a technical requirement is in dispute, what is the first question to resolve?&quot;,
+  &quot;choices&quot;: [
+    &quot;Which authority and edition govern the project?&quot;,
+    &quot;Which furniture style is shown in the plans?&quot;,
+    &quot;What is the nearest coffee shop?&quot;,
+    &quot;What is the project manager&#x27;s preferred detail?&quot;
+  ],
+  &quot;correct_answer&quot;: &quot;Which authority and edition govern the project?&quot;,
+  &quot;explanation&quot;: &quot;The governing code sets the applicable standard and exceptions; technical review starts from the controlling authority and edition.&quot;,
+  &quot;traps&quot;: [],
+  &quot;subcategory&quot;: &quot;Authority and code-edition selection&quot;,
+  &quot;knowledge_node_ids&quot;: [
+    &quot;topic-1&quot;,
+    &quot;topic-1-authority-and-code-edition-selection&quot;
+  ]
+}</pre></section><section><h2>How this file is used</h2><p>Each record is read by the quiz app and rendered as a multiple-choice item. The app tracks selection, timing, flags, and explanations, then summarizes mastery by category and subcategory.</p></section></body></html>

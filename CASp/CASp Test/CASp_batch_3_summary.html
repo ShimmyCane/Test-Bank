@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8"><title>CASp_batch_3.json Summary</title>
+<style>body { font-family: Arial,sans-serif; max-width: 980px; margin: 2rem auto; padding: 0 1rem; color:#1f2937; line-height:1.5; }
+code { background:#f3f4f6; padding:2px 6px; border-radius:4px; }
+section { border:1px solid #dbe2ea; border-radius:12px; padding:1rem 1.25rem; margin:1.25rem 0; background:#fafbfc; }
+table { border-collapse: collapse; width:100%; } th,td { border:1px solid #dbe2ea; padding:.6rem .75rem; text-align:left; vertical-align:top; } th { background:#f1f5f9; }</style></head><body>
+<h1>CASp_batch_3.json summary</h1>
+<p><strong>Purpose:</strong> This file is a question bank batch for the quiz app.</p>
+<p><strong>Question count:</strong> 114</p>
+<p><strong>Question fields:</strong> <code>id</code>, <code>category</code>, <code>topic</code>, <code>difficulty</code>, <code>source_authority</code>, <code>question_text</code>, <code>choices</code>, <code>correct_answer</code>, <code>explanation</code>, <code>traps</code></p>
+<section>
+<h2>Field overview</h2>
+<ul>
+<li><code>id</code>: Unique question identifier.</li>
+<li><code>category</code>: Top-level category or subject bucket.</li>
+<li><code>subcategory</code>: More specific area.</li>
+<li><code>topic</code>: Topic label or context.</li>
+<li><code>difficulty</code>: 1?5 learning difficulty estimate.</li>
+<li><code>source_authority</code>: The authority or governing reference tied to the item.</li>
+<li><code>question_text</code>: Prompt text.</li>
+<li><code>choices</code>: Multiple-choice answers.</li>
+<li><code>correct_answer</code>: Keyed answer.</li>
+<li><code>knowledge_node_ids</code>: Links to the taxonomy.</li>
+</ul>
+</section>
+<section>
+<h2>Category breakdown</h2>
+<table><tr><th>Category</th><th>Count</th></tr>
+<tr><td>Accessible parking and EV charging</td><td>6</td></tr><tr><td>Accessible routes and site circulation</td><td>12</td></tr><tr><td>Building elements and door/threshold requirements</td><td>6</td></tr><tr><td>CASp responsibility and California law</td><td>14</td></tr><tr><td>Code framework and governing standards</td><td>26</td></tr><tr><td>Housing and federal law comparison</td><td>22</td></tr><tr><td>Plumbing and toilet-room requirements</td><td>4</td></tr><tr><td>Scoping and alteration triggers</td><td>24</td></tr></table></section><section><h2>Example record</h2><pre>{
+  &quot;id&quot;: &quot;CASP-121&quot;,
+  &quot;category&quot;: &quot;Code framework and governing standards&quot;,
+  &quot;topic&quot;: &quot;CASp exam study framework; confirm current adopted California and federal sources&quot;,
+  &quot;difficulty&quot;: 3,
+  &quot;source_authority&quot;: &quot;Applicable adopted CBC provisions and ADA requirements, selected by facility use and project scope&quot;,
+  &quot;question_text&quot;: &quot;A candidate is organizing review across code chapters and accessibility laws before the CASp exam. The candidate must distinguish authority selection from the technical conclusion. The adopted edition and scope facts still need verification. Which preparation method best trains reliable code application?&quot;,
+  &quot;choices&quot;: [
+    &quot;Build a topic map that pairs each rule with its source, scope trigger, and verification reference.&quot;,
+    &quot;Assume ADA Title III governs every building and disregard applicable California code provisions.&quot;,
+    &quot;Use the newest published code edition automatically, without checking the edition adopted for this project.&quot;,
+    &quot;Choose a remembered technical dimension before identifying the facility and scope.&quot;
+  ],
+  &quot;correct_answer&quot;: &quot;Build a topic map that pairs each rule with its source, scope trigger, and verification reference.&quot;,
+  &quot;explanation&quot;: &quot;The governing source is Applicable adopted CBC provisions and ADA requirements, selected by facility use and project scope. An exam study plan should train rule selection first; the trigger is the need to apply a requirement to a defined project. Memorizing dimensions without linking them to their governing source invites wrong-edition and wrong-facility errors. The wrong choices make the following traps: Treating every facility as subject to one federal title without checking its use or state-code obligations.; Applying an unadopted edition because it is newer.; Skipping authority selection and jumping to a technical answer..&quot;,
+  &quot;traps&quot;: [
+    &quot;Treating every facility as subject to one federal title without checking its use or state-code obligations.&quot;,
+    &quot;Applying an unadopted edition because it is newer.&quot;,
+    &quot;Skipping authority selection and jumping to a technical answer.&quot;
+  ],
+  &quot;subcategory&quot;: &quot;Study planning and authority-first review&quot;,
+  &quot;source_chat_id&quot;: &quot;69c6ed10-d1a4-83e8-8441-80b19c2b314d&quot;,
+  &quot;source_chat_title&quot;: &quot;CASP study plans&quot;,
+  &quot;knowledge_node_ids&quot;: [
+    &quot;topic-1&quot;,
+    &quot;topic-1-study-planning-and-authority-first-review&quot;
+  ]
+}</pre></section><section><h2>How this file is used</h2><p>Each record is read by the quiz app and rendered as a multiple-choice item. The app tracks selection, timing, flags, and explanations, then summarizes mastery by category and subcategory.</p></section></body></html>

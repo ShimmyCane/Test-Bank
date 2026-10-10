@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "SKY-KIDS-001",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Earth Rotation",
+    "difficulty": 1,
+    "source_authority": "Elementary Astronomy",
+    "question_text": "Why do we have daytime and nighttime on Earth?",
+    "choices": [
+      "Earth spins around like a top, turning toward and away from the Sun.",
+      "The Sun turns off and on like a bedroom light switch.",
+      "The Moon covers up the Sun every single evening.",
+      "Clouds roll in and paint the sky black at bedtime."
+    ],
+    "correct_answer": "Earth spins around like a top, turning toward and away from the Sun.",
+    "explanation": "Earth spins in a circle called rotation; when your part of Earth faces the Sun, it is daytime, and when it faces away, it is nighttime.",
+    "traps": [
+      "Thinking the Sun actually moves around Earth instead of Earth spinning.",
+      "Believing the Moon causes the shift between day and night."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-002",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Sunrise and Sunset",
+    "difficulty": 1,
+    "source_authority": "Elementary Astronomy",
+    "question_text": "In which direction does the Sun appear to rise in the morning?",
+    "choices": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correct_answer": "East",
+    "explanation": "Because of the way Earth spins toward the east, the Sun always appears to rise in the eastern sky every morning.",
+    "traps": [
+      "Confusing the east sunrise with the west sunset.",
+      "Thinking the Sun rises from the north or south."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-003",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Sunrise and Sunset",
+    "difficulty": 1,
+    "source_authority": "Elementary Astronomy",
+    "question_text": "Where does the Sun go when it sets in the evening?",
+    "choices": [
+      "It dips below the western horizon as Earth spins away.",
+      "It goes to sleep under the ocean waves forever.",
+      "It shrinks into a tiny glowing marble.",
+      "It hides behind the biggest cloud in the sky."
+    ],
+    "correct_answer": "It dips below the western horizon as Earth spins away.",
+    "explanation": "The Sun stays right where it is, but Earth's spin turns us away from it, making it look like it is sinking in the west.",
+    "traps": [
+      "Thinking the Sun actually goes down into the water.",
+      "Believing the Sun vanishes completely at night."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-004",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Clouds and Rain",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What are fluffy white clouds in the sky mostly made of?",
+    "choices": [
+      "Tiny drops of water and ice floating together",
+      "Cotton candy stretched across the blue sky",
+      "Soft white feathers from flying birds",
+      "Magic smoke from giant sleeping dragons"
+    ],
+    "correct_answer": "Tiny drops of water and ice floating together",
+    "explanation": "Clouds form when invisible water vapor in the air cools and turns into billions of microscopic water droplets or tiny ice crystals.",
+    "traps": [
+      "Thinking clouds are solid objects you can stand on like land.",
+      "Believing clouds are made of cotton candy or smoke."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-005",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Rainbows",
+    "difficulty": 1,
+    "source_authority": "Optics and Weather Basics",
+    "question_text": "When are you most likely to spot a colorful rainbow stretching across the sky?",
+    "choices": [
+      "When the Sun shines through falling rain drops",
+      "In the middle of a dark, pitch-black midnight",
+      "Right during a freezing winter snowstorm",
+      "When the ground is completely dry and dusty"
+    ],
+    "correct_answer": "When the Sun shines through falling rain drops",
+    "explanation": "Rainbows happen when sunlight passes through raindrops in the air, bending and splitting into all the bright colors of the rainbow.",
+    "traps": [
+      "Thinking rainbows only appear at night with moonlight.",
+      "Believing rainbows come from snow or dry dirt."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-006",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "The Blue Sky",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why does the sky look blue to us during a sunny day?",
+    "choices": [
+      "Earth's air scatters blue sunlight in all directions more than other colors.",
+      "The sky is a giant mirror reflecting Earth's big blue oceans.",
+      "The Sun shoots blue paint particles directly down to the ground.",
+      "Outer space is naturally bright blue and shines through the air."
+    ],
+    "correct_answer": "Earth's air scatters blue sunlight in all directions more than other colors.",
+    "explanation": "Sunlight has all colors mixed together, but Earth's atmosphere scatters the short blue light waves all around us, making the sky look blue.",
+    "traps": [
+      "Thinking the sky is just a reflection of the ocean water.",
+      "Believing outer space itself has a blue color."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-007",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Moon Phases",
+    "difficulty": 1,
+    "source_authority": "Lunar Science Basics",
+    "question_text": "Why does the Moon look like it changes shape (from a sliver to a round circle) over the month?",
+    "choices": [
+      "We see different amounts of its sunlit side as it travels around Earth.",
+      "The Moon eats moon-rocks to grow bigger and shrinks when it is hungry.",
+      "Clouds nibble pieces out of the Moon every single night.",
+      "The Moon paints itself with black paint to hide from us."
+    ],
+    "correct_answer": "We see different amounts of its sunlit side as it travels around Earth.",
+    "explanation": "The Moon doesn't change shape; as it orbits Earth, the Sun lights up different parts of it that we can see from the ground.",
+    "traps": [
+      "Believing clouds or shadows from Earth cause the phases.",
+      "Thinking the Moon physically changes its actual body shape."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-008",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Moon Surface",
+    "difficulty": 1,
+    "source_authority": "Lunar Science Basics",
+    "question_text": "What are the dark spots that we see when we look up at the Moon?",
+    "choices": [
+      "Large flat plains made of ancient cooled volcanic lava",
+      "Big deep puddles of dark blue drinking water",
+      "Shady forests full of tall alien trees",
+      "Giant shadow puppets cast by passing clouds"
+    ],
+    "correct_answer": "Large flat plains made of ancient cooled volcanic lava",
+    "explanation": "Those dark patches on the Moon are ancient volcanic plains called maria, formed long ago when lava flowed across the surface.",
+    "traps": [
+      "Thinking there are oceans of water on the Moon's surface.",
+      "Believing trees or forests grow on the Moon."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-009",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Ocean Tides",
+    "difficulty": 2,
+    "source_authority": "Oceanography Basics",
+    "question_text": "What causes ocean tides (water rising and falling along the beach) on Earth?",
+    "choices": [
+      "The pull of gravity from the Moon and the Sun",
+      "Giant whales swimming together in big circles",
+      "Strong daytime winds pushing water back and forth",
+      "Underwater volcanoes boiling the ocean water"
+    ],
+    "correct_answer": "The pull of gravity from the Moon and the Sun",
+    "explanation": "The Moon's gravity pulls on Earth's oceans, causing the water to bulge outward and create high and low tides.",
+    "traps": [
+      "Thinking waves and tides are caused entirely by wind.",
+      "Believing fish or whales create the global ocean tides."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-010",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Earth Tilt",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why do we have different seasons like summer and winter on Earth?",
+    "choices": [
+      "Earth is tilted on its axis as it travels around the Sun.",
+      "The Sun changes its temperature from hot to cold every few months.",
+      "Earth moves closer to the Sun in winter and farther in summer.",
+      "The Moon blocks the Sun's warmth during the winter season."
+    ],
+    "correct_answer": "Earth is tilted on its axis as it travels around the Sun.",
+    "explanation": "Earth's tilt means different parts get more direct sunlight at different times of the year, giving us warm summers and cool winters.",
+    "traps": [
+      "Thinking Earth's distance from the Sun causes the seasons.",
+      "Believing the Sun itself gets hotter or colder."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-011",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Summer Weather",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What makes summer days feel warmer and have longer daylight hours?",
+    "choices": [
+      "Your part of Earth is tilted toward the Sun.",
+      "The Sun stays hidden behind clouds for extra safety.",
+      "Earth spins much faster so days fly by quickly.",
+      "The Moon shines extra bright during summer afternoons."
+    ],
+    "correct_answer": "Your part of Earth is tilted toward the Sun.",
+    "explanation": "When your hemisphere tilts toward the Sun, the sunlight hits more directly and days are longer, bringing summer warmth.",
+    "traps": [
+      "Thinking summer happens because Earth stops spinning.",
+      "Believing weather has nothing to do with Earth's tilt."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-012",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Winter Weather",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why is winter usually cold and snowy in many parts of Earth?",
+    "choices": [
+      "Your part of Earth is tilted away from the Sun.",
+      "The Sun takes a long vacation to the other side of space.",
+      "Ice monsters blow cold breath across the sky.",
+      "Earth turns off its inner heater during winter months."
+    ],
+    "correct_answer": "Your part of Earth is tilted away from the Sun.",
+    "explanation": "When your hemisphere tilts away from the Sun, sunlight hits at an angle and days are shorter, making it colder.",
+    "traps": [
+      "Thinking the Sun turns off during the winter season.",
+      "Believing winter is caused by magic ice creatures."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-013",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "The Sun as a Star",
+    "difficulty": 1,
+    "source_authority": "Solar System Basics",
+    "question_text": "What type of space object is our Sun?",
+    "choices": [
+      "A medium-sized yellow star",
+      "A giant rocky planet like Mars",
+      "A glowing ball of green cheese",
+      "A cold floating block of ice"
+    ],
+    "correct_answer": "A medium-sized yellow star",
+    "explanation": "The Sun is a star right at the center of our solar system, giving us light and heat to keep us alive.",
+    "traps": [
+      "Thinking the Sun is a solid planet you could walk on.",
+      "Believing the Sun is made of ice or cheese."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-014",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Solar System Planets",
+    "difficulty": 1,
+    "source_authority": "Solar System Basics",
+    "question_text": "How many planets travel around our Sun in our solar system?",
+    "choices": [
+      "8 planets",
+      "3 planets",
+      "12 planets",
+      "100 planets"
+    ],
+    "correct_answer": "8 planets",
+    "explanation": "There are eight planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+    "traps": [
+      "Remembering old counts that included Pluto as the ninth planet.",
+      "Thinking there are only three or four planets."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-015",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Mercury",
+    "difficulty": 1,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Which planet is closest to the Sun and is also the smallest of the rocky planets?",
+    "choices": [
+      "Mercury",
+      "Mars",
+      "Venus",
+      "Saturn"
+    ],
+    "correct_answer": "Mercury",
+    "explanation": "Mercury orbits closest to the Sun, meaning it is scorching hot on one side and freezing on the other side.",
+    "traps": [
+      "Confusing Mercury with Mars or Venus.",
+      "Thinking Jupiter is closest to the Sun."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-016",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Venus",
+    "difficulty": 1,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Which planet is known as Earth's 'twin' in size but is super hot because of thick cloudy traps?",
+    "choices": [
+      "Venus",
+      "Neptune",
+      "Mercury",
+      "Mars"
+    ],
+    "correct_answer": "Venus",
+    "explanation": "Venus is similar in size to Earth, but thick clouds trap heat, making it the hottest planet in our solar system.",
+    "traps": [
+      "Thinking Venus is cold because it is far away.",
+      "Confusing Venus with the cold ice giants."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-017",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Mars",
+    "difficulty": 1,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Why is Mars often called the 'Red Planet'?",
+    "choices": [
+      "Its soil contains lots of rusty iron dust.",
+      "It is covered in glowing red lava rivers.",
+      "Aliens painted the whole planet bright red.",
+      "Red flowers grow all across its rocky hills."
+    ],
+    "correct_answer": "Its soil contains lots of rusty iron dust.",
+    "explanation": "Mars looks red because its dirt and rocks are full of iron oxide, which is the same reddish rust you find on old metal bikes.",
+    "traps": [
+      "Thinking Mars is red because of hot active volcanoes.",
+      "Believing red plants or flowers grow on Mars."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-018",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Jupiter",
+    "difficulty": 1,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Which is the largest planet in our solar system, famous for its giant spinning storm called the Great Red Spot?",
+    "choices": [
+      "Jupiter",
+      "Saturn",
+      "Earth",
+      "Mercury"
+    ],
+    "correct_answer": "Jupiter",
+    "explanation": "Jupiter is a giant gas planet so big that all other planets could fit inside it; its Great Red Spot is a huge storm bigger than Earth.",
+    "traps": [
+      "Confusing Jupiter with Saturn's rings.",
+      "Thinking Earth is the biggest planet."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-019",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Saturn Rings",
+    "difficulty": 1,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Which planet is famous for having magnificent, bright rings made of ice chunks and rocky dust?",
+    "choices": [
+      "Saturn",
+      "Mars",
+      "Venus",
+      "Neptune"
+    ],
+    "correct_answer": "Saturn",
+    "explanation": "Saturn is a gas giant surrounded by stunning rings made of billions of pieces of ice and rock.",
+    "traps": [
+      "Thinking Earth has visible rings like Saturn.",
+      "Confusing Saturn with Jupiter."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-020",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Uranus and Neptune",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "What color are the distant ice giant planets Uranus and Neptune, and why?",
+    "choices": [
+      "Blue, because gases like methane in their air absorb red light.",
+      "Green, because giant space plants grow on them.",
+      "Yellow, because they are made of cheese like the Moon.",
+      "Red, because they are super close to the Sun's heat."
+    ],
+    "correct_answer": "Blue, because gases like methane in their air absorb red light.",
+    "explanation": "Uranus and Neptune look blue because methane gas in their atmospheres absorbs red light and reflects lovely blue light back to us.",
+    "traps": [
+      "Thinking they are blue because they are covered in liquid water oceans.",
+      "Believing green space plants color the planets."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-021",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Asteroid Belt",
+    "difficulty": 2,
+    "source_authority": "Solar System Basics",
+    "question_text": "Where is the main asteroid belt located in our solar system?",
+    "choices": [
+      "In the space gap between Mars and Jupiter",
+      "Right between Earth and the Moon",
+      "On the very outside edge past Neptune",
+      "Directly touching the glowing surface of the Sun"
+    ],
+    "correct_answer": "In the space gap between Mars and Jupiter",
+    "explanation": "The asteroid belt is a giant ring of rocky space debris orbiting the Sun between the orbits of Mars and Jupiter.",
+    "traps": [
+      "Thinking asteroids are found only near Earth.",
+      "Believing the asteroid belt is past Neptune."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-022",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Comet Tails",
+    "difficulty": 2,
+    "source_authority": "Solar System Basics",
+    "question_text": "What causes a comet to grow a bright glowing tail when it gets close to the Sun?",
+    "choices": [
+      "Solar heat melts its ice, releasing glowing gas and dust.",
+      "It catches on fire because space has campfires.",
+      "It leaves behind glowing space trash as it races.",
+      "Aliens turn on tail-lights to warn other spaceships."
+    ],
+    "correct_answer": "Solar heat melts its ice, releasing glowing gas and dust.",
+    "explanation": "Comets are like dirty snowballs; when they get close to the Sun, heat vaporizes the ice and blows gas and dust into a long tail.",
+    "traps": [
+      "Thinking comets burn with fire in airless space.",
+      "Believing alien lights create comet tails."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-023",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "Milky Way Galaxy",
+    "difficulty": 2,
+    "source_authority": "Galactic Astronomy Basics",
+    "question_text": "What is the name of the giant spiral galaxy that our solar system and all visible stars live in?",
+    "choices": [
+      "The Milky Way",
+      "The Candy Galaxy",
+      "The Big Dipper",
+      "The Solar System"
+    ],
+    "correct_answer": "The Milky Way",
+    "explanation": "Our solar system is part of a massive collection of billions of stars called the Milky Way galaxy, which looks like a milky streak across a dark night sky.",
+    "traps": [
+      "Confusing the Milky Way galaxy with the solar system.",
+      "Thinking we live in the Andromeda galaxy."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-024",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "Shooting Stars",
+    "difficulty": 1,
+    "source_authority": "Meteor Science Basics",
+    "question_text": "What is a 'shooting star' streak that flashes across the night sky for a split second?",
+    "choices": [
+      "A tiny space rock burning up as it enters Earth's air",
+      "A real star falling out of place from heaven",
+      "A firework shot by astronauts on the Moon",
+      "A spaceship turning on its high-beam headlights"
+    ],
+    "correct_answer": "A tiny space rock burning up as it enters Earth's air",
+    "explanation": "Shooting stars aren't real stars at all; they are meteors—small space rocks that streak through Earth's atmosphere and glow brightly from friction.",
+    "traps": [
+      "Believing actual stars fall out of the sky.",
+      "Thinking they are man-made fireworks in space."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-025",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "What is a Constellation",
+    "difficulty": 1,
+    "source_authority": "Astronomy Stargazing Basics",
+    "question_text": "What is a constellation in the night sky?",
+    "choices": [
+      "A group of stars that forms an imaginary picture or shape",
+      "A single gigantic star that is brighter than all others",
+      "A cluster of comets traveling in a straight line",
+      "A cloud of space dust blocking distant starlight"
+    ],
+    "correct_answer": "A group of stars that forms an imaginary picture or shape",
+    "explanation": "Constellations are groups of stars connected by human imagination to look like animals, heroes, or objects in the night sky.",
+    "traps": [
+      "Thinking the stars in a constellation are physically connected to each other.",
+      "Believing a constellation is just one single star."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-026",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Ursa Major and Big Dipper",
+    "difficulty": 1,
+    "source_authority": "Stargazing Basics",
+    "question_text": "The famous Big Dipper star pattern is part of which larger constellation?",
+    "choices": [
+      "Ursa Major (The Great Bear)",
+      "Orion (The Hunter)",
+      "Leo (The Lion)",
+      "Cygnus (The Swan)"
+    ],
+    "correct_answer": "Ursa Major (The Great Bear)",
+    "explanation": "The Big Dipper is an asterism (a small star pattern) that forms the tail and back of the constellation Ursa Major, the Great Bear.",
+    "traps": [
+      "Thinking the Big Dipper is its own standalone constellation.",
+      "Confusing it with Ursa Minor."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-027",
+    "category": "Constellations",
+    "subcategory": "Navigation and Stargazing",
+    "topic": "Finding North with Polaris",
+    "difficulty": 2,
+    "source_authority": "Celestial Navigation Basics",
+    "question_text": "Why is Polaris (the North Star) so special for travelers and sailors?",
+    "choices": [
+      "It stays nearly fixed in the north, helping people find direction.",
+      "It is the fastest moving star racing across the night sky.",
+      "It changes color every hour to show what time it is.",
+      "It is the only star that shines during daytime hours."
+    ],
+    "correct_answer": "It stays nearly fixed in the north, helping people find direction.",
+    "explanation": "Because Earth's axis points right at Polaris, it stays in the same northern spot all night long, making it a reliable compass guide.",
+    "traps": [
+      "Thinking Polaris moves across the sky like other stars.",
+      "Believing Polaris is the brightest star in the entire sky."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-028",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Orion the Hunter",
+    "difficulty": 1,
+    "source_authority": "Stargazing Basics",
+    "question_text": "What famous straight line of three bright stars can be easily spotted in the winter constellation Orion?",
+    "choices": [
+      "Orion's Belt",
+      "The North Star pointer",
+      "The Milky Way core",
+      "The Big Dipper handle"
+    ],
+    "correct_answer": "Orion's Belt",
+    "explanation": "Orion's Belt is made of three bright stars in a neat row that mark the middle of the famous hunter constellation.",
+    "traps": [
+      "Confusing Orion's belt with the Big Dipper handle.",
+      "Thinking it is part of the summer triangle."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-029",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "How Rockets Work",
+    "difficulty": 1,
+    "source_authority": "Rocket Science Basics",
+    "question_text": "How do rockets push themselves up and away from Earth into outer space?",
+    "choices": [
+      "By shooting hot expanding gases out of their engines downwards",
+      "By grabbing onto clouds and pulling themselves upward",
+      "By inflating giant balloons filled with warm air",
+      "By using giant magnets attached to the Moon"
+    ],
+    "correct_answer": "By shooting hot expanding gases out of their engines downwards",
+    "explanation": "Rockets work using action and reaction; pushing massive exhaust gases downward with great force shoots the rocket upward into space.",
+    "traps": [
+      "Thinking rockets push against air like airplane propellers.",
+      "Believing magnets or balloons lift rockets into orbit."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-030",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "Astronauts in Space",
+    "difficulty": 1,
+    "source_authority": "Space Exploration Basics",
+    "question_text": "Why do astronauts float around inside the International Space Station like superheroes?",
+    "choices": [
+      "Because they are in microgravity, where things float freely.",
+      "Because there is no air inside the space station to hold them down.",
+      "Because they wear special anti-gravity magnets on their boots.",
+      "Because they drank a magic floating potion before launch."
+    ],
+    "correct_answer": "Because they are in microgravity, where things float freely.",
+    "explanation": "In orbit around Earth, astronauts and their spacecraft are in constant freefall, creating a weightless environment where everything floats.",
+    "traps": [
+      "Thinking there is zero gravity because there is no air in space.",
+      "Believing special boots make people float."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-031",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Artificial Satellites",
+    "difficulty": 2,
+    "source_authority": "Space Technology Basics",
+    "question_text": "What is the job of artificial satellites orbiting around Earth high above our heads?",
+    "choices": [
+      "To help us communicate with phones, watch TV, and check weather",
+      "To catch falling space debris like a giant catcher's mitt",
+      "To shine extra light down on cities during dark nights",
+      "To push airplanes along faster when they fly across oceans"
+    ],
+    "correct_answer": "To help us communicate with phones, watch TV, and check weather",
+    "explanation": "Artificial satellites are human-made machines orbiting Earth that beam TV signals, phone calls, GPS maps, and weather forecasts all over the globe.",
+    "traps": [
+      "Thinking satellites are natural moons created by nature.",
+      "Believing satellites push airplanes through the sky."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-032",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Space Telescopes",
+    "difficulty": 2,
+    "source_authority": "Astronomy Tools",
+    "question_text": "Why do scientists launch powerful telescopes like Hubble and James Webb into outer space?",
+    "choices": [
+      "To look at distant stars and galaxies without blurry air in the way",
+      "To take close-up photographs of passing airplanes",
+      "To push rogue asteroids away from hitting planet Earth",
+      "To listen to alien radio stations broadcasting music"
+    ],
+    "correct_answer": "To look at distant stars and galaxies without blurry air in the way",
+    "explanation": "Earth's atmosphere blurs starlight; putting telescopes high up in space lets astronomers take crystal-clear pictures of the deepest universe.",
+    "traps": [
+      "Thinking space telescopes are used to spy on airplanes.",
+      "Believing they are meant to push away asteroids."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-033",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Earth Rotation Speed",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "How long does it take for Earth to complete one full spin (rotation) on its axis?",
+    "choices": [
+      "24 hours (one whole day and night)",
+      "365 days (one full year)",
+      "12 hours (half a day)",
+      "1 week (seven days)"
+    ],
+    "correct_answer": "24 hours (one whole day and night)",
+    "explanation": "It takes Earth 24 hours to spin completely around once, giving us one full cycle of daytime and nighttime.",
+    "traps": [
+      "Confusing one day's rotation with one year's orbit around the Sun.",
+      "Thinking Earth takes 12 hours to spin."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-034",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "The Atmosphere",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What is the blanket of air surrounding planet Earth called?",
+    "choices": [
+      "The atmosphere",
+      "The stratosphere shield",
+      "The ozone bubble",
+      "The sky canopy"
+    ],
+    "correct_answer": "The atmosphere",
+    "explanation": "The atmosphere is the thick layer of gases held around Earth by gravity, giving us air to breathe and protecting us from space.",
+    "traps": [
+      "Thinking Earth is surrounded by empty vacuum like the Moon.",
+      "Believing the atmosphere is made of solid glass."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-035",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "First Moon Landing",
+    "difficulty": 1,
+    "source_authority": "Space History",
+    "question_text": "In what historic year did human astronauts first walk on the surface of the Moon?",
+    "choices": [
+      "1969 (Apollo 11 mission)",
+      "2020 (Recent mission)",
+      "1492 (Columbus voyage)",
+      "1800 (Pioneer era)"
+    ],
+    "correct_answer": "1969 (Apollo 11 mission)",
+    "explanation": "In 1969, American astronauts Neil Armstrong and Buzz Aldrin landed on the Moon during the famous Apollo 11 mission.",
+    "traps": [
+      "Thinking humans landed on the Moon in recent years only.",
+      "Confusing space history with old exploration dates."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-036",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Equator Warmth",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why are regions near Earth's equator warm all year round?",
+    "choices": [
+      "They receive direct, intense sunlight throughout the year.",
+      "They are closer to underground volcanoes than other places.",
+      "They have giant mirrors reflecting sunlight onto them.",
+      "They are shielded from cold space winds by tall mountains."
+    ],
+    "correct_answer": "They receive direct, intense sunlight throughout the year.",
+    "explanation": "The equator sits right in the middle of Earth, where sunlight hits most directly all year long, keeping it warm and tropical.",
+    "traps": [
+      "Thinking the equator is closer to the Sun in space.",
+      "Believing volcanoes keep the equator warm."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-037",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Solar Energy",
+    "difficulty": 1,
+    "source_authority": "Energy Basics",
+    "question_text": "What vital things does our Sun give to planet Earth every single day?",
+    "choices": [
+      "Light and heat energy",
+      "Fresh drinking water and rain",
+      "Green plants and furry animals",
+      "Soft pillows of cotton clouds"
+    ],
+    "correct_answer": "Light and heat energy",
+    "explanation": "The Sun's light and heat warm our planet, drive our weather, and provide energy for plants to grow.",
+    "traps": [
+      "Thinking the Sun provides rain and water directly.",
+      "Believing the Sun creates animals."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-038",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Terrestrial Planets",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "What do Mercury, Venus, Earth, and Mars all have in common as inner planets?",
+    "choices": [
+      "They are rocky planets with solid surfaces you could stand on.",
+      "They are giant balls of gas with no solid ground underneath.",
+      "They are all completely covered in deep liquid water oceans.",
+      "They all have bright rings spinning around them like Saturn."
+    ],
+    "correct_answer": "They are rocky planets with solid surfaces you could stand on.",
+    "explanation": "The four inner planets closest to the Sun are terrestrial planets, meaning they are made of rock and metal with solid ground.",
+    "traps": [
+      "Thinking all planets in our solar system are made of gas.",
+      "Believing inner planets have rings like Saturn."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-039",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Gas Giants",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Why are Jupiter and Saturn called 'gas giants'?",
+    "choices": [
+      "They are massive planets made mostly of swirling gases like hydrogen and helium.",
+      "They are made entirely of smelly burp gases floating in space.",
+      "They are hollow rubber balls filled up with helium air.",
+      "They burst into bright fiery gas flames every night."
+    ],
+    "correct_answer": "They are massive planets made mostly of swirling gases like hydrogen and helium.",
+    "explanation": "Jupiter and Saturn are called gas giants because they don't have hard rocky surfaces; they are huge balls of dense swirling gas.",
+    "traps": [
+      "Thinking gas giants are hollow or made of funny gases.",
+      "Believing they burn with fire."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-040",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Meteoroids and Meteorites",
+    "difficulty": 2,
+    "source_authority": "Meteor Science Basics",
+    "question_text": "What is a space rock called if it actually survives traveling through Earth's air and lands on the ground?",
+    "choices": [
+      "A meteorite",
+      "A shooting star",
+      "A comet tail",
+      "An asteroid belt"
+    ],
+    "correct_answer": "A meteorite",
+    "explanation": "When a space rock burns up in the sky, it's a meteor; if a piece hits the ground, it becomes a meteorite.",
+    "traps": [
+      "Calling every space rock a shooting star even after it lands.",
+      "Confusing meteorites with comets."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-041",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "Speed of Light",
+    "difficulty": 3,
+    "source_authority": "Astrophysics Basics",
+    "question_text": "How does sunlight travel from the Sun to reach our eyes here on Earth?",
+    "choices": [
+      "At the super-fast speed of light, taking about 8 minutes",
+      "Instantly in zero seconds flat without taking any time",
+      "At the slow speed of a crawling garden snail",
+      "In a full day, taking a whole 24 hours to arrive"
+    ],
+    "correct_answer": "At the super-fast speed of light, taking about 8 minutes",
+    "explanation": "Light is the fastest thing in the universe; sunlight takes about 8 minutes to travel across space and land on Earth.",
+    "traps": [
+      "Thinking starlight or sunlight arrives instantly.",
+      "Believing light takes hours or days to reach us."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-042",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Cassiopeia",
+    "difficulty": 2,
+    "source_authority": "Stargazing Basics",
+    "question_text": "What distinct letter shape does the northern constellation Cassiopeia make in the night sky?",
+    "choices": [
+      "A giant letter 'W' or 'M'",
+      "A straight line like a pencil",
+      "A perfect circle like a ring",
+      "A squiggly snake line"
+    ],
+    "correct_answer": "A giant letter 'W' or 'M'",
+    "explanation": "Cassiopeia is easy to spot in the northern sky because its brightest stars form a clear 'W' shape (or 'M' depending on the season).",
+    "traps": [
+      "Thinking Cassiopeia looks like a big bear or hunter.",
+      "Confusing it with Orion's belt."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-043",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "International Space Station",
+    "difficulty": 1,
+    "source_authority": "Space Exploration Basics",
+    "question_text": "What is the International Space Station (ISS)?",
+    "choices": [
+      "A laboratory home where astronauts live and work while orbiting Earth",
+      "A holiday hotel on the Moon for space tourists",
+      "A giant rocket that travels all the way to planet Mars",
+      "A massive satellite dish that talks to dolphins"
+    ],
+    "correct_answer": "A laboratory home where astronauts live and work while orbiting Earth",
+    "explanation": "The ISS is a habitable laboratory orbiting high above Earth where international astronauts conduct science experiments in microgravity.",
+    "traps": [
+      "Thinking the space station is a hotel on the Moon.",
+      "Believing it is a rocket meant for Mars."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-044",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Space Suits",
+    "difficulty": 1,
+    "source_authority": "Astronaut Equipment",
+    "question_text": "Why do astronauts wear bulky spacesuits when they go outside on spacewalks?",
+    "choices": [
+      "To provide breathable air, regulate temperature, and protect from hazards",
+      "Because fashion trends in outer space require bulky white clothes",
+      "To keep them heavy so they don't float away into the sun",
+      "To scare away space monsters that live in the vacuum"
+    ],
+    "correct_answer": "To provide breathable air, regulate temperature, and protect from hazards",
+    "explanation": "Spacesuits are like personal miniature spacecraft, giving astronauts oxygen, water, proper warmth, and protection from space dangers.",
+    "traps": [
+      "Thinking spacesuits are just heavy winter coats.",
+      "Believing they are worn purely for decoration."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-045",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Shadows",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why do trees and people cast long shadows on the ground when the Sun is low in the sky?",
+    "choices": [
+      "Because an object blocks light coming from the Sun at an angle.",
+      "Because shadows grow longer to rest when they are tired.",
+      "Because the ground cools down and paints dark patches.",
+      "Because clouds come down and hug the trees tightly."
+    ],
+    "correct_answer": "Because an object blocks light coming from the Sun at an angle.",
+    "explanation": "A shadow forms whenever an opaque object blocks light rays; when the Sun is low at morning or evening, shadows stretch out long.",
+    "traps": [
+      "Thinking shadows are alive and move on their own.",
+      "Believing shadows are painted by the clouds."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-046",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Wind",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What causes the wind to blow across our skin outside?",
+    "choices": [
+      "Warm air rising and cooler air rushing in to take its place",
+      "Trees waving their branches back and forth like fans",
+      "Giant invisible giants blowing birthday candles out",
+      "The Moon pushing air around with its gravity"
+    ],
+    "correct_answer": "Warm air rising and cooler air rushing in to take its place",
+    "explanation": "Wind is moving air caused by uneven heating of Earth's surface by the Sun, creating warm rising air and cooler rushing air currents.",
+    "traps": [
+      "Thinking trees create the wind by moving their branches.",
+      "Believing wind comes from magic giants."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-047",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Moon Orbit",
+    "difficulty": 2,
+    "source_authority": "Lunar Science Basics",
+    "question_text": "About how long does it take for the Moon to travel in one complete circle around planet Earth?",
+    "choices": [
+      "About one month (roughly 29.5 days)",
+      "Exactly 24 hours like one day",
+      "A full year of 365 days",
+      "Only one single hour"
+    ],
+    "correct_answer": "About one month (roughly 29.5 days)",
+    "explanation": "It takes the Moon about a month to orbit all the way around Earth, which is where our word 'month' comes from!",
+    "traps": [
+      "Thinking the Moon orbits Earth in just one day.",
+      "Believing it takes an entire year."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-048",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Earth Orbit",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "How long does it take for Earth to make one complete trip (orbit) all the way around the Sun?",
+    "choices": [
+      "365 days (one full year)",
+      "24 hours (one single day)",
+      "30 days (one month)",
+      "10 years"
+    ],
+    "correct_answer": "365 days (one full year)",
+    "explanation": "Earth's journey around the Sun takes 365 days, which marks the length of one calendar year.",
+    "traps": [
+      "Confusing Earth's yearly orbit with its daily spin.",
+      "Thinking Earth takes a month to go around the Sun."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-049",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Gravity in Space",
+    "difficulty": 2,
+    "source_authority": "Physics Basics",
+    "question_text": "What invisible glue-like force keeps all the planets traveling in circles around the Sun instead of floating away?",
+    "choices": [
+      "Gravity",
+      "Magnets",
+      "Wind power",
+      "Sticky stardust"
+    ],
+    "correct_answer": "Gravity",
+    "explanation": "Gravity is an invisible pulling force between objects; the massive Sun's gravity pulls on all the planets, keeping them locked in their orbits.",
+    "traps": [
+      "Thinking magnets hold the solar system together.",
+      "Believing sticky dust keeps planets in line."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-050",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Earth's Water",
+    "difficulty": 1,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why is Earth often nicknamed the 'Blue Planet' when seen from outer space?",
+    "choices": [
+      "Because most of its surface is covered in liquid water oceans",
+      "Because the sky is painted blue on every single continent",
+      "Because giant blue lights shine up from underground cities",
+      "Because blue rocks make up all the tallest mountains"
+    ],
+    "correct_answer": "Because most of its surface is covered in liquid water oceans",
+    "explanation": "From space, Earth looks mostly blue because vast liquid oceans cover about 71 percent of our planet's surface.",
+    "traps": [
+      "Thinking the sky's color is what makes Earth look blue from space.",
+      "Believing blue rocks cover the ground."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-051",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Planet Rings",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Do any other planets besides Saturn have rings in our solar system?",
+    "choices": [
+      "Yes, all the outer gas giants (Jupiter, Saturn, Uranus, and Neptune) have rings.",
+      "No, Saturn is the only planet in the universe with rings.",
+      "Yes, even tiny Mercury and Venus have bright shiny rings.",
+      "No, rings only exist around distant stars outside our solar system."
+    ],
+    "correct_answer": "Yes, all the outer gas giants (Jupiter, Saturn, Uranus, and Neptune) have rings.",
+    "explanation": "While Saturn's rings are the brightest and easiest to see, all four outer gas and ice giants actually have ring systems made of dust and ice.",
+    "traps": [
+      "Thinking Saturn is unique in having rings.",
+      "Believing rocky inner planets have rings."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-052",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Dwarf Planets",
+    "difficulty": 2,
+    "source_authority": "Solar System Basics",
+    "question_text": "What famous celestial body used to be called the ninth planet but is now classified as a 'dwarf planet'?",
+    "choices": [
+      "Pluto",
+      "Ceres",
+      "Titan",
+      "Europa"
+    ],
+    "correct_answer": "Pluto",
+    "explanation": "Pluto was reclassified as a dwarf planet because it shares its orbital neighborhood with many other icy bodies in the distant Kuiper Belt.",
+    "traps": [
+      "Thinking Pluto is still officially counted as a major planet.",
+      "Confusing Pluto with Mars or Mercury."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-053",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "The North Star Name",
+    "difficulty": 1,
+    "source_authority": "Stargazing Basics",
+    "question_text": "What is the proper scientific name of the famous North Star?",
+    "choices": [
+      "Polaris",
+      "Sirius",
+      "Betelgeuse",
+      "Vega"
+    ],
+    "correct_answer": "Polaris",
+    "explanation": "Polaris is the bright star located almost directly above Earth's north pole, helping travelers navigate for centuries.",
+    "traps": [
+      "Confusing Polaris with Sirius or other bright stars.",
+      "Thinking Northstar is a made-up fairy tale name."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-054",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Constellation Stories",
+    "difficulty": 1,
+    "source_authority": "Mythology and Stargazing",
+    "question_text": "Why did ancient people long ago name constellations after animals, heroes, and objects?",
+    "choices": [
+      "To help them tell stories, track seasons, and navigate the night sky",
+      "Because they thought real monsters were living inside the stars",
+      "To keep track of how many stars were hiding in the dark",
+      "Because stars physically look like glowing bears and lions"
+    ],
+    "correct_answer": "To help them tell stories, track seasons, and navigate the night sky",
+    "explanation": "Ancient stargazers connected star dots into pictures to pass down myths, remember seasonal planting times, and find their way across land and sea.",
+    "traps": [
+      "Believing real creatures live inside star patterns.",
+      "Thinking naming constellations had no practical use."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-055",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "Moon Rovers",
+    "difficulty": 1,
+    "source_authority": "Space Exploration Basics",
+    "question_text": "What is a 'rover' like Curiosity or Perseverance used for on Mars or the Moon?",
+    "choices": [
+      "Driving around on wheels to take pictures and test rocks",
+      "Flying astronauts around like a fast sports car",
+      "Cleaning up trash left behind by falling meteorites",
+      "Digging swimming pools for future space bases"
+    ],
+    "correct_answer": "Driving around on wheels to take pictures and test rocks",
+    "explanation": "Rovers are robotic robotic laboratories on wheels that explore alien landscapes, snap photos, and scoop up soil samples for scientists.",
+    "traps": [
+      "Thinking rovers carry human drivers inside them like cars.",
+      "Believing they are meant for digging pools."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-056",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Solar Panels on Spacecraft",
+    "difficulty": 2,
+    "source_authority": "Space Technology",
+    "question_text": "How do satellites and spacecraft get electrical power when they are floating out in space?",
+    "choices": [
+      "From large solar panels that soak up sunlight and turn it into electricity",
+      "From long extension cords plugged into power outlets on Earth",
+      "From burning coal in small engines inside the satellite",
+      "From magic batteries that never run out of charge ever"
+    ],
+    "correct_answer": "From large solar panels that soak up sunlight and turn it into electricity",
+    "explanation": "Spacecraft use folding solar panels covered in solar cells to capture blazing sunlight and convert it into electrical power to run their computers.",
+    "traps": [
+      "Thinking long cords connect satellites to Earth.",
+      "Believing they burn coal like steam trains."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-057",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Time Zones",
+    "difficulty": 2,
+    "source_authority": "Earth Geography Basics",
+    "question_text": "Why is it daytime in America while it is nighttime on the other side of Earth in Japan?",
+    "choices": [
+      "Because Earth is round and spins, facing different parts toward the Sun at different times",
+      "Because the Sun takes turns shining on only one country per day",
+      "Because half of Earth is painted black and the other half is painted yellow",
+      "Because clocks in different countries run at completely different speeds"
+    ],
+    "correct_answer": "Because Earth is round and spins, facing different parts toward the Sun at different times",
+    "explanation": "As Earth rotates, the Sun lights up one half at a time, creating time zones so that different parts of the world experience day and night at different hours.",
+    "traps": [
+      "Thinking the Sun shuts off for half the world.",
+      "Believing international clocks run at different speeds."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-058",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Water Cycle",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "How does water travel from puddles on the ground up into clouds in the sky?",
+    "choices": [
+      "The Sun heats water, turning it into invisible vapor that rises (evaporation)",
+      "Frogs jump up into the sky and shake water droplets out",
+      "Trees drink water from dirt and sneeze it out as clouds",
+      "Wind blows puddles straight up into the air like water guns"
+    ],
+    "correct_answer": "The Sun heats water, turning it into invisible vapor that rises (evaporation)",
+    "explanation": "Evaporation happens when solar heat turns liquid water into gas vapor that floats upward to form clouds, which later drop rain back down.",
+    "traps": [
+      "Thinking wind shoots puddles up into the air.",
+      "Believing living creatures carry water into the sky."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-059",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Lunar Craters",
+    "difficulty": 1,
+    "source_authority": "Lunar Science Basics",
+    "question_text": "What caused the bowl-shaped holes called 'craters' all over the Moon's surface?",
+    "choices": [
+      "Impacts from space rocks, asteroids, and comets crashing into it",
+      "Volcanoes popping giant bubbles of hot chewing gum",
+      "Ancient moon-creatures digging holes to build underground homes",
+      "Heavy rain drops splashing deep dents into soft mud"
+    ],
+    "correct_answer": "Impacts from space rocks, asteroids, and comets crashing into it",
+    "explanation": "The Moon has no atmosphere to burn up incoming rocks, so asteroids and meteorites have crashed into it for billions of years, leaving crater bowls.",
+    "traps": [
+      "Thinking rain or wind created deep dents on the Moon.",
+      "Believing moon creatures dug them."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-060",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Equinoxes",
+    "difficulty": 3,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What happens during a spring or autumn equinox?",
+    "choices": [
+      "Day and night are nearly equal lengths all over the world",
+      "Earth stops spinning completely for 24 whole hours",
+      "The Sun turns green for one special day of the year",
+      "Winter instantly turns into summer in a single afternoon"
+    ],
+    "correct_answer": "Day and night are nearly equal lengths all over the world",
+    "explanation": "During an equinox, Earth's tilt is neither leaning toward nor away from the Sun, making daytime and nighttime nearly equal in length.",
+    "traps": [
+      "Thinking Earth stops spinning during equinoxes.",
+      "Believing seasons change in a single afternoon."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-061",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Solar Eclipse",
+    "difficulty": 2,
+    "source_authority": "Astronomy Basics",
+    "question_text": "What happens during a total solar eclipse on Earth?",
+    "choices": [
+      "The Moon passes directly between the Sun and Earth, blocking its light",
+      "The Sun turns off its light bulbs for a quick rest",
+      "Clouds cover the entire sky and block the Sun for weeks",
+      "Earth hides behind Mars so the Sun cannot see it"
+    ],
+    "correct_answer": "The Moon passes directly between the Sun and Earth, blocking its light",
+    "explanation": "During a solar eclipse, the Moon lines up perfectly between the Sun and Earth, casting a shadow and temporarily blocking the Sun's light.",
+    "traps": [
+      "Thinking clouds cause a solar eclipse.",
+      "Believing Earth hides behind Mars."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-062",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Atmosphere Comparison",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Why is Earth the only inner planet in our solar system that can easily support life?",
+    "choices": [
+      "It has breathable air, liquid water, and the right temperature range",
+      "It is the closest planet to the blazing hot Sun",
+      "It is the biggest planet with the thickest rings of ice",
+      "It has no gravity so creatures can float around safely"
+    ],
+    "correct_answer": "It has breathable air, liquid water, and the right temperature range",
+    "explanation": "Earth sits in the 'Goldilocks zone'—not too hot, not too cold—allowing liquid water, protective atmosphere, and abundant life to thrive.",
+    "traps": [
+      "Thinking Earth is the closest planet to the Sun.",
+      "Believing life can survive without water or air."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-063",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Great Red Spot",
+    "difficulty": 1,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "What is the Great Red Spot swirling on the planet Jupiter?",
+    "choices": [
+      "A gigantic storm bigger than Earth that has raged for centuries",
+      "A huge volcanic island sticking out above the clouds",
+      "A giant red bullseye painted by space explorers",
+      "A deep crater left by an ancient asteroid crash"
+    ],
+    "correct_answer": "A gigantic storm bigger than Earth that has raged for centuries",
+    "explanation": "Jupiter's Great Red Spot is a colossal spinning storm of high-pressure gas that has been storming across the planet for hundreds of years.",
+    "traps": [
+      "Thinking it is a solid volcano or crater on the ground.",
+      "Believing it is a painted target in space."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-064",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Kuiper Belt",
+    "difficulty": 3,
+    "source_authority": "Solar System Basics",
+    "question_text": "What icy region full of comets and dwarf planets exists far beyond the orbit of Neptune?",
+    "choices": [
+      "The Kuiper Belt",
+      "The Asteroid Belt",
+      "The Milky Way core",
+      "The Oort Cloud ring"
+    ],
+    "correct_answer": "The Kuiper Belt",
+    "explanation": "The Kuiper Belt is a distant ring of icy rocks and dwarf planets (including Pluto) orbiting far beyond Neptune at the edge of the solar system.",
+    "traps": [
+      "Confusing the Kuiper Belt with the inner asteroid belt between Mars and Jupiter.",
+      "Thinking it is inside Earth's orbit."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-065",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "Black Holes",
+    "difficulty": 3,
+    "source_authority": "Astrophysics Basics",
+    "question_text": "What is a black hole in outer space?",
+    "choices": [
+      "An object with gravity so strong that not even light can escape it",
+      "A dark empty tunnel that acts as a shortcut to other universes",
+      "A black shadow cast by the Moon onto distant stars",
+      "A dark cave where space monsters hide from the Sun"
+    ],
+    "correct_answer": "An object with gravity so strong that not even light can escape it",
+    "explanation": "A black hole is formed when a massive star collapses, creating a region with gravitational pull so intense that nothing—not even light—can escape.",
+    "traps": [
+      "Thinking black holes are magic tunnels or portals.",
+      "Believing they are physical caves in space."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-066",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Summer Triangle",
+    "difficulty": 2,
+    "source_authority": "Stargazing Basics",
+    "question_text": "What bright star pattern dominates the summer night sky with three brilliant stars from different constellations?",
+    "choices": [
+      "The Summer Triangle",
+      "The Big Dipper spoon",
+      "Orion's giant bow",
+      "Cassiopeia's crown"
+    ],
+    "correct_answer": "The Summer Triangle",
+    "explanation": "The Summer Triangle is an easy-to-spot asterism made of three bright stars (Vega, Deneb, and Altair) shining high during warm summer nights.",
+    "traps": [
+      "Confusing the Summer Triangle with winter star patterns.",
+      "Thinking it is part of the Big Dipper."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-067",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "Space Program History",
+    "difficulty": 2,
+    "source_authority": "Space History",
+    "question_text": "Who was the very first human astronaut to travel into outer space and orbit Earth in 1961?",
+    "choices": [
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "John Glenn"
+    ],
+    "correct_answer": "Yuri Gagarin",
+    "explanation": "Soviet cosmonaut Yuri Gagarin became the first human in history to journey into outer space aboard the Vostok 1 spacecraft in 1961.",
+    "traps": [
+      "Confusing the first person in space with the first person on the Moon.",
+      "Thinking spaceflight started in the year 2000."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-068",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Space Probes",
+    "difficulty": 2,
+    "source_authority": "Space Exploration",
+    "question_text": "What is the main purpose of robotic space probes sent on long journeys past outer planets?",
+    "choices": [
+      "To explore distant worlds, take photos, and send scientific data back to Earth",
+      "To tow runaway asteroids away from Earth's path",
+      "To set up vacation resorts for future space tourists",
+      "To clean up space trash floating near Jupiter"
+    ],
+    "correct_answer": "To explore distant worlds, take photos, and send scientific data back to Earth",
+    "explanation": "Space probes are uncrewed robotic spacecraft sent far across the solar system to explore planets and beam valuable discoveries back home.",
+    "traps": [
+      "Thinking space probes carry human passengers.",
+      "Believing they act as space tow-trucks."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-069",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Sunset Colors",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "Why do sunsets often paint the sky in brilliant shades of red, orange, and pink?",
+    "choices": [
+      "Low sunlight passes through more atmosphere, scattering warm colors",
+      "The Sun puts on special glowing fireworks every single evening",
+      "The oceans reflect red paint up into the evening clouds",
+      "Clouds catch fire from the burning heat of the daytime sun"
+    ],
+    "correct_answer": "Low sunlight passes through more atmosphere, scattering warm colors",
+    "explanation": "When the Sun sets low, its light must travel through more air, scattering blue light away and leaving gorgeous reds, oranges, and pinks for our eyes.",
+    "traps": [
+      "Thinking clouds actually burn with fire at sunset.",
+      "Believing oceans reflect red paint."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-070",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Lightning and Thunder",
+    "difficulty": 1,
+    "source_authority": "Weather Science Basics",
+    "question_text": "What causes the booming sound of thunder that follows a flash of lightning during a storm?",
+    "choices": [
+      "Super-hot lightning rapidly expands the air, creating a sonic shockwave",
+      "Giant clouds crashing into each other like bumper cars",
+      "Angry sky dragons roaring loudly at the rain",
+      "Heavy raindrops hitting the ground with a loud thud"
+    ],
+    "correct_answer": "Super-hot lightning rapidly expands the air, creating a sonic shockwave",
+    "explanation": "Lightning heats the surrounding air instantly to extreme temperatures, causing it to expand violently and create the loud boom we call thunder.",
+    "traps": [
+      "Thinking thunder is caused by clouds physically crashing together.",
+      "Believing raindrops make booming sounds."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-071",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Lunar Eclipse",
+    "difficulty": 2,
+    "source_authority": "Astronomy Basics",
+    "question_text": "What happens during a lunar eclipse when Earth gets right between the Sun and the Moon?",
+    "choices": [
+      "Earth's shadow falls across the Moon, making it look dark or reddish",
+      "The Moon disappears from the universe for a whole week",
+      "The Sun turns blue and shines extra bright at midnight",
+      "Clouds cover the Moon so no one can see it shining"
+    ],
+    "correct_answer": "Earth's shadow falls across the Moon, making it look dark or reddish",
+    "explanation": "During a lunar eclipse, Earth blocks direct sunlight from hitting the Moon, casting Earth's shadow across its face and often turning it a coppery red.",
+    "traps": [
+      "Thinking the Moon vanishes completely during an eclipse.",
+      "Believing clouds cause lunar eclipses."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-072",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Polar Day and Night",
+    "difficulty": 3,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What strange thing happens to daylight at the North and South Poles during their summer months?",
+    "choices": [
+      "The Sun stays up in the sky 24 hours a day (Midnight Sun)",
+      "It stays pitch-black dark all day and night for months",
+      "The Sun rises and sets every ten minutes like a clock",
+      "The sky turns bright green instead of blue"
+    ],
+    "correct_answer": "The Sun stays up in the sky 24 hours a day (Midnight Sun)",
+    "explanation": "Because of Earth's tilt, the polar regions tilt completely toward the Sun in summer, experiencing continuous daylight where the Sun never sets.",
+    "traps": [
+      "Thinking the poles have normal day-night cycles year-round.",
+      "Believing the sky turns green."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-073",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Solar Flares",
+    "difficulty": 3,
+    "source_authority": "Solar Physics",
+    "question_text": "What are solar flares bursting from the surface of the Sun?",
+    "choices": [
+      "Giant explosions of magnetic energy and fiery solar gas",
+      "Volcanoes erupting liquid lava on the Sun's rocky ground",
+      "Shooting stars crashing into the Sun from outer space",
+      "Alien spaceships refueling their engines near the Sun"
+    ],
+    "correct_answer": "Giant explosions of magnetic energy and fiery solar gas",
+    "explanation": "Solar flares are massive, sudden eruptions of magnetic energy from the Sun's surface that shoot intense radiation and solar material into space.",
+    "traps": [
+      "Thinking the Sun has rocky volcanoes that erupt.",
+      "Believing alien ships cause solar flares."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-074",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Venus Greenhouse Effect",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Why is Venus even hotter than Mercury even though Mercury is closer to the Sun?",
+    "choices": [
+      "Venus has thick clouds that trap solar heat like a giant greenhouse",
+      "Venus has active lava rivers flowing across all its continents",
+      "Venus is closer to underwater volcanoes boiling the planet",
+      "Venus absorbs extra heat from distant red stars"
+    ],
+    "correct_answer": "Venus has thick clouds that trap solar heat like a giant greenhouse",
+    "explanation": "Venus has a thick atmosphere of carbon dioxide that traps heat through a runaway greenhouse effect, making it hotter than Mercury.",
+    "traps": [
+      "Thinking Mercury must be cooler because it is smaller.",
+      "Believing active lava rivers heat Venus."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-075",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Ice Giants",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Why are Uranus and Neptune often called 'ice giants' instead of gas giants?",
+    "choices": [
+      "Their interiors contain heavier icy fluids like water, ammonia, and methane",
+      "They are giant snowballs frozen solid with no atmosphere at all",
+      "They sit so far from the Sun that their outer rings are frozen ice cubes",
+      "They are covered in thick layers of white snow year-round"
+    ],
+    "correct_answer": "Their interiors contain heavier icy fluids like water, ammonia, and methane",
+    "explanation": "While they have gas atmospheres, Uranus and Neptune are categorized as ice giants because their mantles are rich in heavier water, ammonia, and methane 'ices'.",
+    "traps": [
+      "Thinking they are solid snowballs.",
+      "Believing they have no gas in their air."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-076",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Comet Nucleus",
+    "difficulty": 2,
+    "source_authority": "Solar System Basics",
+    "question_text": "What is the solid center of a comet (its nucleus) often compared to by astronomers?",
+    "choices": [
+      "A dirty snowball made of ice, dust, and frozen gases",
+      "A solid chunk of pure gold floating in space",
+      "A burning rock of hot fiery coal",
+      "A solid iron cannonball left behind by planets"
+    ],
+    "correct_answer": "A dirty snowball made of ice, dust, and frozen gases",
+    "explanation": "Astronomers affectionately call a comet's nucleus a 'dirty snowball' because it is a mixture of frozen water, gases, and rocky dust.",
+    "traps": [
+      "Thinking comets are made of hot burning coal.",
+      "Believing they are solid gold rocks."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-077",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "Star Colors and Temperature",
+    "difficulty": 3,
+    "source_authority": "Stellar Astronomy",
+    "question_text": "Which color of stars in the night sky is actually the hottest and has the highest temperature?",
+    "choices": [
+      "Blue stars",
+      "Red stars",
+      "Yellow stars",
+      "Orange stars"
+    ],
+    "correct_answer": "Blue stars",
+    "explanation": "In space, color tells temperature; cool stars glow red, medium stars like our Sun glow yellow, and the hottest, most energetic stars glow bright blue.",
+    "traps": [
+      "Thinking red means hot like fire.",
+      "Believing yellow stars are the hottest in the universe."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-078",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Southern Cross",
+    "difficulty": 2,
+    "source_authority": "Stargazing Basics",
+    "question_text": "What famous constellation helps travelers navigate when they are located in the Southern Hemisphere of Earth?",
+    "choices": [
+      "Crux (The Southern Cross)",
+      "Ursa Major (The Big Dipper)",
+      "Cassiopeia's W shape",
+      "Orion the Hunter"
+    ],
+    "correct_answer": "Crux (The Southern Cross)",
+    "explanation": "While Polaris helps people in the north, the small and distinctive constellation Crux (Southern Cross) helps guide travelers in the Southern Hemisphere.",
+    "traps": [
+      "Thinking the Big Dipper is visible everywhere on Earth.",
+      "Confusing northern and southern navigation stars."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-079",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "Artemis Program",
+    "difficulty": 2,
+    "source_authority": "Modern Space Exploration",
+    "question_text": "What is the main goal of NASA's modern Artemis space program?",
+    "choices": [
+      "To return human astronauts to the Moon and build sustainable bases there",
+      "To build a giant theme park for space tourists on Mars",
+      "To capture rogue comets and bring them into Earth's orbit",
+      "To send robotic probes to search for alien cities on Venus"
+    ],
+    "correct_answer": "To return human astronauts to the Moon and build sustainable bases there",
+    "explanation": "The Artemis program is NASA's exciting mission to land the next humans—including the first woman—on the Moon to explore and set up long-term habitation.",
+    "traps": [
+      "Thinking Artemis is a mission to build amusement parks.",
+      "Confusing it with older Apollo history."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-080",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Hubble Space Telescope",
+    "difficulty": 2,
+    "source_authority": "Space Exploration Tools",
+    "question_text": "What makes the Hubble Space Telescope so special for looking at the universe?",
+    "choices": [
+      "It orbits above Earth's blurry air, capturing breathtaking cosmic photos",
+      "It is the only telescope ever built by human scientists",
+      "It can travel across the solar system like a fast spaceship",
+      "It uses giant magnets to pull distant stars closer to Earth"
+    ],
+    "correct_answer": "It orbits above Earth's blurry air, capturing breathtaking cosmic photos",
+    "explanation": "Launched in 1990, the Hubble Space Telescope orbits above Earth's atmosphere, giving us stunning, crystal-clear views of galaxies and nebulas.",
+    "traps": [
+      "Thinking Hubble flies around like a manned spaceship.",
+      "Believing it pulls stars closer with magnets."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-081",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Earth Axis",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What is an 'axis' when talking about planet Earth spinning in space?",
+    "choices": [
+      "An imaginary invisible pole running right through Earth from top to bottom",
+      "A giant steel rod built by humans to hold Earth up",
+      "A bright ring of glowing light circling the equator",
+      "The track that Earth follows around the Sun"
+    ],
+    "correct_answer": "An imaginary invisible pole running right through Earth from top to bottom",
+    "explanation": "Earth's axis is an imaginary straight line passing through its center from the North Pole to the South Pole around which it spins.",
+    "traps": [
+      "Thinking Earth spins on a real physical metal rod.",
+      "Confusing the axis with Earth's orbital path."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-082",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Aurora Borealis",
+    "difficulty": 3,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What causes the glowing Northern Lights (Aurora Borealis) dancing in polar night skies?",
+    "choices": [
+      "Charged particles from the Sun interacting with gases in Earth's atmosphere",
+      "Giant holiday lights hung up by people living near the North Pole",
+      "Reflections from snowy ice fields onto high evening clouds",
+      "Lightning storms trapped inside polar ice caves"
+    ],
+    "correct_answer": "Charged particles from the Sun interacting with gases in Earth's atmosphere",
+    "explanation": "The Northern Lights happen when energetic particles streaming from the Sun collide with gases in Earth's upper atmosphere, creating glowing green and pink curtains of light.",
+    "traps": [
+      "Thinking they are holiday lights or snow reflections.",
+      "Believing lightning creates auroras."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-083",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Supermoon",
+    "difficulty": 2,
+    "source_authority": "Lunar Science Basics",
+    "question_text": "What is a 'Supermoon' when it appears in the night sky?",
+    "choices": [
+      "A full moon that looks slightly bigger and brighter because it is closer to Earth",
+      "A magical moon that shoots laser beams down to the ground",
+      "A moon that changes its color from green to purple",
+      "A special night when two moons orbit Earth at the same time"
+    ],
+    "correct_answer": "A full moon that looks slightly bigger and brighter because it is closer to Earth",
+    "explanation": "The Moon's orbit is oval-shaped; when a full moon happens at the point where it is closest to Earth, it appears extra big and bright as a 'Supermoon'.",
+    "traps": [
+      "Thinking there are two moons in the sky.",
+      "Believing the Moon has special superpowers."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-084",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Season Opposite Hemispheres",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "If it is cold winter in the United States (Northern Hemisphere), what season is it at the same time in Australia (Southern Hemisphere)?",
+    "choices": [
+      "Warm summer",
+      "Freezing winter",
+      "Cool autumn",
+      "Fresh spring"
+    ],
+    "correct_answer": "Warm summer",
+    "explanation": "Because Earth's hemispheres tilt in opposite directions toward and away from the Sun, the seasons are always flipped between the north and south.",
+    "traps": [
+      "Thinking the whole world has winter at the exact same time.",
+      "Believing Australia has the same seasons as North America."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-085",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Sun Corona",
+    "difficulty": 3,
+    "source_authority": "Solar Physics",
+    "question_text": "What is the 'corona' of the Sun that you can only see during a total solar eclipse?",
+    "choices": [
+      "The glowing outer atmosphere of hot plasma surrounding the Sun",
+      "A crown of gold coins floating around the center of the Sun",
+      "A ring of rocky asteroids trapped in orbit near the Sun",
+      "A shadow cast by the Moon onto the Sun's bright face"
+    ],
+    "correct_answer": "The glowing outer atmosphere of hot plasma surrounding the Sun",
+    "explanation": "The corona is the Sun's gorgeous, wispy outer atmosphere of superheated gas that stretches out into space, visible as a glowing halo during eclipses.",
+    "traps": [
+      "Thinking it is a literal gold crown or rock ring.",
+      "Believing it is an eclipse shadow."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-086",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Olympus Mons on Mars",
+    "difficulty": 3,
+    "source_authority": "Planetary Science",
+    "question_text": "What incredible volcanic feature exists on the planet Mars that is three times taller than Mount Everest?",
+    "choices": [
+      "Olympus Mons, the tallest volcano in the solar system",
+      "Valles Marineris, a giant glowing river of lava",
+      "The Grand Canyon of Mars filled with liquid water",
+      "Mount Redrock, a peak covered in green trees"
+    ],
+    "correct_answer": "Olympus Mons, the tallest volcano in the solar system",
+    "explanation": "Olympus Mons is a colossal shield volcano on Mars so huge that it is the tallest mountain discovered anywhere in our solar system.",
+    "traps": [
+      "Thinking Mount Everest on Earth is the tallest mountain in space.",
+      "Believing Mars has water rivers."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-087",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Titan moon of Saturn",
+    "difficulty": 3,
+    "source_authority": "Planetary Science",
+    "question_text": "What makes Saturn's giant moon Titan so unique compared to almost all other moons?",
+    "choices": [
+      "It has a thick atmosphere and liquid methane lakes on its surface",
+      "It is made entirely of solid gold and shiny diamonds",
+      "It is bigger than the planet Jupiter and orbits the Sun directly",
+      "It has green grass and tall trees growing across its hills"
+    ],
+    "correct_answer": "It has a thick atmosphere and liquid methane lakes on its surface",
+    "explanation": "Titan is Saturn's largest moon and is famous for being the only moon with a thick atmosphere and liquid lakes of methane and ethane on its surface.",
+    "traps": [
+      "Thinking Titan is made of gold or has tree forests.",
+      "Believing it is bigger than Jupiter."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-088",
+    "category": "Outer Space Objects",
+    "subcategory": "Comets and Asteroids",
+    "topic": "Meteor Showers",
+    "difficulty": 2,
+    "source_authority": "Meteor Science Basics",
+    "question_text": "What causes Earth to experience a 'meteor shower' where many shooting stars streak across the sky on certain nights?",
+    "choices": [
+      "Earth passes through dusty debris trails left behind by comets",
+      "A giant asteroid explodes into millions of fireworks in space",
+      "The Moon sheds its outer skin of rocks once a year",
+      "Aliens throw glowing stones down toward Earth for fun"
+    ],
+    "correct_answer": "Earth passes through dusty debris trails left behind by comets",
+    "explanation": "As comets orbit the Sun, they leave dusty particle trails; when Earth's orbit crosses these trails, those tiny space bits burn up as a meteor shower.",
+    "traps": [
+      "Thinking asteroids explode like fireworks.",
+      "Believing the Moon sheds its skin."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-089",
+    "category": "Outer Space Objects",
+    "subcategory": "Stars and Galaxies",
+    "topic": "Supernovas",
+    "difficulty": 3,
+    "source_authority": "Stellar Astronomy",
+    "question_text": "What is a 'supernova' in outer space?",
+    "choices": [
+      "The gigantic, brilliant explosion of a dying massive star",
+      "The birth of a tiny yellow star like our Sun",
+      "A comet crashing into the center of a black hole",
+      "A fast spaceship traveling faster than the speed of light"
+    ],
+    "correct_answer": "The gigantic, brilliant explosion of a dying massive star",
+    "explanation": "When giant stars run out of fuel, they explode in a magnificent blast called a supernova that can outshine an entire galaxy for a brief time.",
+    "traps": [
+      "Thinking a supernova is the birth of a small star.",
+      "Confusing it with comet crashes."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-090",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Zodiac Constellations",
+    "difficulty": 2,
+    "source_authority": "Astronomy Basics",
+    "question_text": "What is the path along the sky called where the Sun, Moon, and planets appear to travel past specific star constellations?",
+    "choices": [
+      "The ecliptic (zodiac path)",
+      "The Milky Way highway",
+      "The North Star trail",
+      "The celestial equator circle"
+    ],
+    "correct_answer": "The ecliptic (zodiac path)",
+    "explanation": "The ecliptic is the apparent path of the Sun across the sky through the constellations of the zodiac over the course of a year.",
+    "traps": [
+      "Confusing the zodiac path with the Milky Way galaxy streak.",
+      "Thinking planets wander randomly across any part of space."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-091",
+    "category": "Spaceships",
+    "subcategory": "Space Exploration and Rockets",
+    "topic": "Saturn V Rocket",
+    "difficulty": 2,
+    "source_authority": "Space History",
+    "question_text": "What was the name of the colossal, powerful rocket that launched American astronauts to the Moon during the Apollo program?",
+    "choices": [
+      "Saturn V",
+      "Falcon Heavy",
+      "Starship Express",
+      "Vostok 1"
+    ],
+    "correct_answer": "Saturn V",
+    "explanation": "The Saturn V was a massive, thunderous rocket standing taller than a 36-story building, used to launch humans to the Moon in the 1960s and 1970s.",
+    "traps": [
+      "Confusing Saturn V with modern rockets like Falcon Heavy.",
+      "Thinking Vostok 1 went to the Moon."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-092",
+    "category": "Spaceships",
+    "subcategory": "Spacecraft and Satellites",
+    "topic": "Voyager Probes",
+    "difficulty": 3,
+    "source_authority": "Space Exploration History",
+    "question_text": "What historic achievement did NASA's twin Voyager spacecraft accomplish after exploring the outer planets?",
+    "choices": [
+      "They became the first human-made objects to leave our solar system into interstellar space",
+      "They safely landed human astronauts on the surface of Pluto",
+      "They flew all the way around the Sun and returned back to Earth",
+      "They captured clear video recordings of alien cities in distant galaxies"
+    ],
+    "correct_answer": "They became the first human-made objects to leave our solar system into interstellar space",
+    "explanation": "Launched in 1977, Voyager 1 and 2 explored the giant outer planets and have now traveled farther than any other human object, entering interstellar space.",
+    "traps": [
+      "Thinking Voyager landed people on Pluto.",
+      "Believing they returned back to Earth."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-exploration"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-093",
+    "category": "Our Planet",
+    "subcategory": "Day and Night",
+    "topic": "Twilight",
+    "difficulty": 2,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What is 'twilight' (dawn or dusk) when looking at the sky?",
+    "choices": [
+      "The soft glowing time of day just before sunrise or after sunset",
+      "The exact second when midnight strikes on the clock",
+      "A sudden solar eclipse that happens every single afternoon",
+      "When clouds turn pitch-black during a heavy rainstorm"
+    ],
+    "correct_answer": "The soft glowing time of day just before sunrise or after sunset",
+    "explanation": "Twilight is the transitional glow in the sky when the Sun is below the horizon before it rises or after it sets.",
+    "traps": [
+      "Thinking twilight means midnight darkness.",
+      "Believing it is caused by sudden rainstorms."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-094",
+    "category": "Our Planet",
+    "subcategory": "Atmosphere and Weather",
+    "topic": "Haboob and Dust Storms",
+    "difficulty": 3,
+    "source_authority": "Weather Science",
+    "question_text": "What is a massive dust storm (sometimes called a haboob) like those seen on Earth and Mars?",
+    "choices": [
+      "A towering wall of wind-blown dust and sand sweeping across dry land",
+      "A heavy snowstorm made of frozen white dust particles",
+      "A giant cloud of water vapor that drops muddy brown rain",
+      "A volcanic ash cloud erupting from underground geysers"
+    ],
+    "correct_answer": "A towering wall of wind-blown dust and sand sweeping across dry land",
+    "explanation": "Dust storms occur when strong winds whip up loose dirt and sand into towering walls of dust across deserts on Earth and even planet Mars.",
+    "traps": [
+      "Thinking dust storms are made of snow or mud rain.",
+      "Believing they come from underground volcanoes."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-095",
+    "category": "Our Planet",
+    "subcategory": "The Moon and Tides",
+    "topic": "Tidal Locking",
+    "difficulty": 3,
+    "source_authority": "Lunar Science",
+    "question_text": "Why do we always see the exact same side (face) of the Moon from Earth, never the back side?",
+    "choices": [
+      "The Moon spins on its axis in the exact same amount of time it takes to orbit Earth",
+      "The Moon does not spin at all like a frozen statue",
+      "Earth's gravity holds the Moon still so it cannot rotate",
+      "The dark side of the Moon is invisible to human eyes"
+    ],
+    "correct_answer": "The Moon spins on its axis in the exact same amount of time it takes to orbit Earth",
+    "explanation": "This is called tidal locking; the Moon's rotation and orbit are synchronized so the same side always faces Earth (though we've photographed the back!).",
+    "traps": [
+      "Thinking the Moon never spins at all.",
+      "Believing the back side of the Moon is invisible."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-096",
+    "category": "Our Planet",
+    "subcategory": "Seasons",
+    "topic": "Solstices",
+    "difficulty": 3,
+    "source_authority": "Earth Science Basics",
+    "question_text": "What happens during the summer solstice in June in the Northern Hemisphere?",
+    "choices": [
+      "We experience the longest period of daylight of the entire year",
+      "Nighttime lasts for 24 hours straight without any sunshine",
+      "Day and night are exactly equal in length like spring",
+      "Earth is at its closest point to the freezing Moon"
+    ],
+    "correct_answer": "We experience the longest period of daylight of the entire year",
+    "explanation": "The summer solstice marks the day when the pole tilts furthest toward the Sun, giving us the longest daylight hours and shortest night of the year.",
+    "traps": [
+      "Thinking the solstice means equal day and night.",
+      "Confusing it with equinoxes."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "node-musy2f4z"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-097",
+    "category": "Outer Space Objects",
+    "subcategory": "The Sun and Solar System",
+    "topic": "Solar Wind",
+    "difficulty": 2,
+    "source_authority": "Solar Physics Basics",
+    "question_text": "What is the 'solar wind' streaming continuously outward from the Sun in all directions?",
+    "choices": [
+      "A steady stream of charged particles flowing away from the Sun into space",
+      "A breeze of cool air blowing across the surface of the Sun",
+      "Giant clouds of white smoke coming from solar campfires",
+      "Sound waves traveling through empty vacuum space"
+    ],
+    "correct_answer": "A steady stream of charged particles flowing away from the Sun into space",
+    "explanation": "The solar wind is a continuous outflow of charged protons and electrons streaming out from the Sun's corona across the entire solar system.",
+    "traps": [
+      "Thinking sound waves can travel through empty space air.",
+      "Believing the Sun has cool breezes."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-098",
+    "category": "Outer Space Objects",
+    "subcategory": "Inner Planets",
+    "topic": "Mercury Temperature Extremes",
+    "difficulty": 2,
+    "source_authority": "Planetary Science Basics",
+    "question_text": "Why does Mercury experience such extreme temperature changes (baking hot then freezing cold)?",
+    "choices": [
+      "It is very close to the Sun but lacks an atmosphere to trap heat on its night side",
+      "It has giant volcanoes that erupt fire every morning",
+      "It wears a heavy winter coat during half of its orbit",
+      "It spins so fast that day and night change every single minute"
+    ],
+    "correct_answer": "It is very close to the Sun but lacks an atmosphere to trap heat on its night side",
+    "explanation": "Because Mercury has almost no air (atmosphere) to trap warmth, the side facing the Sun bakes while the dark side freezes in deep cold.",
+    "traps": [
+      "Thinking Mercury stays warm all night long.",
+      "Believing volcanoes cause its temperature swings."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-099",
+    "category": "Outer Space Objects",
+    "subcategory": "Outer Planets",
+    "topic": "Neptune Winds",
+    "difficulty": 3,
+    "source_authority": "Planetary Science",
+    "question_text": "What makes the weather on the distant ice giant Neptune extremely wild and unique?",
+    "choices": [
+      "It has the fastest supersonic wind storms recorded anywhere in the solar system",
+      "It has frequent rainstorms made of hot liquid chocolate",
+      "It has zero wind because it is too far away from the Sun",
+      "It experiences tropical hurricanes with warm ocean water"
+    ],
+    "correct_answer": "It has the fastest supersonic wind storms recorded anywhere in the solar system",
+    "explanation": "Despite being cold and distant, Neptune whips up the fastest planetary winds in our solar system, blowing at supersonic speeds through its blue clouds.",
+    "traps": [
+      "Thinking distant planets have no weather or wind.",
+      "Believing chocolate rain falls on Neptune."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-physics"
+    ]
+  },
+  {
+    "id": "SKY-KIDS-0100",
+    "category": "Constellations",
+    "subcategory": "Star Patterns",
+    "topic": "Constellation Seasonal Shift",
+    "difficulty": 2,
+    "source_authority": "Stargazing Basics",
+    "question_text": "Why do we see different constellations in the night sky during different months of the year?",
+    "choices": [
+      "Because Earth orbits around the Sun, pointing our night view toward new sections of space",
+      "Because constellations pack their bags and move to different parts of the universe",
+      "Because stars turn off during summer and turn back on in winter",
+      "Because the Moon hides certain star patterns behind its shadow"
+    ],
+    "correct_answer": "Because Earth orbits around the Sun, pointing our night view toward new sections of space",
+    "explanation": "As Earth journeys in its yearly orbit around the Sun, our nighttime window looks out at different parts of the galaxy, revealing changing seasonal constellations.",
+    "traps": [
+      "Thinking constellations physically move across the universe.",
+      "Believing stars turn off and on like light bulbs."
+    ],
+    "knowledge_node_ids": [
+      "sky-root",
+      "sky-scale"
+    ]
+  }
+]

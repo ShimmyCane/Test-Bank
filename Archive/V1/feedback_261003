@@ -1,0 +1,40 @@
+The questions are still nonsensical. I have a recording and chat log of actual questions that I can use to generate better questions, but this is no longer a priority at this time.
+
+There must be some theory behind creating good questions. A test maker must be knowledgeable in the topic. If using AI to create these, then in addition to knowledge, there needs to be a methodical structure
+
+
+1) What is the purpose of these questions/ time spent here? 
+- Is it to learn the topic
+- Is it to pass a test
+- Is it to consolidate knowledge - more applied knowledge tests.
+- Is it to pass the time/ trivia/ fun?
+
+2) Learning the subject
+- What does it look like to have mastery?
+    - Recall: create a list of facts to understand. 
+        - create questions from that, adding traps to answers
+        - identify common areas, possible places for confusion, create questions to exploit possible weaknesses
+    - Synthesis: create a list of concepts to understand
+        - find mainstream application cases, basic categories and how the subject addresses those
+    - Applied: create a list of scenarios to be proficient in
+        - possible environments, and how they require different responses given the contexts, and confirm outputs
+    - Applied: create a list of deliverables/ outputs to be capable of
+        - end results 
+    - Edge cases: there are always new info/ edge cases that challenge the main body of knowledge
+        - research them. Learn why or how they are pushing the boundaries of the subject. Identify weaknesses or uncertainty in these edges. Typically in those cases, we go back to root assumptions and rebuild the framework slightly to then address the these new edge cases.
+        - create questions that contain these uncertainties. 
+    - Additional: Are there subject specific items. requires larger projects, other modalities (not easily testable?)
+    
+3) Create a SME database of mastery
+    - Include the items for recall, synthesis, applied, and edge cases.
+    - I'd like to be able to visualize this as a web/ map of topics with major topics, subtopics, and specializations.
+
+4) Everytime a question is created, give it a tracker, and log it against the database of mastery. This will allow for iterative improvement of the test bank, ensuring that the difficulty and relevance of questions evolve alongside the subject matter.
+    - Each question should in turn have a purpose, to confirm understanding, ability to synthesize, or ability to apply it
+    - There should also be mastery level questions that cover the larger topics.
+
+5) Trivia questions should have humor as part of the answers.
+    - Make it fun, lively. In a multiple choice question that just tests basic facts, have one answer that is an obvious gimme.
+    - Trivia factor, by default, set it to 5%. This could be increased as needed.
+
+

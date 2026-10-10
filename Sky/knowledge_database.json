@@ -1,0 +1,3728 @@
+{
+  "schema_version": "2.1.0",
+  "title": "Sky Knowledge Database",
+  "generated_on": "2026-10-03",
+  "purpose": "Mind-map knowledge database for astronomy and space study, with test-bank questions linked to their learning topics without duplicating question content.",
+  "important_limitations": [
+    "This database tracks knowledge structure and topic coverage only; it does not duplicate question content.",
+    "Question-bank records are linked by question ID and taxonomy node; question text remains in the source batch files.",
+    "Use the knowledge map to organize learning pathways and continue adding linked quiz batches as the taxonomy grows."
+  ],
+  "coverage": {
+    "test_bank_source_files": 8,
+    "question_records_at_link_creation": 275,
+    "topic_count": 21,
+    "reference_file_count": 0,
+    "taxonomy_node_count": 22,
+    "maximum_topic_depth": 4,
+    "linked_question_count": 275
+  },
+  "authorities_to_verify": [],
+  "taxonomy": [
+    {
+      "id": "sky-root",
+      "name": "Sky and Space",
+      "description": "Core astronomy topics for exploration and factual learning.",
+      "important": false,
+      "subtopics": [
+        {
+          "id": "sky-scale",
+          "name": "Constellations",
+          "description": "Named patterns and regions of the night sky, including zodiac constellations.",
+          "important": false,
+          "subtopics": [
+            {
+              "id": "node-musye1ua",
+              "name": "Aquarius",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyer43",
+              "name": "Virgo",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyf6z5",
+              "name": "Scorpio",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyga1f",
+              "name": "Aries",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            }
+          ]
+        },
+        {
+          "id": "sky-physics",
+          "name": "Outer Space Objects",
+          "description": "Gravity, motion, light, energy, and materials in space.",
+          "important": false,
+          "subtopics": [
+            {
+              "id": "node-musyhlb7",
+              "name": "Solar System",
+              "description": "Sun, Planets",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyhr3z",
+              "name": "Comets and Asteroids",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyhynp",
+              "name": "Galaxy",
+              "description": "",
+              "important": false,
+              "subtopics": [
+                {
+                  "id": "node-musyi3na",
+                  "name": "Milkyway",
+                  "description": "",
+                  "important": false,
+                  "subtopics": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sky-exploration",
+          "name": "Spaceships",
+          "description": "Human and robotic exploration of the solar system and beyond.",
+          "important": false,
+          "subtopics": [
+            {
+              "id": "node-musyibff",
+              "name": "SLS",
+              "description": "NASA's heavy-lift Space Launch System rocket.",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyj57t",
+              "name": "SpaceX Launchers",
+              "description": "Current generation reusable rockets",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyjnpe",
+              "name": "Probes",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyjrzg",
+              "name": "Science Fiction",
+              "description": "",
+              "important": false,
+              "subtopics": [
+                {
+                  "id": "node-musyjw8e",
+                  "name": "Star Wars spacecrafts",
+                  "description": "",
+                  "important": false,
+                  "subtopics": []
+                },
+                {
+                  "id": "node-musyk3ah",
+                  "name": "Star Trek Spaceships",
+                  "description": "",
+                  "important": false,
+                  "subtopics": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node-musy2f4z",
+          "name": "Our Planet",
+          "description": "",
+          "important": false,
+          "subtopics": [
+            {
+              "id": "node-musykwj4",
+              "name": "Continents",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyl21x",
+              "name": "Atmosphere",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            },
+            {
+              "id": "node-musyl725",
+              "name": "Geological Cycles",
+              "description": "",
+              "important": false,
+              "subtopics": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reference_documents": [],
+  "version_number": 3,
+  "version_label": "v3",
+  "change_log": [
+    {
+      "timestamp": "2026-10-03T00:00:00Z",
+      "action": "initialize",
+      "node_name": "Sky and Space",
+      "parent_topic": null
+    },
+    {
+      "timestamp": "2026-10-03T22:56:00Z",
+      "action": "link_test_bank",
+      "node_name": "175 question records across four batches",
+      "parent_topic": "Sky and Space"
+    },
+    {
+      "timestamp": "2026-10-03T23:05:00Z",
+      "action": "link_test_bank",
+      "node_name": "100 elementary questions across four new batches",
+      "parent_topic": "Sky and Space"
+    }
+  ],
+  "mind_map_editing": {
+    "max_depth": 4,
+    "allow_drag_reparent": true,
+    "allow_inline_name_edit": true,
+    "allow_node_creation": true,
+    "expanded_node_ids": [
+      "sky-root"
+    ]
+  },
+  "test_bank_sources": [
+    {
+      "source_file": "Test Bank/sky_batch1.json",
+      "question_count": 100,
+      "question_ids": [
+        "SKY-KIDS-001",
+        "SKY-KIDS-002",
+        "SKY-KIDS-003",
+        "SKY-KIDS-004",
+        "SKY-KIDS-005",
+        "SKY-KIDS-006",
+        "SKY-KIDS-007",
+        "SKY-KIDS-008",
+        "SKY-KIDS-009",
+        "SKY-KIDS-010",
+        "SKY-KIDS-011",
+        "SKY-KIDS-012",
+        "SKY-KIDS-013",
+        "SKY-KIDS-014",
+        "SKY-KIDS-015",
+        "SKY-KIDS-016",
+        "SKY-KIDS-017",
+        "SKY-KIDS-018",
+        "SKY-KIDS-019",
+        "SKY-KIDS-020",
+        "SKY-KIDS-021",
+        "SKY-KIDS-022",
+        "SKY-KIDS-023",
+        "SKY-KIDS-024",
+        "SKY-KIDS-025",
+        "SKY-KIDS-026",
+        "SKY-KIDS-027",
+        "SKY-KIDS-028",
+        "SKY-KIDS-029",
+        "SKY-KIDS-030",
+        "SKY-KIDS-031",
+        "SKY-KIDS-032",
+        "SKY-KIDS-033",
+        "SKY-KIDS-034",
+        "SKY-KIDS-035",
+        "SKY-KIDS-036",
+        "SKY-KIDS-037",
+        "SKY-KIDS-038",
+        "SKY-KIDS-039",
+        "SKY-KIDS-040",
+        "SKY-KIDS-041",
+        "SKY-KIDS-042",
+        "SKY-KIDS-043",
+        "SKY-KIDS-044",
+        "SKY-KIDS-045",
+        "SKY-KIDS-046",
+        "SKY-KIDS-047",
+        "SKY-KIDS-048",
+        "SKY-KIDS-049",
+        "SKY-KIDS-050",
+        "SKY-KIDS-051",
+        "SKY-KIDS-052",
+        "SKY-KIDS-053",
+        "SKY-KIDS-054",
+        "SKY-KIDS-055",
+        "SKY-KIDS-056",
+        "SKY-KIDS-057",
+        "SKY-KIDS-058",
+        "SKY-KIDS-059",
+        "SKY-KIDS-060",
+        "SKY-KIDS-061",
+        "SKY-KIDS-062",
+        "SKY-KIDS-063",
+        "SKY-KIDS-064",
+        "SKY-KIDS-065",
+        "SKY-KIDS-066",
+        "SKY-KIDS-067",
+        "SKY-KIDS-068",
+        "SKY-KIDS-069",
+        "SKY-KIDS-070",
+        "SKY-KIDS-071",
+        "SKY-KIDS-072",
+        "SKY-KIDS-073",
+        "SKY-KIDS-074",
+        "SKY-KIDS-075",
+        "SKY-KIDS-076",
+        "SKY-KIDS-077",
+        "SKY-KIDS-078",
+        "SKY-KIDS-079",
+        "SKY-KIDS-080",
+        "SKY-KIDS-081",
+        "SKY-KIDS-082",
+        "SKY-KIDS-083",
+        "SKY-KIDS-084",
+        "SKY-KIDS-085",
+        "SKY-KIDS-086",
+        "SKY-KIDS-087",
+        "SKY-KIDS-088",
+        "SKY-KIDS-089",
+        "SKY-KIDS-090",
+        "SKY-KIDS-091",
+        "SKY-KIDS-092",
+        "SKY-KIDS-093",
+        "SKY-KIDS-094",
+        "SKY-KIDS-095",
+        "SKY-KIDS-096",
+        "SKY-KIDS-097",
+        "SKY-KIDS-098",
+        "SKY-KIDS-099",
+        "SKY-KIDS-0100"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch2.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0101",
+        "SKY-KIDS-0102",
+        "SKY-KIDS-0103",
+        "SKY-KIDS-0104",
+        "SKY-KIDS-0105",
+        "SKY-KIDS-0106",
+        "SKY-KIDS-0107",
+        "SKY-KIDS-0108",
+        "SKY-KIDS-0109",
+        "SKY-KIDS-0110",
+        "SKY-KIDS-0111",
+        "SKY-KIDS-0112",
+        "SKY-KIDS-0113",
+        "SKY-KIDS-0114",
+        "SKY-KIDS-0115",
+        "SKY-KIDS-0116",
+        "SKY-KIDS-0117",
+        "SKY-KIDS-0118",
+        "SKY-KIDS-0119",
+        "SKY-KIDS-0120",
+        "SKY-KIDS-0121",
+        "SKY-KIDS-0122",
+        "SKY-KIDS-0123",
+        "SKY-KIDS-0124",
+        "SKY-KIDS-0125"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch3.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0126",
+        "SKY-KIDS-0127",
+        "SKY-KIDS-0128",
+        "SKY-KIDS-0129",
+        "SKY-KIDS-0130",
+        "SKY-KIDS-0131",
+        "SKY-KIDS-0132",
+        "SKY-KIDS-0133",
+        "SKY-KIDS-0134",
+        "SKY-KIDS-0135",
+        "SKY-KIDS-0136",
+        "SKY-KIDS-0137",
+        "SKY-KIDS-0138",
+        "SKY-KIDS-0139",
+        "SKY-KIDS-0140",
+        "SKY-KIDS-0141",
+        "SKY-KIDS-0142",
+        "SKY-KIDS-0143",
+        "SKY-KIDS-0144",
+        "SKY-KIDS-0145",
+        "SKY-KIDS-0146",
+        "SKY-KIDS-0147",
+        "SKY-KIDS-0148",
+        "SKY-KIDS-0149",
+        "SKY-KIDS-0150"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch4.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0151",
+        "SKY-KIDS-0152",
+        "SKY-KIDS-0153",
+        "SKY-KIDS-0154",
+        "SKY-KIDS-0155",
+        "SKY-KIDS-0156",
+        "SKY-KIDS-0157",
+        "SKY-KIDS-0158",
+        "SKY-KIDS-0159",
+        "SKY-KIDS-0160",
+        "SKY-KIDS-0161",
+        "SKY-KIDS-0162",
+        "SKY-KIDS-0163",
+        "SKY-KIDS-0164",
+        "SKY-KIDS-0165",
+        "SKY-KIDS-0166",
+        "SKY-KIDS-0167",
+        "SKY-KIDS-0168",
+        "SKY-KIDS-0169",
+        "SKY-KIDS-0170",
+        "SKY-KIDS-0171",
+        "SKY-KIDS-0172",
+        "SKY-KIDS-0173",
+        "SKY-KIDS-0174",
+        "SKY-KIDS-0175"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch5.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0176",
+        "SKY-KIDS-0177",
+        "SKY-KIDS-0178",
+        "SKY-KIDS-0179",
+        "SKY-KIDS-0180",
+        "SKY-KIDS-0181",
+        "SKY-KIDS-0182",
+        "SKY-KIDS-0183",
+        "SKY-KIDS-0184",
+        "SKY-KIDS-0185",
+        "SKY-KIDS-0186",
+        "SKY-KIDS-0187",
+        "SKY-KIDS-0188",
+        "SKY-KIDS-0189",
+        "SKY-KIDS-0190",
+        "SKY-KIDS-0191",
+        "SKY-KIDS-0192",
+        "SKY-KIDS-0193",
+        "SKY-KIDS-0194",
+        "SKY-KIDS-0195",
+        "SKY-KIDS-0196",
+        "SKY-KIDS-0197",
+        "SKY-KIDS-0198",
+        "SKY-KIDS-0199",
+        "SKY-KIDS-0200"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch6.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0201",
+        "SKY-KIDS-0202",
+        "SKY-KIDS-0203",
+        "SKY-KIDS-0204",
+        "SKY-KIDS-0205",
+        "SKY-KIDS-0206",
+        "SKY-KIDS-0207",
+        "SKY-KIDS-0208",
+        "SKY-KIDS-0209",
+        "SKY-KIDS-0210",
+        "SKY-KIDS-0211",
+        "SKY-KIDS-0212",
+        "SKY-KIDS-0213",
+        "SKY-KIDS-0214",
+        "SKY-KIDS-0215",
+        "SKY-KIDS-0216",
+        "SKY-KIDS-0217",
+        "SKY-KIDS-0218",
+        "SKY-KIDS-0219",
+        "SKY-KIDS-0220",
+        "SKY-KIDS-0221",
+        "SKY-KIDS-0222",
+        "SKY-KIDS-0223",
+        "SKY-KIDS-0224",
+        "SKY-KIDS-0225"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch7.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0226",
+        "SKY-KIDS-0227",
+        "SKY-KIDS-0228",
+        "SKY-KIDS-0229",
+        "SKY-KIDS-0230",
+        "SKY-KIDS-0231",
+        "SKY-KIDS-0232",
+        "SKY-KIDS-0233",
+        "SKY-KIDS-0234",
+        "SKY-KIDS-0235",
+        "SKY-KIDS-0236",
+        "SKY-KIDS-0237",
+        "SKY-KIDS-0238",
+        "SKY-KIDS-0239",
+        "SKY-KIDS-0240",
+        "SKY-KIDS-0241",
+        "SKY-KIDS-0242",
+        "SKY-KIDS-0243",
+        "SKY-KIDS-0244",
+        "SKY-KIDS-0245",
+        "SKY-KIDS-0246",
+        "SKY-KIDS-0247",
+        "SKY-KIDS-0248",
+        "SKY-KIDS-0249",
+        "SKY-KIDS-0250"
+      ]
+    },
+    {
+      "source_file": "Test Bank/sky_batch8.json",
+      "question_count": 25,
+      "question_ids": [
+        "SKY-KIDS-0251",
+        "SKY-KIDS-0252",
+        "SKY-KIDS-0253",
+        "SKY-KIDS-0254",
+        "SKY-KIDS-0255",
+        "SKY-KIDS-0256",
+        "SKY-KIDS-0257",
+        "SKY-KIDS-0258",
+        "SKY-KIDS-0259",
+        "SKY-KIDS-0260",
+        "SKY-KIDS-0261",
+        "SKY-KIDS-0262",
+        "SKY-KIDS-0263",
+        "SKY-KIDS-0264",
+        "SKY-KIDS-0265",
+        "SKY-KIDS-0266",
+        "SKY-KIDS-0267",
+        "SKY-KIDS-0268",
+        "SKY-KIDS-0269",
+        "SKY-KIDS-0270",
+        "SKY-KIDS-0271",
+        "SKY-KIDS-0272",
+        "SKY-KIDS-0273",
+        "SKY-KIDS-0274",
+        "SKY-KIDS-0275"
+      ]
+    }
+  ],
+  "question_links": [
+    {
+      "question_id": "SKY-KIDS-001",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Earth Rotation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-002",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Sunrise and Sunset",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-003",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Sunrise and Sunset",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-004",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Clouds and Rain",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-005",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Rainbows",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-006",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "The Blue Sky",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-007",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Phases",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-008",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Surface",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-009",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Ocean Tides",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-010",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Earth Tilt",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-011",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Summer Weather",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-012",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Winter Weather",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-013",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "The Sun as a Star",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-014",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Solar System Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-015",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Mercury",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-016",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Venus",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-017",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Mars",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-018",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Jupiter",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-019",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Saturn Rings",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-020",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Uranus and Neptune",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-021",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid Belt",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-022",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comet Tails",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-023",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Milky Way Galaxy",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-024",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Shooting Stars",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-025",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "What is a Constellation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-026",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Ursa Major and Big Dipper",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-027",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Navigation and Stargazing",
+      "topic": "Finding North with Polaris",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-028",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Orion the Hunter",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-029",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "How Rockets Work",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-030",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Astronauts in Space",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-031",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Artificial Satellites",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-032",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Space Telescopes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-033",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Earth Rotation Speed",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-034",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "The Atmosphere",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-035",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "First Moon Landing",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-036",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Equator Warmth",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-037",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Solar Energy",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-038",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Terrestrial Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-039",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Gas Giants",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-040",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteoroids and Meteorites",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-041",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Speed of Light",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-042",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Cassiopeia",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-043",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "International Space Station",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-044",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Space Suits",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-045",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Shadows",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-046",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Wind",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-047",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Orbit",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-048",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Earth Orbit",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-049",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Gravity in Space",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-050",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Earth's Water",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-051",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Planet Rings",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-052",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Dwarf Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-053",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "The North Star Name",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-054",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Constellation Stories",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-055",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Moon Rovers",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-056",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Solar Panels on Spacecraft",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-057",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Time Zones",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-058",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Water Cycle",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-059",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Lunar Craters",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-060",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Equinoxes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-061",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Solar Eclipse",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-062",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Atmosphere Comparison",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-063",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Great Red Spot",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-064",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Kuiper Belt",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-065",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Black Holes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-066",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Summer Triangle",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-067",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Space Program History",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-068",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Space Probes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-069",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Sunset Colors",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-070",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Lightning and Thunder",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-071",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Lunar Eclipse",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-072",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Polar Day and Night",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-073",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Solar Flares",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-074",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Venus Greenhouse Effect",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-075",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Ice Giants",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-076",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comet Nucleus",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-077",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Star Colors and Temperature",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-078",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Southern Cross",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-079",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Artemis Program",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-080",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Hubble Space Telescope",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-081",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Earth Axis",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-082",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Aurora Borealis",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-083",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Supermoon",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-084",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Season Opposite Hemispheres",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-085",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Sun Corona",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-086",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Olympus Mons on Mars",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-087",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Titan moon of Saturn",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-088",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteor Showers",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-089",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Supernovas",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-090",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Zodiac Constellations",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-091",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Saturn V Rocket",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-092",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Voyager Probes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-093",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Twilight",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-094",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Haboob and Dust Storms",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-095",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Tidal Locking",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-096",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Solstices",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-097",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Solar Wind",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-098",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Mercury Temperature Extremes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-099",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Neptune Winds",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0100",
+      "source_file": "Test Bank/sky_batch1.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Constellation Seasonal Shift",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0101",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Aquarius",
+      "topic": "Aquarius Star Pattern",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musye1ua"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0102",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Aquarius",
+      "topic": "Constellation Star Distances",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musye1ua"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0103",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Aquarius",
+      "topic": "Aquarius Identification",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musye1ua"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0104",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Virgo",
+      "topic": "Virgo Star Pattern",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyer43"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0105",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Virgo",
+      "topic": "Virgo and the Zodiac",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyer43"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0106",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Virgo",
+      "topic": "Constellation Maps",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyer43"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0107",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Scorpio",
+      "topic": "Scorpio Star Pattern",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyf6z5"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0108",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Scorpio",
+      "topic": "Scorpio and the Zodiac",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyf6z5"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0109",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Scorpio",
+      "topic": "Constellation Perspective",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyf6z5"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0110",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Aries",
+      "topic": "Aries Star Pattern",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyga1f"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0111",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Aries",
+      "topic": "Aries and the Zodiac",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyga1f"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0112",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Constellations",
+      "subcategory": "Aries",
+      "topic": "Constellations as Sky Regions",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale",
+        "node-musyga1f"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0113",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Solar System Center",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0114",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Planetary Orbits",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0115",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Inner and Outer Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0116",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Dwarf Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0117",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Sunlight and Planet Temperature",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0118",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Planet Moons",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0119",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Solar System Scale",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0120",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid Composition",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0121",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comet Orbit",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0122",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid Belt Location",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0123",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comets Near the Sun",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0124",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comet Tail Direction",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0125",
+      "source_file": "Test Bank/sky_batch2.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteoroids and Asteroids",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0126",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Sun as a Star",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0127",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Planetary Rotation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0128",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Planetary Revolution",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0129",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Rocky and Giant Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0130",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Planet Rings",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0131",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Planet Atmospheres",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0132",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Solar System Boundaries",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0133",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Solar System",
+      "topic": "Solar System Formation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0134",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comet Nucleus",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0135",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid Belt Gravity",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0136",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comet Coma",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0137",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid Size and Shape",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0138",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Kuiper Belt Objects",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0139",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteor and Meteorite",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0140",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid and Comet Comparison",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0141",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Galaxy Definition",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0142",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Milky Way Home",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0143",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Milky Way Scale",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0144",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Milky Way Shape",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0145",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Sun's Galactic Orbit",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0146",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Milky Way Night-Sky Band",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0147",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Milky Way Stars",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0148",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Galaxy Distance Measurement",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0149",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Stars in Galaxies",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0150",
+      "source_file": "Test Bank/sky_batch3.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Galactic Gravity",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0151",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SLS",
+      "topic": "Space Launch System",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0152",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SLS",
+      "topic": "SLS Mission Role",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0153",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SLS",
+      "topic": "SLS and Artemis",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0154",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SLS",
+      "topic": "Rocket Stages",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0155",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SLS",
+      "topic": "Solid Rocket Boosters",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0156",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Falcon 9 Reuse",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0157",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Falcon 9 Stages",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0158",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Rocket Thrust",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0159",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Falcon Heavy",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0160",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Launch Payloads",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0161",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Rocket Fairings",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0162",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Robotic Space Probes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0163",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Probe Instruments",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0164",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Deep-Space Communication",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0165",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Voyager Probes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0166",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "Star Wars spacecrafts",
+      "topic": "Fictional Spacecraft",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjrzg",
+        "node-musyjw8e"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0167",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Spaceships",
+      "subcategory": "Star Trek Spaceships",
+      "topic": "Star Trek Starship",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjrzg",
+        "node-musyk3ah"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0168",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Continents",
+      "topic": "Number of Continents",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musykwj4"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0169",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Continents",
+      "topic": "Continents and Tectonic Plates",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musykwj4"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0170",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Continents",
+      "topic": "Antarctica",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musykwj4"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0171",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Atmosphere and Life",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0172",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Troposphere",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0173",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Ozone Layer",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0174",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Rock Cycle",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0175",
+      "source_file": "Test Bank/sky_batch4.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Plate Tectonics",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0176",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Why Earth Has Day and Night",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0177",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Day and Night",
+      "topic": "Earth's One-Day Spin",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0178",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Why Earth Has Seasons",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0179",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Opposite Hemisphere Seasons",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0180",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Seasons",
+      "topic": "Summer Daylight",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0181",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Air Around Earth",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0182",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Most Common Gas in Air",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0183",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "How Clouds Form",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0184",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Water Cycle",
+      "topic": "Water Cycle Evaporation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0185",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Water Cycle",
+      "topic": "Water Cycle Rain",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0186",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Water Cycle",
+      "topic": "Water Cycle Collection",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0187",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Wind",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0188",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Thunder and Lightning",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0189",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Atmosphere Protection",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0190",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Continents",
+      "topic": "Continents and Oceans",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musykwj4"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0191",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Continents",
+      "topic": "Continents and Oceans Map",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musykwj4"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0192",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Soil and Rocks",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0193",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Fossils",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0194",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Earthquakes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0195",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Volcanoes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0196",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon and Ocean Tides",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0197",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Weather and Climate",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0198",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere and Weather",
+      "topic": "Shadows and Sunlight",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0199",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Geological Cycles",
+      "topic": "Moving Tectonic Plates",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl725"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0200",
+      "source_file": "Test Bank/sky_batch5.json",
+      "category": "Our Planet",
+      "subcategory": "Atmosphere",
+      "topic": "Protecting Earth's Air",
+      "knowledge_node_ids": [
+        "sky-root",
+        "node-musy2f4z",
+        "node-musyl21x"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0201",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Sunlight and Warmth",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0202",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Planets Orbit the Sun",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0203",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Planet Order from the Sun",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0204",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Earth's Place in the Solar System",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0205",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Mars the Red Planet",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0206",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Jupiter the Largest Planet",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0207",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Saturn's Rings",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0208",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Uranus and Neptune",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0209",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Planets Reflect Sunlight",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0210",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moonlight",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0211",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Phases",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0212",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "New Moon",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0213",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Lunar Eclipse",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0214",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Solar Eclipse",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0215",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Surface Craters",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0216",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Surface",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0217",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Inner Planets",
+      "topic": "Venus and Thick Atmosphere",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0218",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Outer Planets",
+      "topic": "Jupiter's Great Red Spot",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0219",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Sun's Gravity",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0220",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Gravity and Falling",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0221",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Sun and Stars",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0222",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Sun Safety",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0223",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Sunlight Travel Time",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0224",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Moon and Tides",
+      "topic": "Moon Rovers",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0225",
+      "source_file": "Test Bank/sky_batch6.json",
+      "category": "Outer Space Objects",
+      "subcategory": "The Sun and Solar System",
+      "topic": "Solar System Planets",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhlb7"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0226",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "What Is a Constellation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0227",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Stars in a Constellation",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0228",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Orion the Hunter",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0229",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Big Dipper and Ursa Major",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0230",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Navigation and Stargazing",
+      "topic": "Finding North with Polaris",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0231",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Why Constellations Change by Season",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0232",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Constellation Pictures",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0233",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Constellations",
+      "subcategory": "Star Patterns",
+      "topic": "Zodiac Constellations",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-scale"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0234",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Stars Make Their Own Light",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0235",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Star Colors",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0236",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "The Milky Way Galaxy",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0237",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Galaxy Size",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0238",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Light-Years",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0239",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Black Holes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0240",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Supernovas",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0241",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Comets and Ice",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0242",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Why Comets Grow Tails",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0243",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroids",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0244",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Asteroid Belt Location",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0245",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteors and Shooting Stars",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0246",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteor Showers",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0247",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Comets and Asteroids",
+      "topic": "Meteorites",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhr3z"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0248",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Other Galaxies",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0249",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Galaxy",
+      "topic": "Stars in the Milky Way",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp",
+        "node-musyi3na"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0250",
+      "source_file": "Test Bank/sky_batch7.json",
+      "category": "Outer Space Objects",
+      "subcategory": "Stars and Galaxies",
+      "topic": "Looking into the Past",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-physics",
+        "node-musyhynp"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0251",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Why Rockets Need Fuel",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0252",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Rockets Work in Space",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0253",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Rocket Stages",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0254",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Rocket Payloads",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0255",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Rocket Launch Countdown",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0256",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Artificial Satellites",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0257",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Weather Satellites",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0258",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "GPS Satellites",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0259",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Solar Panels on Spacecraft",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0260",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Spacecraft and Satellites",
+      "topic": "Hubble Space Telescope",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0261",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "International Space Station",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0262",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Astronauts and Microgravity",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0263",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Spacesuits",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0264",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "First Moon Landing",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0265",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Space Exploration and Rockets",
+      "topic": "Artemis Moon Missions",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyibff"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0266",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Robotic Space Probes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0267",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Mars Rovers",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0268",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Voyager Spacecraft",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0269",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Space Probe Signals",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0270",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Planet Landers",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0271",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Probes",
+      "topic": "Space Telescopes",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjnpe"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0272",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "Reusable Rocket Boosters",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0273",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "SpaceX Launchers",
+      "topic": "SpaceX Dragon Spacecraft",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyj57t"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0274",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Science Fiction",
+      "topic": "Fictional Spacecraft",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration",
+        "node-musyjrzg",
+        "node-musyjw8e"
+      ]
+    },
+    {
+      "question_id": "SKY-KIDS-0275",
+      "source_file": "Test Bank/sky_batch8.json",
+      "category": "Spaceships",
+      "subcategory": "Science Fiction",
+      "topic": "Science Fiction and Real Space Travel",
+      "knowledge_node_ids": [
+        "sky-root",
+        "sky-exploration"
+      ]
+    }
+  ],
+  "status": "populated"
+}

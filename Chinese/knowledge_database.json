@@ -1,0 +1,72 @@
+{
+  "schema_version": "2.1.0",
+  "title": "Chinese Learning Database",
+  "generated_on": "2026-10-03",
+  "purpose": "Knowledge map for individualized Chinese learning and progress tracking. This project is initialized before any learner-specific quiz banks are created.",
+  "important_limitations": [
+    "This database tracks structure and progression, not learner performance data.",
+    "No test-bank question files are linked yet. The project is currently not populated.",
+    "Future branches can be personalized by learner (for example Y, A, F, J) and content skill area."
+  ],
+  "coverage": {
+    "test_bank_source_files": 0,
+    "question_records_at_link_creation": 0,
+    "topic_count": 0,
+    "reference_file_count": 0,
+    "taxonomy_node_count": 0,
+    "maximum_topic_depth": 0,
+    "linked_question_count": 0
+  },
+  "authorities_to_verify": [],
+  "taxonomy": [
+    {
+      "id": "chinese-root",
+      "name": "Chinese Learning Path",
+      "description": "Main learning framework for Chinese language progression and skill building.",
+      "important": true,
+      "subtopics": [
+        {
+          "id": "chinese-sounds",
+          "name": "Pronunciation and tones",
+          "description": "Listening, speaking, and tonal recognition practice.",
+          "important": false,
+          "subtopics": []
+        },
+        {
+          "id": "chinese-characters",
+          "name": "Characters and writing",
+          "description": "Stroke order, character recognition, and writing practice.",
+          "important": false,
+          "subtopics": []
+        },
+        {
+          "id": "chinese-vocabulary",
+          "name": "Vocabulary and phrases",
+          "description": "Daily vocabulary, context, and basic sentence patterns.",
+          "important": false,
+          "subtopics": []
+        }
+      ]
+    }
+  ],
+  "reference_documents": [],
+  "version_number": 1,
+  "version_label": "v1",
+  "change_log": [
+    {
+      "timestamp": "2026-10-03T00:00:00Z",
+      "action": "initialize",
+      "node_name": "Chinese Learning Path",
+      "parent_topic": null
+    }
+  ],
+  "mind_map_editing": {
+    "max_depth": 4,
+    "allow_drag_reparent": true,
+    "allow_inline_name_edit": true,
+    "allow_node_creation": true,
+    "expanded_node_ids": ["chinese-root"]
+  },
+  "test_bank_sources": [],
+  "status": "not_populated"
+}

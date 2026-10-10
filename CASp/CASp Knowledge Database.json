@@ -1,0 +1,2377 @@
+{
+  "schema_version": "2.1.0",
+  "title": "CASp Knowledge Database",
+  "generated_on": "2026-10-03",
+  "purpose": "Maintain and refine the CASp knowledge/topic coverage map. Existing test-bank question JSON files remain the source of question content; this database stores only topic structure and source-file/question-ID links.",
+  "important_limitations": [
+    "This is a study aid, not legal advice or a substitute for the adopted California Building Code, statutes, regulations, ADA standards, or agency guidance.",
+    "The imported notes and topic links may contain unverified or conflicting claims. Verify jurisdiction, project facts, adopted edition, and controlling source before relying on any legal or technical conclusion.",
+    "Question text, choices, answers, and explanations are not copied into this file. The test-bank JSON files remain the source of truth; knowledge nodes link to their source file and question IDs.",
+    "Questions may be edited, moved, or culled independently. Reconcile topic links against the test-bank files after bank changes."
+  ],
+  "coverage": {
+    "test_bank_source_files": 5,
+    "question_records_at_link_creation": 408,
+    "topic_count": 8,
+    "reference_file_count": 26,
+    "taxonomy_node_count": 86,
+    "maximum_topic_depth": 2,
+    "linked_question_count": 408
+  },
+  "authorities_to_verify": [
+    {
+      "name": "California Building Code (CBC), Chapter 11B",
+      "context": "Accessibility provisions referenced in study notes; confirm adopted edition, applicability, and section."
+    },
+    {
+      "name": "California Building Code (CBC), Chapter 11A",
+      "context": "Housing accessibility provisions referenced in study notes; confirm applicability and edition."
+    },
+    {
+      "name": "Americans with Disabilities Act (ADA), Titles II and III",
+      "context": "Federal accessibility requirements; select by entity/facility context and verify relevant standards."
+    },
+    {
+      "name": "Section 504 of the Rehabilitation Act",
+      "context": "Funding/program-specific applicability; confirm the applicable agency requirements."
+    },
+    {
+      "name": "Fair Housing Act (FHA)",
+      "context": "Federal housing context; determine covered properties and applicable technical criteria."
+    },
+    {
+      "name": "California CASp program and related statutes",
+      "context": "Program, inspection, and reporting context; verify controlling statutory text."
+    }
+  ],
+  "taxonomy": [
+    {
+      "id": "topic-1",
+      "name": "Code framework and governing standards",
+      "description": "Choose the applicable accessibility authority, code edition, and governing framework before applying technical criteria.",
+      "subtopics": [
+        {
+          "name": "Authority and code-edition selection",
+          "id": "topic-1-authority-and-code-edition-selection",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-001",
+                "CASP-019",
+                "CASP-022",
+                "CASP-023",
+                "CASP-037",
+                "CASP-040",
+                "CASP-041",
+                "CASP-043",
+                "CASP-044",
+                "CASP-046",
+                "CASP-051",
+                "CASP-055",
+                "CASP-058"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-001",
+                "CASP-019",
+                "CASP-022",
+                "CASP-023",
+                "CASP-037",
+                "CASP-040",
+                "CASP-041",
+                "CASP-043",
+                "CASP-044",
+                "CASP-046",
+                "CASP-051",
+                "CASP-055",
+                "CASP-058"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-061",
+                "CASP-063",
+                "CASP-066",
+                "CASP-067",
+                "CASP-097",
+                "CASP-100",
+                "CASP-101",
+                "CASP-103",
+                "CASP-104",
+                "CASP-106",
+                "CASP-115",
+                "CASP-118"
+              ]
+            }
+          ],
+          "linked_question_count": 38
+        },
+        {
+          "name": "CBC 11A/11B, ADA, and governing-standard selection",
+          "id": "topic-1-cbc-11a-11b-ada-and-governing-standard-selection",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-002",
+                "CASP-021",
+                "CASP-042",
+                "CASP-057",
+                "CASP-059",
+                "CASP-060"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-002",
+                "CASP-021",
+                "CASP-042",
+                "CASP-057",
+                "CASP-059",
+                "CASP-060"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-102",
+                "CASP-117",
+                "CASP-120"
+              ]
+            }
+          ],
+          "linked_question_count": 15
+        },
+        {
+          "name": "Governing authority and adopted code edition",
+          "id": "topic-1-governing-authority-and-adopted-code-edition",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-012"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-012"
+              ]
+            }
+          ],
+          "linked_question_count": 2
+        },
+        {
+          "name": "Standards identification in mixed-use and multi-authority projects",
+          "id": "topic-1-standards-identification-in-mixed-use-and-multi-authority-projects",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-029"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-029"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-074",
+                "CASP-089"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "ADA Titles II/III, Section 504, and funding triggers",
+          "id": "topic-1-ada-titles-ii-iii-section-504-and-funding-triggers",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-038",
+                "CASP-039",
+                "CASP-054"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-038",
+                "CASP-039",
+                "CASP-054"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-098",
+                "CASP-099",
+                "CASP-114"
+              ]
+            }
+          ],
+          "linked_question_count": 9
+        },
+        {
+          "name": "Study planning and authority-first review",
+          "id": "topic-1-study-planning-and-authority-first-review",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-121",
+                "CASP-122"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-121",
+                "CASP-122"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Evaluating true/false claims against controlling text",
+          "id": "topic-1-evaluating-true-false-claims-against-controlling-text",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-131",
+                "CASP-132"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-131",
+                "CASP-132"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Tricky wording and exact applicability",
+          "id": "topic-1-tricky-wording-and-exact-applicability",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-145",
+                "CASP-146"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-145",
+                "CASP-146"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Elevator-related accessibility cross-references",
+          "id": "topic-1-elevator-related-accessibility-cross-references",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-149",
+                "CASP-150"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-149",
+                "CASP-150"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam study based on coverage and source verification",
+          "id": "topic-1-exam-study-based-on-coverage-and-source-verification",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-165",
+                "CASP-166"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-165",
+                "CASP-166"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Egress width authority and occupancy facts",
+          "id": "topic-1-egress-width-authority-and-occupancy-facts",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-169",
+                "CASP-170"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-169",
+                "CASP-170"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Closed-book exam reflection and weak-topic diagnosis",
+          "id": "topic-1-closed-book-exam-reflection-and-weak-topic-diagnosis",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-173",
+                "CASP-174"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-173",
+                "CASP-174"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Actual-question answer review and elimination of distractors",
+          "id": "topic-1-actual-question-answer-review-and-elimination-of-distractors",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-189",
+                "CASP-190"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-189",
+                "CASP-190"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Adversarial wording and qualifier checking",
+          "id": "topic-1-adversarial-wording-and-qualifier-checking",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-199",
+                "CASP-200"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-199",
+                "CASP-200"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Advisory manual as interpretive study aid",
+          "id": "topic-1-advisory-manual-as-interpretive-study-aid",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-207",
+                "CASP-208"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-207",
+                "CASP-208"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Difficult practice items with concealed explanations",
+          "id": "topic-1-difficult-practice-items-with-concealed-explanations",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-211",
+                "CASP-212"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-211",
+                "CASP-212"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Actual-question topic review without overclaiming exam recall",
+          "id": "topic-1-actual-question-topic-review-without-overclaiming-exam-recall",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-215",
+                "CASP-216"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-215",
+                "CASP-216"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Agency addenda, errata, and source hierarchy",
+          "id": "topic-1-agency-addenda-errata-and-source-hierarchy",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-221",
+                "CASP-222"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-221",
+                "CASP-222"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 120
+    },
+    {
+      "id": "topic-2",
+      "name": "Accessible parking and EV charging",
+      "description": "Separate accessible-parking scoping and layout from EV charging requirements; verify the controlling edition.",
+      "subtopics": [
+        {
+          "name": "Accessible parking authority and site conditions",
+          "id": "topic-2-accessible-parking-authority-and-site-conditions",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-003",
+                "CASP-011"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-003",
+                "CASP-011"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-062",
+                "CASP-083"
+              ]
+            }
+          ],
+          "linked_question_count": 6
+        },
+        {
+          "name": "Accessible parking counts, layouts, and tables",
+          "id": "topic-2-accessible-parking-counts-layouts-and-tables",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-010"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-010"
+              ]
+            }
+          ],
+          "linked_question_count": 2
+        },
+        {
+          "name": "Van-accessible parking and EV charging scoping",
+          "id": "topic-2-van-accessible-parking-and-ev-charging-scoping",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-125",
+                "CASP-126"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-125",
+                "CASP-126"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Parking counts, van spaces, and layout review",
+          "id": "topic-2-parking-counts-van-spaces-and-layout-review",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-153",
+                "CASP-154"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-153",
+                "CASP-154"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam topic deep dive: parking and stall configuration",
+          "id": "topic-2-exam-topic-deep-dive-parking-and-stall-configuration",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-185",
+                "CASP-186"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-185",
+                "CASP-186"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 20
+    },
+    {
+      "id": "topic-3",
+      "name": "Accessible routes and site circulation",
+      "description": "Evaluate route continuity, site arrival, circulation, transitions, grades, and route-specific conditions.",
+      "subtopics": [
+        {
+          "name": "Accessible route continuity, geometry, and usability",
+          "id": "topic-3-accessible-route-continuity-geometry-and-usability",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-004",
+                "CASP-006",
+                "CASP-013",
+                "CASP-017"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-004",
+                "CASP-006",
+                "CASP-013",
+                "CASP-017"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-071",
+                "CASP-072"
+              ]
+            }
+          ],
+          "linked_question_count": 10
+        },
+        {
+          "name": "Route continuity across campuses and multiple buildings",
+          "id": "topic-3-route-continuity-across-campuses-and-multiple-buildings",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-014"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-014"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-070"
+              ]
+            }
+          ],
+          "linked_question_count": 3
+        },
+        {
+          "name": "Route crossings and vehicle conflicts",
+          "id": "topic-3-route-crossings-and-vehicle-conflicts",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-020"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-020"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-069",
+                "CASP-080",
+                "CASP-081"
+              ]
+            }
+          ],
+          "linked_question_count": 5
+        },
+        {
+          "name": "Accessible route to ramps and assembly aisles",
+          "id": "topic-3-accessible-route-to-ramps-and-assembly-aisles",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-147",
+                "CASP-148"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-147",
+                "CASP-148"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Recreation facilities and specialized element scoping",
+          "id": "topic-3-recreation-facilities-and-specialized-element-scoping",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-155",
+                "CASP-156"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-155",
+                "CASP-156"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Transportation facility boarding areas",
+          "id": "topic-3-transportation-facility-boarding-areas",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-163",
+                "CASP-164"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-163",
+                "CASP-164"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam topic deep dive: connect route issues to sections",
+          "id": "topic-3-exam-topic-deep-dive-connect-route-issues-to-sections",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-183",
+                "CASP-184"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-183",
+                "CASP-184"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Route continuity and Division 4 section sequence",
+          "id": "topic-3-route-continuity-and-division-4-section-sequence",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-231",
+                "CASP-232"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-231",
+                "CASP-232"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Pedestrian route crossing a vehicular way",
+          "id": "topic-3-pedestrian-route-crossing-a-vehicular-way",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-233",
+                "CASP-234"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-233",
+                "CASP-234"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 42
+    },
+    {
+      "id": "topic-4",
+      "name": "Scoping and alteration triggers",
+      "description": "Determine facility/project applicability, scope of work, alteration obligations, and path-of-travel triggers.",
+      "subtopics": [
+        {
+          "name": "Scoping versus technical application",
+          "id": "topic-4-scoping-versus-technical-application",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-005",
+                "CASP-015",
+                "CASP-024"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-005",
+                "CASP-015",
+                "CASP-024"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-076",
+                "CASP-077",
+                "CASP-078",
+                "CASP-079"
+              ]
+            }
+          ],
+          "linked_question_count": 10
+        },
+        {
+          "name": "Alteration, addition, and new-construction triggers",
+          "id": "topic-4-alteration-addition-and-new-construction-triggers",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-016",
+                "CASP-018"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-016",
+                "CASP-018"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-068",
+                "CASP-075",
+                "CASP-084"
+              ]
+            }
+          ],
+          "linked_question_count": 7
+        },
+        {
+          "name": "Historic-site parking and accessible path of travel",
+          "id": "topic-4-historic-site-parking-and-accessible-path-of-travel",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-123",
+                "CASP-124"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-123",
+                "CASP-124"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Existing conditions, code editions, and documenting reasoning",
+          "id": "topic-4-existing-conditions-code-editions-and-documenting-reasoning",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-127",
+                "CASP-128"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-127",
+                "CASP-128"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Application and scope before technical standards",
+          "id": "topic-4-application-and-scope-before-technical-standards",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-135",
+                "CASP-136"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-135",
+                "CASP-136"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Facility classification and plan-review scoping",
+          "id": "topic-4-facility-classification-and-plan-review-scoping",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-167",
+                "CASP-168"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-167",
+                "CASP-168"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam-question recall and independent code verification",
+          "id": "topic-4-exam-question-recall-and-independent-code-verification",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-177",
+                "CASP-178"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-177",
+                "CASP-178"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Multifactor project scoping matrix",
+          "id": "topic-4-multifactor-project-scoping-matrix",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-181",
+                "CASP-182"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-181",
+                "CASP-182"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam practice combining public and staff areas",
+          "id": "topic-4-exam-practice-combining-public-and-staff-areas",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-187",
+                "CASP-188"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-187",
+                "CASP-188"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Matrix answer check: authority follows combined facts",
+          "id": "topic-4-matrix-answer-check-authority-follows-combined-facts",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-195",
+                "CASP-196"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-195",
+                "CASP-196"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Matrix edge case and controlling trigger",
+          "id": "topic-4-matrix-edge-case-and-controlling-trigger",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-197",
+                "CASP-198"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-197",
+                "CASP-198"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Public hospital alteration and flooring scope",
+          "id": "topic-4-public-hospital-alteration-and-flooring-scope",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-201",
+                "CASP-202"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-201",
+                "CASP-202"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Restaurant public and employee spaces",
+          "id": "topic-4-restaurant-public-and-employee-spaces",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-203",
+                "CASP-204"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-203",
+                "CASP-204"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Matrix variation: facility facts before answer option",
+          "id": "topic-4-matrix-variation-facility-facts-before-answer-option",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-205",
+                "CASP-206"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-205",
+                "CASP-206"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 65
+    },
+    {
+      "id": "topic-5",
+      "name": "Building elements and door/threshold requirements",
+      "description": "Apply clear-opening, maneuvering, threshold, hardware, and approach requirements to the project facts.",
+      "subtopics": [
+        {
+          "name": "Doors, clear openings, and maneuvering clearances",
+          "id": "topic-5-doors-clear-openings-and-maneuvering-clearances",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-007",
+                "CASP-008"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-007",
+                "CASP-008"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-064",
+                "CASP-073",
+                "CASP-082"
+              ]
+            }
+          ],
+          "linked_question_count": 7
+        },
+        {
+          "name": "Dining surfaces and built-in elements",
+          "id": "topic-5-dining-surfaces-and-built-in-elements",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-161",
+                "CASP-162"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-161",
+                "CASP-162"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Automatic door operators and CBC 11B-404.3 scope",
+          "id": "topic-5-automatic-door-operators-and-cbc-11b-404-3-scope",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-223",
+                "CASP-224"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-223",
+                "CASP-224"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Rough opening versus accessible clear opening",
+          "id": "topic-5-rough-opening-versus-accessible-clear-opening",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-227",
+                "CASP-228"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-227",
+                "CASP-228"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 19
+    },
+    {
+      "id": "topic-6",
+      "name": "Plumbing and toilet-room requirements",
+      "description": "Distinguish fixture counts and scoping from the technical requirements for accessible plumbing elements.",
+      "subtopics": [
+        {
+          "name": "Accessible toilet rooms, fixtures, and clearances",
+          "id": "topic-6-accessible-toilet-rooms-fixtures-and-clearances",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-009"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-009"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-065"
+              ]
+            }
+          ],
+          "linked_question_count": 3
+        },
+        {
+          "name": "Drinking fountains and plumbing scoping",
+          "id": "topic-6-drinking-fountains-and-plumbing-scoping",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-157",
+                "CASP-158"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-157",
+                "CASP-158"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "All-gender toilet rooms and applicable accessibility rules",
+          "id": "topic-6-all-gender-toilet-rooms-and-applicable-accessibility-rules",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-193",
+                "CASP-194"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-193",
+                "CASP-194"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 11
+    },
+    {
+      "id": "topic-7",
+      "name": "Housing and federal law comparison",
+      "description": "Compare housing-specific requirements and federal/state overlap without treating standards as interchangeable.",
+      "subtopics": [
+        {
+          "name": "Private, public, and multifamily housing applicability",
+          "id": "topic-7-private-public-and-multifamily-housing-applicability",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-025",
+                "CASP-033",
+                "CASP-034",
+                "CASP-053"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-025",
+                "CASP-033",
+                "CASP-034",
+                "CASP-053"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-085",
+                "CASP-093",
+                "CASP-094",
+                "CASP-113"
+              ]
+            }
+          ],
+          "linked_question_count": 12
+        },
+        {
+          "name": "Housing accessibility and federal-law overlap",
+          "id": "topic-7-housing-accessibility-and-federal-law-overlap",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-026",
+                "CASP-030",
+                "CASP-031",
+                "CASP-032",
+                "CASP-035"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-026",
+                "CASP-030",
+                "CASP-031",
+                "CASP-032",
+                "CASP-035"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-086",
+                "CASP-090",
+                "CASP-091",
+                "CASP-092",
+                "CASP-095",
+                "CASP-096",
+                "CASP-119"
+              ]
+            }
+          ],
+          "linked_question_count": 17
+        },
+        {
+          "name": "CBC Chapter 11A and FHA applicability",
+          "id": "topic-7-cbc-chapter-11a-and-fha-applicability",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-027",
+                "CASP-028"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-027",
+                "CASP-028"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-087",
+                "CASP-088"
+              ]
+            }
+          ],
+          "linked_question_count": 6
+        },
+        {
+          "name": "Housing and nonresidential standards in mixed-use projects",
+          "id": "topic-7-housing-and-nonresidential-standards-in-mixed-use-projects",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-036",
+                "CASP-056"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-036",
+                "CASP-056"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-116"
+              ]
+            }
+          ],
+          "linked_question_count": 5
+        },
+        {
+          "name": "Transient lodging terms and room classification",
+          "id": "topic-7-transient-lodging-terms-and-room-classification",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-133",
+                "CASP-134"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-133",
+                "CASP-134"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Transient lodging CBC section navigation",
+          "id": "topic-7-transient-lodging-cbc-section-navigation",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-137",
+                "CASP-138"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-137",
+                "CASP-138"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Transient lodging practice and provision review",
+          "id": "topic-7-transient-lodging-practice-and-provision-review",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-139",
+                "CASP-140"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-139",
+                "CASP-140"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "CASp mindset for transient lodging review",
+          "id": "topic-7-casp-mindset-for-transient-lodging-review",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-141",
+                "CASP-142"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-141",
+                "CASP-142"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Transient lodging construction and scoping provisions",
+          "id": "topic-7-transient-lodging-construction-and-scoping-provisions",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-143",
+                "CASP-144"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-143",
+                "CASP-144"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "California housing accessibility framework history",
+          "id": "topic-7-california-housing-accessibility-framework-history",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-191",
+                "CASP-192"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-191",
+                "CASP-192"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Public housing and federal funding overlap",
+          "id": "topic-7-public-housing-and-federal-funding-overlap",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-209",
+                "CASP-210"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-209",
+                "CASP-210"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "FHA analysis outside California",
+          "id": "topic-7-fha-analysis-outside-california",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-213",
+                "CASP-214"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-213",
+                "CASP-214"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Comparing scoping tables without mixing percentages",
+          "id": "topic-7-comparing-scoping-tables-without-mixing-percentages",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-219",
+                "CASP-220"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-219",
+                "CASP-220"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "High-rise residential elevator lobby scoping",
+          "id": "topic-7-high-rise-residential-elevator-lobby-scoping",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-225",
+                "CASP-226"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-225",
+                "CASP-226"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Manager's dwelling versus leasing/public office",
+          "id": "topic-7-manager-s-dwelling-versus-leasing-public-office",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-229",
+                "CASP-230"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-229",
+                "CASP-230"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 84
+    },
+    {
+      "id": "topic-8",
+      "name": "CASp responsibility and California law",
+      "description": "Review California CASp program, statutory context, inspection, documentation, and reporting responsibilities.",
+      "subtopics": [
+        {
+          "name": "CASp responsibilities and California accessibility law",
+          "id": "topic-8-casp-responsibilities-and-california-accessibility-law",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-045",
+                "CASP-049"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-045",
+                "CASP-049"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-105",
+                "CASP-109",
+                "CASP-112"
+              ]
+            }
+          ],
+          "linked_question_count": 7
+        },
+        {
+          "name": "CASp inspection, documentation, and reporting responsibilities",
+          "id": "topic-8-casp-inspection-documentation-and-reporting-responsibilities",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-047",
+                "CASP-048",
+                "CASP-052"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-047",
+                "CASP-048",
+                "CASP-052"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-107",
+                "CASP-108",
+                "CASP-111"
+              ]
+            }
+          ],
+          "linked_question_count": 9
+        },
+        {
+          "name": "California disability-access statutes and CASp program requirements",
+          "id": "topic-8-california-disability-access-statutes-and-casp-program-requirements",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_1.json",
+              "question_ids": [
+                "CASP-050"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_1B.json",
+              "question_ids": [
+                "CASP-050"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_2.json",
+              "question_ids": [
+                "CASP-110"
+              ]
+            }
+          ],
+          "linked_question_count": 3
+        },
+        {
+          "name": "CASp review method and evidence-based conclusions",
+          "id": "topic-8-casp-review-method-and-evidence-based-conclusions",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-129",
+                "CASP-130"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-129",
+                "CASP-130"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "CASp report observations and recommendations",
+          "id": "topic-8-casp-report-observations-and-recommendations",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-151",
+                "CASP-152"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-151",
+                "CASP-152"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Caltrans/public-right-of-way coordination",
+          "id": "topic-8-caltrans-public-right-of-way-coordination",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-159",
+                "CASP-160"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-159",
+                "CASP-160"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Retrieving and validating study lessons",
+          "id": "topic-8-retrieving-and-validating-study-lessons",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-171",
+                "CASP-172"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-171",
+                "CASP-172"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam debrief versus verified technical conclusion",
+          "id": "topic-8-exam-debrief-versus-verified-technical-conclusion",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-175",
+                "CASP-176"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-175",
+                "CASP-176"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Exam conditions versus governing accessibility requirements",
+          "id": "topic-8-exam-conditions-versus-governing-accessibility-requirements",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-179",
+                "CASP-180"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-179",
+                "CASP-180"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        },
+        {
+          "name": "Consolidating study notes with traceable sources",
+          "id": "topic-8-consolidating-study-notes-with-traceable-sources",
+          "important": false,
+          "subtopics": [],
+          "test_bank_links": [
+            {
+              "source_file": "CASp Test/CASp_batch_3.json",
+              "question_ids": [
+                "CASP-217",
+                "CASP-218"
+              ]
+            },
+            {
+              "source_file": "CASp Test/CASp_batch_4.json",
+              "question_ids": [
+                "CASP-217",
+                "CASP-218"
+              ]
+            }
+          ],
+          "linked_question_count": 4
+        }
+      ],
+      "important": false,
+      "linked_question_count": 47
+    }
+  ],
+  "reference_documents": [
+    {
+      "path": "Archive/CASp_batch_1.md",
+      "file_name": "CASp_batch_1.md",
+      "file_type": "md",
+      "size_bytes": 28293,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    },
+    {
+      "path": "Archive/CASp_batch_2.md",
+      "file_name": "CASp_batch_2.md",
+      "file_type": "md",
+      "size_bytes": 26516,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-020.json",
+      "file_name": "conversations-020.json",
+      "file_type": "json",
+      "size_bytes": 4352998,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-021.json",
+      "file_name": "conversations-021.json",
+      "file_type": "json",
+      "size_bytes": 5042743,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-022.json",
+      "file_name": "conversations-022.json",
+      "file_type": "json",
+      "size_bytes": 7779894,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-023.json",
+      "file_name": "conversations-023.json",
+      "file_type": "json",
+      "size_bytes": 7858488,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-024.json",
+      "file_name": "conversations-024.json",
+      "file_type": "json",
+      "size_bytes": 7027728,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-025.json",
+      "file_name": "conversations-025.json",
+      "file_type": "json",
+      "size_bytes": 7175948,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-026.json",
+      "file_name": "conversations-026.json",
+      "file_type": "json",
+      "size_bytes": 7141734,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-027.json",
+      "file_name": "conversations-027.json",
+      "file_type": "json",
+      "size_bytes": 4329220,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-028.json",
+      "file_name": "conversations-028.json",
+      "file_type": "json",
+      "size_bytes": 3473887,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-029.json",
+      "file_name": "conversations-029.json",
+      "file_type": "json",
+      "size_bytes": 7590866,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/conversations-030.json",
+      "file_name": "conversations-030.json",
+      "file_type": "json",
+      "size_bytes": 9191647,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "Archive/Raw Chats/selected_chats_full.json",
+      "file_name": "selected_chats_full.json",
+      "file_type": "json",
+      "size_bytes": 7606171,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "CASp Test/batch4.md",
+      "file_name": "batch4.md",
+      "file_type": "md",
+      "size_bytes": 122086,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    },
+    {
+      "path": "CASp Test/CASp_batch_1.json",
+      "file_name": "CASp_batch_1.json",
+      "file_type": "json",
+      "size_bytes": 64214,
+      "classification": "imported practice-test question set",
+      "authority_status": "question content is study material; verify keyed answers against controlling sources"
+    },
+    {
+      "path": "CASp Test/CASp_batch_1B.json",
+      "file_name": "CASp_batch_1B.json",
+      "file_type": "json",
+      "size_bytes": 84997,
+      "classification": "imported practice-test question set",
+      "authority_status": "question content is study material; verify keyed answers against controlling sources"
+    },
+    {
+      "path": "CASp Test/CASp_batch_2.json",
+      "file_name": "CASp_batch_2.json",
+      "file_type": "json",
+      "size_bytes": 61965,
+      "classification": "imported practice-test question set",
+      "authority_status": "question content is study material; verify keyed answers against controlling sources"
+    },
+    {
+      "path": "CASp Test/CASp_batch_3.json",
+      "file_name": "CASp_batch_3.json",
+      "file_type": "json",
+      "size_bytes": 258965,
+      "classification": "imported practice-test question set",
+      "authority_status": "question content is study material; verify keyed answers against controlling sources"
+    },
+    {
+      "path": "CASp Test/CASp_batch_4.json",
+      "file_name": "CASp_batch_4.json",
+      "file_type": "json",
+      "size_bytes": 259001,
+      "classification": "imported practice-test question set",
+      "authority_status": "question content is study material; verify keyed answers against controlling sources"
+    },
+    {
+      "path": "learning_plan.md",
+      "file_name": "learning_plan.md",
+      "file_type": "md",
+      "size_bytes": 8133,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    },
+    {
+      "path": "Selected Chats/chat_summaries.md",
+      "file_name": "chat_summaries.md",
+      "file_type": "md",
+      "size_bytes": 10532,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    },
+    {
+      "path": "Selected Chats/index.html",
+      "file_name": "index.html",
+      "file_type": "html",
+      "size_bytes": 12168,
+      "classification": "supporting browser/viewer",
+      "authority_status": "not an authoritative code source"
+    },
+    {
+      "path": "Selected Chats/selected_chats_flat.json",
+      "file_name": "selected_chats_flat.json",
+      "file_type": "json",
+      "size_bytes": 7076636,
+      "classification": "chat export / conversation material",
+      "authority_status": "unverified secondary material; not an authoritative code source"
+    },
+    {
+      "path": "test_materials.md",
+      "file_name": "test_materials.md",
+      "file_type": "md",
+      "size_bytes": 34682,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    },
+    {
+      "path": "test_materials2.md",
+      "file_name": "test_materials2.md",
+      "file_type": "md",
+      "size_bytes": 7840,
+      "classification": "study note or question-bank document",
+      "authority_status": "secondary study material; confirm legal and technical claims against adopted primary sources"
+    }
+  ],
+  "version_number": 0,
+  "version_label": "base",
+  "change_log": [],
+  "mind_map_editing": {
+    "node_flags": "Set important=true on a topic or subtopic to flag it in the mind map.",
+    "custom_nodes": "New nodes are user-added and start with no question links.",
+    "removal_behavior": "Removing a mind-map node removes it from taxonomy only; test-question source records are preserved.",
+    "nesting_model": "recursive subtopics",
+    "expanded_node_ids": [],
+    "topic_tree_independent_of_questions": true,
+    "note": "The taxonomy tree is the topic-coverage model. It can be expanded independently of question content and curation.",
+    "question_content_embedded": false,
+    "link_model": "question knowledge_node_ids contain the full path; leaf topic nodes link back to source file paths and question IDs; parent coverage is derived recursively"
+  },
+  "test_bank_sources": [
+    {
+      "id": "CASp_batch_1",
+      "path": "CASp Test/CASp_batch_1.json",
+      "question_count": 60,
+      "question_id_range": "CASP-001 to CASP-060",
+      "variant_group": "CASP-001 to CASP-060",
+      "default_view": false,
+      "note": "Retained as a source variant; its question IDs overlap another file and wording may differ."
+    },
+    {
+      "id": "CASp_batch_1B",
+      "path": "CASp Test/CASp_batch_1B.json",
+      "question_count": 60,
+      "question_id_range": "CASP-001 to CASP-060",
+      "variant_group": "CASP-001 to CASP-060",
+      "default_view": true,
+      "note": "Included in the viewer default set; this is a practical display choice, not a claim of legal verification."
+    },
+    {
+      "id": "CASp_batch_2",
+      "path": "CASp Test/CASp_batch_2.json",
+      "question_count": 60,
+      "question_id_range": "CASP-061 to CASP-120",
+      "variant_group": "CASP-061 to CASP-120",
+      "default_view": true,
+      "note": "Included in the viewer default set; this is a practical display choice, not a claim of legal verification."
+    },
+    {
+      "id": "CASp_batch_3",
+      "path": "CASp Test/CASp_batch_3.json",
+      "question_count": 114,
+      "question_id_range": "CASP-121 to CASP-234",
+      "variant_group": "CASP-121 to CASP-234",
+      "default_view": false,
+      "note": "Retained as a source variant; its question IDs overlap another file and wording may differ."
+    },
+    {
+      "id": "CASp_batch_4",
+      "path": "CASp Test/CASp_batch_4.json",
+      "question_count": 114,
+      "question_id_range": "CASP-121 to CASP-234",
+      "variant_group": "CASP-121 to CASP-234",
+      "default_view": true,
+      "note": "Included in the viewer default set; this is a practical display choice, not a claim of legal verification."
+    }
+  ]
+}
