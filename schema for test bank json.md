@@ -1,6 +1,6 @@
 # Test Bank JSON Schema
 
-A test bank is either an array of question objects or an object with a `questions` array. Keep question wording, choices, answer keys, explanations, and topic metadata in the bank JSON. The quiz page supports four answer formats:
+A test bank is either an array of question objects or an object with a `questions` array. Keep question wording, choices, answer keys, explanations, and topic metadata in the bank JSON. An object-form bank may also include a shared reading passage using `passage_title` and `passage`, or a `passages` array that questions reference using `passage_id`. Question-level passage fields override both. This supports short-read sets with several brief texts and questions about each one. The quiz page supports four answer formats:
 
 | `question_type` | Required answer data | How it is answered |
 |---|---|---|
@@ -32,6 +32,39 @@ A test bank is either an array of question objects or an object with a `question
   "knowledge_node_ids": ["topic-1", "topic-1-authority-and-code-edition-selection"]
 }
 ```
+
+## Shared reading passage
+
+For comprehension banks, store one passage at the bank level rather than repeating it in every question:
+
+```json
+{
+  "passage_title": "The Map in the Library Book",
+  "passage": "The complete original passage appears here.",
+  "questions": []
+}
+```
+
+The app displays the passage above each question. A question may set its own `passage_title` or `passage` to override the shared passage. Passage text should be original or appropriately licensed; do not copy a published reader's text into a bank.
+
+For several short passages in one bank, define them once and reference them from questions:
+
+```json
+{
+  "passages": [
+    { "id": "story-one", "title": "A Short Story", "text": "Original passage text." }
+  ],
+  "questions": [
+    {
+      "id": "RLT-L-001",
+      "passage_id": "story-one",
+      "question_type": "multiple_choice"
+    }
+  ]
+}
+```
+
+Every `passages` entry needs a unique non-empty `id`, `title`, and `text`. Each non-empty `passage_id` must resolve to an entry in that bank.
 
 `id`, `question_text`, and `correct_answer` are required. `category` and `choices` should be provided for selection questions. `choices` may also be named `options`; for keyword questions, `word_bank` or `keywords` can supply the choices. For fill-in-the-blank, `accepted_answers` may list additional valid text responses; matching ignores case and extra surrounding or repeated whitespace.
 

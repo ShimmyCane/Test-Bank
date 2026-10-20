@@ -1,0 +1,220 @@
+{
+  "bank_id": "reader-level-l-07",
+  "title": "Quick Reads: Clues and Kindness",
+  "level": "L",
+  "level_note": "Original short-passage comprehension practice informed by broad Fountas & Pinnell Level L context. Not an official benchmark assessment.",
+  "passages": [
+    {
+      "id": "empty-feeder",
+      "title": "The Empty Bird Feeder",
+      "text": "Each morning, Ana filled the bird feeder by the kitchen window. One day, it was empty before lunch. “The birds must be very hungry,” she said. Her grandfather looked at the feeder. A small hole had opened in its bottom, and seed spilled onto the ground. Ana swept up the seeds and placed a tray beneath the feeder. The birds returned the next morning. This time, their food stayed in the tray. Ana decided to check the feeder each week."
+    },
+    {
+      "id": "seed-journey",
+      "title": "A Seed's Journey",
+      "text": "A dandelion seed is light enough to travel on the wind. It has a tiny tuft that works like a parachute. The wind can carry the seed away from the parent plant. If it lands where the soil, water, and light are right, it may begin to grow. Not every seed finds a good place. Some land on a path or in a puddle. The seeds that do grow can become new plants, far from where their journey began."
+    },
+    {
+      "id": "extra-seat",
+      "title": "The Extra Seat",
+      "text": "At lunch, Eli noticed a new student standing with a tray. Every table looked full. Eli moved his backpack from the empty chair beside him. “You can sit here,” he said. The student's name was Ren. Ren was quiet at first, so Eli asked which games Ren liked. “I like drawing maps,” Ren answered. Eli showed Ren a maze he had drawn on a napkin. Soon they were adding paths together. The empty chair had become the start of a new friendship."
+    }
+  ],
+  "questions": [
+    {
+      "id": "RLT-L-091",
+      "passage_id": "empty-feeder",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Morning routine",
+      "difficulty": 1,
+      "question_text": "What did Ana do each morning?",
+      "choices": ["Filled the bird feeder", "Swept the kitchen floor", "Watered the dandelions", "Moved a lunch table"],
+      "correct_answer": "Filled the bird feeder",
+      "explanation": "The first sentence says Ana filled the feeder each morning."
+    },
+    {
+      "id": "RLT-L-092",
+      "passage_id": "empty-feeder",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Spilled seed",
+      "difficulty": 2,
+      "question_text": "Why was the feeder empty before lunch?",
+      "choices": ["A hole let the seed spill onto the ground.", "Ana forgot where she put the feeder.", "The birds carried the feeder away.", "Grandfather poured water into it."],
+      "correct_answer": "A hole let the seed spill onto the ground.",
+      "explanation": "Grandfather spots a small hole in the bottom, and seed has spilled out."
+    },
+    {
+      "id": "RLT-L-093",
+      "passage_id": "empty-feeder",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Fixing the feeder",
+      "difficulty": 2,
+      "question_text": "What did Ana do after she found the spilled seed?",
+      "choices": ["She swept it up and put a tray beneath the feeder.", "She moved the feeder into the kitchen.", "She gave the tray to the birds.", "She stopped filling the feeder."],
+      "correct_answer": "She swept it up and put a tray beneath the feeder.",
+      "explanation": "Ana cleans up the seeds and adds a tray to catch food that falls."
+    },
+    {
+      "id": "RLT-L-094",
+      "passage_id": "empty-feeder",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Ana's plan",
+      "difficulty": 2,
+      "question_text": "Why will Ana check the feeder each week?",
+      "choices": ["To notice problems before the food spills again", "To teach the birds to sweep", "To see if the window has moved", "To count every seed in the tray"],
+      "correct_answer": "To notice problems before the food spills again",
+      "explanation": "After discovering the hole, Ana decides to check the feeder regularly so she can notice another problem."
+    },
+    {
+      "id": "RLT-L-095",
+      "passage_id": "empty-feeder",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Problem and solution",
+      "difficulty": 2,
+      "question_text": "How does Ana solve the feeder problem?",
+      "choices": ["She catches the spilled seed and plans to check the feeder.", "She asks the birds to eat more slowly.", "She moves the feeder to a different house.", "She fills the feeder with leaves."],
+      "correct_answer": "She catches the spilled seed and plans to check the feeder.",
+      "explanation": "Ana puts a tray under the feeder and makes a plan to inspect it each week."
+    },
+    {
+      "id": "RLT-L-096",
+      "passage_id": "seed-journey",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Seed travel",
+      "difficulty": 1,
+      "question_text": "What carries the dandelion seed away from its plant?",
+      "choices": ["The wind", "A river boat", "A garden shovel", "A bird feeder"],
+      "correct_answer": "The wind",
+      "explanation": "The passage says the light seed can travel on the wind."
+    },
+    {
+      "id": "RLT-L-097",
+      "passage_id": "seed-journey",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of tuft",
+      "difficulty": 2,
+      "question_text": "What does the seed's tiny tuft do?",
+      "choices": ["Helps it float through the air like a parachute", "Keeps it under the ground", "Turns it into water", "Makes it heavier than a stone"],
+      "correct_answer": "Helps it float through the air like a parachute",
+      "explanation": "The passage compares the tuft to a parachute that helps the seed travel on the wind."
+    },
+    {
+      "id": "RLT-L-098",
+      "passage_id": "seed-journey",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Seed growth",
+      "difficulty": 2,
+      "question_text": "What may happen if a seed lands where the soil, water, and light are right?",
+      "choices": ["It may begin to grow.", "It will turn into a puddle.", "It will fly back to its plant.", "It will become a stone."],
+      "correct_answer": "It may begin to grow.",
+      "explanation": "The text says a seed may start growing when it lands in a place with suitable soil, water, and light."
+    },
+    {
+      "id": "RLT-L-099",
+      "passage_id": "seed-journey",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Seed survival",
+      "difficulty": 2,
+      "question_text": "Why might some seeds not grow?",
+      "choices": ["They may land where growing conditions are not right.", "They are all too heavy to travel.", "They always land beside their parent plant.", "They have no way to move on the wind."],
+      "correct_answer": "They may land where growing conditions are not right.",
+      "explanation": "The passage gives a path and a puddle as places where a seed may not find what it needs."
+    },
+    {
+      "id": "RLT-L-100",
+      "passage_id": "seed-journey",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "What is the main idea of this passage?",
+      "choices": ["A seed can travel on the wind and grow in a suitable place.", "Every seed becomes a flower beside a puddle.", "Dandelions use their seeds to make the wind.", "A parachute helps a plant find water."],
+      "correct_answer": "A seed can travel on the wind and grow in a suitable place.",
+      "explanation": "The passage explains how a seed travels and what it needs in order to grow."
+    },
+    {
+      "id": "RLT-L-101",
+      "passage_id": "extra-seat",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "New student",
+      "difficulty": 1,
+      "question_text": "What did Eli notice at lunch?",
+      "choices": ["A new student was standing with a tray.", "Ren had lost a kite.", "A maze was drawn on the floor.", "Every table had an empty chair."],
+      "correct_answer": "A new student was standing with a tray.",
+      "explanation": "The first sentence tells us Eli notices a new student standing with a tray."
+    },
+    {
+      "id": "RLT-L-102",
+      "passage_id": "extra-seat",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Making room",
+      "difficulty": 1,
+      "question_text": "What did Eli move from the empty chair?",
+      "choices": ["His backpack", "A lunch tray", "A bird feeder", "A pile of books"],
+      "correct_answer": "His backpack",
+      "explanation": "Eli moves his backpack so the new student can sit in the chair."
+    },
+    {
+      "id": "RLT-L-103",
+      "passage_id": "extra-seat",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Ren's interest",
+      "difficulty": 2,
+      "question_text": "What helped Ren and Eli start talking?",
+      "choices": ["Eli asked Ren about games, and Ren said they liked drawing maps.", "They raced to be first in line.", "They both searched for the lost scarf.", "Mr. Lee asked them to play music."],
+      "correct_answer": "Eli asked Ren about games, and Ren said they liked drawing maps.",
+      "explanation": "Eli asks Ren a question, and Ren shares an interest in drawing maps."
+    },
+    {
+      "id": "RLT-L-104",
+      "passage_id": "extra-seat",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of maze",
+      "difficulty": 2,
+      "question_text": "What is a maze?",
+      "choices": ["A puzzle of paths with turns to follow", "A kind of lunch tray", "A small bird's nest", "A map of the whole school"],
+      "correct_answer": "A puzzle of paths with turns to follow",
+      "explanation": "Eli draws a maze, and the two children add paths to it together."
+    },
+    {
+      "id": "RLT-L-105",
+      "passage_id": "extra-seat",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "Why does the passage say the empty chair became the start of a friendship?",
+      "choices": ["Eli invited Ren to sit, and they found something to enjoy together.", "The chair was the only one with a map on it.", "Ren took Eli's backpack home.", "The two children finished lunch without speaking."],
+      "correct_answer": "Eli invited Ren to sit, and they found something to enjoy together.",
+      "explanation": "Eli makes room for Ren, starts a conversation, and they draw a maze together."
+    }
+  ]
+}

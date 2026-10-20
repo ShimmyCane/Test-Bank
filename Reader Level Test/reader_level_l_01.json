@@ -1,0 +1,265 @@
+{
+  "bank_id": "reader-level-l-01",
+  "title": "The Map in the Library Book",
+  "level": "L",
+  "level_note": "Original Fountas & Pinnell Guided Reading Level L practice material; not an official benchmark assessment.",
+  "passage_title": "The Map in the Library Book",
+  "passage": "Alma liked the school library, but she had never noticed the little blue star sticker on the return cart. One Tuesday, it was stuck to the corner of a book about gardens. When she lifted the cover, a creased map slid onto the table. A note said, “A small surprise is waiting. Start where readers return their books.” Alma showed it to Ms. Park, the librarian. Ms. Park smiled. “The reading club made this clue hunt,” she said, “but the last clue was lost. You may try to find it—with a friend.” Alma asked her friend Leo to join her.\n\nThe map showed a red bench beside the apple tree. They found a blue envelope under the bench. Inside, another note said, “Walk five steps toward the rain barrel. Look for three flat stones making a triangle.” Leo counted carefully. Behind the stones was a tiny tin with a brass key. Alma hesitated. “Maybe this opens the garden shed,” she said. Ms. Park walked with them to the open greenhouse. She tested the key in a small wooden box marked “For the garden.” It clicked.\n\nInside were sunflower seeds and a final note: “Plant these in the bare patch by the fence. Invite others to help. A garden is a treasure when everyone can enjoy it.” The children carried the seeds to the garden bed. Ms. Park showed them how to make small holes and cover each seed with soil. Alma and Leo made a simple watering chart so no one would forget.\n\nA week later, tiny green shoots appeared. More children signed the chart and came to water. Alma had expected the map to lead to something shiny. Instead, it led to a job she could share. She decided that was a better surprise.",
+  "questions": [
+    {
+      "id": "RLT-L-001",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Setting",
+      "difficulty": 1,
+      "question_text": "Where did Alma find the folded map?",
+      "choices": [
+        "Inside a book about gardens",
+        "Under the red bench",
+        "Beside the rain barrel",
+        "On the greenhouse door"
+      ],
+      "correct_answer": "Inside a book about gardens",
+      "explanation": "Look at the first paragraph: the map slid out when Alma opened the garden book."
+    },
+    {
+      "id": "RLT-L-002",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "First clue",
+      "difficulty": 1,
+      "question_text": "Where did the first note tell Alma to begin the clue hunt?",
+      "choices": [
+        "The place where readers return books",
+        "A sunflower beside the fence",
+        "A key inside the greenhouse",
+        "A chart on the library wall"
+      ],
+      "correct_answer": "The place where readers return books",
+      "explanation": "The note says to start where readers return their books, which is the return cart."
+    },
+    {
+      "id": "RLT-L-003",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Clue-hunt history",
+      "difficulty": 2,
+      "question_text": "What did Ms. Park tell Alma about the map?",
+      "choices": [
+        "The reading club made the clue hunt, but its last clue was lost.",
+        "The map belonged to a book about apple trees.",
+        "The clue hunt had to be finished before lunch.",
+        "The garden seeds were hidden in the library."
+      ],
+      "correct_answer": "The reading club made the clue hunt, but its last clue was lost.",
+      "explanation": "Ms. Park tells Alma that the reading club made the hunt and that its last clue was lost."
+    },
+    {
+      "id": "RLT-L-004",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Finding a partner",
+      "difficulty": 1,
+      "question_text": "Who joined Alma to solve the clues?",
+      "choices": [
+        "Her friend Leo",
+        "The reading-club leader",
+        "A gardener from town",
+        "Her older sister"
+      ],
+      "correct_answer": "Her friend Leo",
+      "explanation": "The first paragraph tells us Alma asked her friend Leo to join her."
+    },
+    {
+      "id": "RLT-L-005",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Following the map",
+      "difficulty": 2,
+      "question_text": "Which place did the map send Alma and Leo to after they left the library?",
+      "choices": [
+        "The red bench beside the apple tree",
+        "The greenhouse by the garden",
+        "The library return cart",
+        "The bare patch beside the fence"
+      ],
+      "correct_answer": "The red bench beside the apple tree",
+      "explanation": "After Alma asks Leo to help, the map leads them to the red bench beside the apple tree."
+    },
+    {
+      "id": "RLT-L-006",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Following directions",
+      "difficulty": 2,
+      "question_text": "Where did the second note tell them to walk?",
+      "choices": [
+        "Five steps toward the rain barrel",
+        "Five steps toward the library door",
+        "Around the apple tree twice",
+        "Straight across the greenhouse"
+      ],
+      "correct_answer": "Five steps toward the rain barrel",
+      "explanation": "The second note gives a direction: walk five steps toward the rain barrel."
+    },
+    {
+      "id": "RLT-L-007",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Finding the key",
+      "difficulty": 2,
+      "question_text": "Where did the children find the tiny tin?",
+      "choices": [
+        "Behind three flat stones",
+        "Inside the red envelope",
+        "On the return cart",
+        "Under the watering chart"
+      ],
+      "correct_answer": "Behind three flat stones",
+      "explanation": "After Leo finds the three stones in a triangle, the story says the tin was behind them."
+    },
+    {
+      "id": "RLT-L-008",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of creased",
+      "difficulty": 2,
+      "question_text": "The map was “creased.” What does that tell you about it?",
+      "choices": [
+        "It had fold lines in it.",
+        "It was covered in bright paint.",
+        "It was too wet to read.",
+        "It was made from shiny metal."
+      ],
+      "correct_answer": "It had fold lines in it.",
+      "explanation": "A creased paper has lines or marks where it has been folded. That fits a map that slid out of a book."
+    },
+    {
+      "id": "RLT-L-009",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Alma's hesitation",
+      "difficulty": 2,
+      "question_text": "Why might Alma have hesitated when she found the key?",
+      "choices": [
+        "She was not sure what the key opened.",
+        "She had forgotten how to read the map.",
+        "She wanted to leave the clue hunt.",
+        "She was afraid the seeds would grow too quickly."
+      ],
+      "correct_answer": "She was not sure what the key opened.",
+      "explanation": "Alma says, “Maybe this opens the garden shed,” so she is guessing what the key is for."
+    },
+    {
+      "id": "RLT-L-010",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Using the key",
+      "difficulty": 2,
+      "question_text": "What happened when Ms. Park tested the key in the small box?",
+      "choices": [
+        "The key made a click when Ms. Park tried it in the box.",
+        "The key broke in half.",
+        "The box rolled under a bench.",
+        "The greenhouse lights turned on."
+      ],
+      "correct_answer": "The key made a click when Ms. Park tried it in the box.",
+      "explanation": "The story says Ms. Park tested the key in the box and “It clicked.”"
+    },
+    {
+      "id": "RLT-L-011",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of bare patch",
+      "difficulty": 2,
+      "question_text": "In the note, what is a “bare patch”?",
+      "choices": [
+        "A small area of ground without plants",
+        "A hole in the library wall",
+        "A clean space on the map",
+        "A patch sewn onto a jacket"
+      ],
+      "correct_answer": "A small area of ground without plants",
+      "explanation": "The note says to plant the seeds there, so the bare patch is an empty piece of ground."
+    },
+    {
+      "id": "RLT-L-012",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Watering chart",
+      "difficulty": 2,
+      "question_text": "Why did Alma and Leo make a watering chart?",
+      "choices": [
+        "So people would remember to water the seeds",
+        "So they could count how many books they had read",
+        "So Ms. Park could find the greenhouse",
+        "So the map would stay flat"
+      ],
+      "correct_answer": "So people would remember to water the seeds",
+      "explanation": "The story says they made the chart so no one would forget to water the new seeds."
+    },
+    {
+      "id": "RLT-L-013",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Working together",
+      "difficulty": 3,
+      "question_text": "What can you infer when more children sign the chart and come to water?",
+      "choices": [
+        "They want to help care for the garden too.",
+        "They are trying to hide the seeds from Alma.",
+        "They do not want the flowers to grow.",
+        "They are looking for another library book."
+      ],
+      "correct_answer": "They want to help care for the garden too.",
+      "explanation": "The children sign the chart and come to water, which shows they are joining in to care for the plants."
+    },
+    {
+      "id": "RLT-L-014",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Character and Motivation",
+      "topic": "Expectation and surprise",
+      "difficulty": 2,
+      "question_text": "What did Alma expect to find, and what did she find instead?",
+      "choices": [
+        "She expected something shiny, but found a project to share.",
+        "She expected a book, but found a locked library door.",
+        "She expected a new friend, but found an empty garden.",
+        "She expected a key, but found a box of coins."
+      ],
+      "correct_answer": "She expected something shiny, but found a project to share.",
+      "explanation": "At the end, Alma thinks the map might lead to something shiny, but it leads to a garden job everyone can share."
+    },
+    {
+      "id": "RLT-L-015",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Main Idea",
+      "topic": "Sharing a surprise",
+      "difficulty": 3,
+      "question_text": "Which sentence best tells the main idea of the story?",
+      "choices": [
+        "Alma and her friends solve a clue hunt and turn the surprise into a shared garden project.",
+        "Alma visits the library to borrow every book about flowers.",
+        "Leo finds a key and keeps it for himself.",
+        "Ms. Park grows sunflowers alone in the greenhouse."
+      ],
+      "correct_answer": "Alma and her friends solve a clue hunt and turn the surprise into a shared garden project.",
+      "explanation": "The clue hunt brings Alma and Leo to seeds, and the ending shows the whole group helping the garden grow."
+    }
+  ]
+}

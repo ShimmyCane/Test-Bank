@@ -1,0 +1,265 @@
+{
+  "bank_id": "reader-level-l-03",
+  "title": "A Night for the Owls",
+  "level": "L",
+  "level_note": "Original Fountas & Pinnell Guided Reading Level L practice material; not an official benchmark assessment.",
+  "passage_title": "A Night for the Owls",
+  "passage": "A family of barn owls had nested in the roof of the old boathouse near Willow Pond. Most people never saw them during the day. Owls are active at night, when their quiet flight helps them search for mice and other small animals. The young owls were almost ready to leave the nest, but the path beside the pond was busy with evening walkers.\n\nOne afternoon, a park ranger named Jo visited the neighborhood club. She explained that young owls sometimes flutter down before they can fly well. If people crowded close, the birds might become frightened. Jo asked the club to help keep the path calm for a few evenings. The children made simple signs that said, “Young owls nearby. Please walk quietly and give them space.”\n\nMilo wanted to hang a bright lamp near the boathouse so everyone could see the owls. Jo explained that strong lights might disturb the birds. Instead, Milo suggested placing the signs at both ends of the path. His sister Ada made a map showing a second route around the pond. The map helped walkers find another way without going near the nest.\n\nThat evening, the children stood by the trail entrance with their signs. When a group of runners arrived, Milo raised one hand and pointed to the quiet-walking sign. The runners slowed down and took the other path. A little later, a young owl landed on a low branch. It opened its wings, lifted off, and glided toward the trees. The children watched from far away.\n\nJo returned the next morning. She thanked the club and told them that the owl had flown safely from the boathouse. Milo was glad he had not used a lamp. He had wanted people to see the owl, but now he understood that the best way to help sometimes meant staying back. The club decided to keep Ada's map for other pond visitors. It could help both people and animals share the trail.",
+  "questions": [
+    {
+      "id": "RLT-L-031",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Owl habitat",
+      "difficulty": 1,
+      "question_text": "Where had the barn owls made their nest?",
+      "choices": [
+        "In the roof of the old boathouse",
+        "Under the walking path",
+        "In a tree beside the club",
+        "On the top of the park sign"
+      ],
+      "correct_answer": "In the roof of the old boathouse",
+      "explanation": "The first sentence tells us the owls nested in the roof of the old boathouse."
+    },
+    {
+      "id": "RLT-L-032",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Owl behavior",
+      "difficulty": 1,
+      "question_text": "When are owls active in this passage?",
+      "choices": [
+        "At night",
+        "Only at noon",
+        "At sunrise only",
+        "Only during the afternoon"
+      ],
+      "correct_answer": "At night",
+      "explanation": "The passage says owls are active at night and search for food then."
+    },
+    {
+      "id": "RLT-L-033",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of flutter",
+      "difficulty": 2,
+      "question_text": "What does it mean when a young owl “flutters down”?",
+      "choices": [
+        "It moves down with small, unsteady wing movements.",
+        "It dives into the pond to catch a fish.",
+        "It walks slowly along the roof.",
+        "It hides inside its nest."
+      ],
+      "correct_answer": "It moves down with small, unsteady wing movements.",
+      "explanation": "The passage says young owls may flutter down before they can fly well, so their movement is not yet strong and steady."
+    },
+    {
+      "id": "RLT-L-034",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Protecting young owls",
+      "difficulty": 2,
+      "question_text": "Why did Jo ask people to stay calm near the path?",
+      "choices": [
+        "Crowds could frighten the young owls.",
+        "The pond was too shallow for walkers.",
+        "The children needed more time to make signs.",
+        "The runners could not see the boathouse."
+      ],
+      "correct_answer": "Crowds could frighten the young owls.",
+      "explanation": "Jo explains that young owls may be on the ground and could become frightened if people crowd close."
+    },
+    {
+      "id": "RLT-L-035",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Neighborhood response",
+      "difficulty": 2,
+      "question_text": "What did the children make after Jo spoke to their club?",
+      "choices": [
+        "Signs asking people to walk quietly and give the owls space",
+        "A bright lamp to light the boathouse",
+        "A new roof for the old boathouse",
+        "A boat for the owls to use"
+      ],
+      "correct_answer": "Signs asking people to walk quietly and give the owls space",
+      "explanation": "After Jo explains the problem, the children make signs with a quiet-walking message."
+    },
+    {
+      "id": "RLT-L-036",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Milo's idea",
+      "difficulty": 2,
+      "question_text": "Why did Milo first want to put a bright lamp near the boathouse?",
+      "choices": [
+        "He hoped people would be able to see the owls.",
+        "He wanted the owls to move into the club.",
+        "He thought the path needed warmer air.",
+        "He wanted to help Ada draw her map."
+      ],
+      "correct_answer": "He hoped people would be able to see the owls.",
+      "explanation": "Milo says he wants a bright lamp so everyone can see the owls."
+    },
+    {
+      "id": "RLT-L-037",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Light and wildlife",
+      "difficulty": 2,
+      "question_text": "Why did Jo advise against using a bright lamp?",
+      "choices": [
+        "Strong lights might disturb the owls.",
+        "The lamp would make Ada's map hard to read.",
+        "The lamp would attract more runners.",
+        "Strong lights would dry up the pond."
+      ],
+      "correct_answer": "Strong lights might disturb the owls.",
+      "explanation": "Jo tells Milo that strong lights may disturb the birds, so they choose signs instead."
+    },
+    {
+      "id": "RLT-L-038",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Problem and Solution",
+      "topic": "Alternate route",
+      "difficulty": 2,
+      "question_text": "How did Ada's map help the walkers?",
+      "choices": [
+        "It showed another route around the pond.",
+        "It showed where to find food for the owls.",
+        "It marked the fastest way to the boathouse.",
+        "It showed where the children had hidden the signs."
+      ],
+      "correct_answer": "It showed another route around the pond.",
+      "explanation": "Ada draws a second route so walkers can go around the pond without passing close to the nest."
+    },
+    {
+      "id": "RLT-L-039",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Runners on the path",
+      "difficulty": 2,
+      "question_text": "What did the group of runners do when Milo showed them the sign?",
+      "choices": [
+        "They slowed down and took the other path.",
+        "They turned on a lamp near the nest.",
+        "They crowded around the young owl.",
+        "They carried the boathouse to the club."
+      ],
+      "correct_answer": "They slowed down and took the other path.",
+      "explanation": "The passage says the runners slowed down and chose Ada's alternate route."
+    },
+    {
+      "id": "RLT-L-040",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Young owl's flight",
+      "difficulty": 2,
+      "question_text": "What did the young owl do after landing on a low branch?",
+      "choices": [
+        "It opened its wings and glided toward the trees.",
+        "It flew into the club to find Milo.",
+        "It splashed into the pond.",
+        "It carried Ada's map to the nest."
+      ],
+      "correct_answer": "It opened its wings and glided toward the trees.",
+      "explanation": "The next sentence after the owl lands says it opens its wings, lifts off, and glides toward the trees."
+    },
+    {
+      "id": "RLT-L-041",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of glided",
+      "difficulty": 2,
+      "question_text": "What does “glided” tell you about the owl's movement?",
+      "choices": [
+        "It moved smoothly through the air.",
+        "It tumbled across the ground.",
+        "It flapped without moving forward.",
+        "It rested on the branch."
+      ],
+      "correct_answer": "It moved smoothly through the air.",
+      "explanation": "The owl lifts off and travels toward the trees, so glided describes a smooth movement through the air."
+    },
+    {
+      "id": "RLT-L-042",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Milo's new understanding",
+      "difficulty": 3,
+      "question_text": "What does Milo understand by the end of the story?",
+      "choices": [
+        "Helping wildlife can mean giving it space.",
+        "Owls should be kept in the neighborhood club.",
+        "A bright lamp is the best way to protect birds.",
+        "People should never walk near a pond."
+      ],
+      "correct_answer": "Helping wildlife can mean giving it space.",
+      "explanation": "Milo realizes that staying back helped the owl more than lighting it up for people to see."
+    },
+    {
+      "id": "RLT-L-043",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Main Idea",
+      "topic": "Sharing a trail",
+      "difficulty": 3,
+      "question_text": "What is the main idea of the passage?",
+      "choices": [
+        "A neighborhood club changes how it uses a path to help young owls stay safe.",
+        "A family of owls teaches children how to draw a map.",
+        "Runners build a new boathouse beside Willow Pond.",
+        "A park ranger asks the club to catch mice at night."
+      ],
+      "correct_answer": "A neighborhood club changes how it uses a path to help young owls stay safe.",
+      "explanation": "The signs and alternate route help people use the trail without disturbing the young owls."
+    },
+    {
+      "id": "RLT-L-044",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Text Structure",
+      "topic": "Purpose of Ada's map",
+      "difficulty": 3,
+      "question_text": "How does Ada's map help solve the problem in the passage?",
+      "choices": [
+        "It gives walkers a different way to go around the pond.",
+        "It teaches the young owls how to fly.",
+        "It helps Milo find a bright lamp.",
+        "It shows Jo where to build a second nest."
+      ],
+      "correct_answer": "It gives walkers a different way to go around the pond.",
+      "explanation": "The map is a practical solution: it guides visitors away from the nest while keeping the trail usable."
+    },
+    {
+      "id": "RLT-L-045",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Theme",
+      "topic": "Respect for animals",
+      "difficulty": 3,
+      "question_text": "Which lesson does Milo learn?",
+      "choices": [
+        "Sometimes caring for an animal means watching quietly from far away.",
+        "Animals are safest when people gather close to them.",
+        "Every outdoor problem needs a bright light.",
+        "A map is more useful than listening to a ranger."
+      ],
+      "correct_answer": "Sometimes caring for an animal means watching quietly from far away.",
+      "explanation": "Milo learns that the owl was safer when people stayed back and kept the path calm."
+    }
+  ]
+}

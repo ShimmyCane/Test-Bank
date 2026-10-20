@@ -1,0 +1,220 @@
+{
+  "bank_id": "reader-level-l-06",
+  "title": "Quick Reads: Wind and Water",
+  "level": "L",
+  "level_note": "Original short-passage comprehension practice informed by broad Fountas & Pinnell Level L context. Not an official benchmark assessment.",
+  "passages": [
+    {
+      "id": "kite-string",
+      "title": "The Kite String",
+      "text": "The wind pulled hard at Sam's kite. He held the string with both hands, but the kite dipped toward a tree. Sam ran a few steps and loosened the string. The kite rose again. His sister Jo watched the clouds. “The wind is getting stronger,” she called. Sam reeled the kite in before the gusts grew too rough. It was not the longest flight, but the kite stayed safe. Sam folded it carefully and promised to try again on a calmer day."
+    },
+    {
+      "id": "tadpoles",
+      "title": "From Tadpole to Frog",
+      "text": "A frog begins life as an egg in water. A tiny tadpole hatches from the egg. It has a tail and breathes through gills. As it grows, back legs appear, then front legs. The tadpole's lungs develop, and its tail becomes smaller. At last, a young frog can leave the water. The change does not happen in one day. It takes time for the animal's body to grow and change."
+    },
+    {
+      "id": "garden-stone",
+      "title": "The Warm Garden Stone",
+      "text": "After a cool morning, Ravi placed a flat stone beside the garden path. By lunchtime, the sun had warmed its top. A small lizard rested there for a while. When a cloud covered the sun, the stone slowly felt cooler. Ravi wondered why. His teacher explained that the stone had taken in warmth from the sunlight. “The lizard likes a warm place,” she said, “but it will move when it needs shade.” Ravi watched as the lizard slipped beneath a leafy plant."
+    }
+  ],
+  "questions": [
+    {
+      "id": "RLT-L-076",
+      "passage_id": "kite-string",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Kite problem",
+      "difficulty": 1,
+      "question_text": "Where was Sam's kite dipping?",
+      "choices": ["Toward a tree", "Into a pond", "Behind the house", "Across the playground"],
+      "correct_answer": "Toward a tree",
+      "explanation": "The passage says the kite dipped toward a tree."
+    },
+    {
+      "id": "RLT-L-077",
+      "passage_id": "kite-string",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Changing the string",
+      "difficulty": 2,
+      "question_text": "What did Sam do to help the kite rise again?",
+      "choices": ["He ran a few steps and loosened the string.", "He tied the string to the tree.", "He dropped the kite into the grass.", "He asked Jo to pull the kite down."],
+      "correct_answer": "He ran a few steps and loosened the string.",
+      "explanation": "Sam runs and loosens the string, and the kite rises again."
+    },
+    {
+      "id": "RLT-L-078",
+      "passage_id": "kite-string",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of gust",
+      "difficulty": 2,
+      "question_text": "What is a gust?",
+      "choices": ["A sudden strong push of wind", "A tiny piece of string", "A dark cloud without rain", "A kind of paper kite"],
+      "correct_answer": "A sudden strong push of wind",
+      "explanation": "Jo warns that the wind is getting stronger, so gusts are bursts of strong wind."
+    },
+    {
+      "id": "RLT-L-079",
+      "passage_id": "kite-string",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Sam's choice",
+      "difficulty": 2,
+      "question_text": "Why did Sam bring the kite in?",
+      "choices": ["The stronger wind could make it hard to control.", "He wanted Jo to have the kite.", "The kite had become too small to see.", "The sun had gone behind a tree."],
+      "correct_answer": "The stronger wind could make it hard to control.",
+      "explanation": "Jo notices stronger wind, so Sam reels in the kite before the gusts become too rough."
+    },
+    {
+      "id": "RLT-L-080",
+      "passage_id": "kite-string",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "What does Sam learn about flying his kite?",
+      "choices": ["It is wise to stop when the wind becomes too strong.", "A kite flies best when its string is tied to a tree.", "A longer flight is always safer.", "Clouds make every kite fall."],
+      "correct_answer": "It is wise to stop when the wind becomes too strong.",
+      "explanation": "Sam chooses to bring the kite in safely and try again when the weather is calmer."
+    },
+    {
+      "id": "RLT-L-081",
+      "passage_id": "tadpoles",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Beginning of frog life",
+      "difficulty": 1,
+      "question_text": "Where does a frog begin life?",
+      "choices": ["As an egg in water", "As a young frog on land", "As a tadpole in a tree", "As a leg beneath a stone"],
+      "correct_answer": "As an egg in water",
+      "explanation": "The first sentence says a frog begins life as an egg in water."
+    },
+    {
+      "id": "RLT-L-082",
+      "passage_id": "tadpoles",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Growing legs",
+      "difficulty": 2,
+      "question_text": "Which legs appear first as a tadpole grows?",
+      "choices": ["Back legs", "Front legs", "No legs appear", "Only one leg"],
+      "correct_answer": "Back legs",
+      "explanation": "The passage says back legs appear first, followed by front legs."
+    },
+    {
+      "id": "RLT-L-083",
+      "passage_id": "tadpoles",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of hatch",
+      "difficulty": 2,
+      "question_text": "What happens when a tadpole hatches?",
+      "choices": ["It comes out of its egg.", "It grows a new tail.", "It swims into a pond.", "It changes into a grown frog at once."],
+      "correct_answer": "It comes out of its egg.",
+      "explanation": "A tadpole hatches from the egg, meaning it comes out of it."
+    },
+    {
+      "id": "RLT-L-084",
+      "passage_id": "tadpoles",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Body changes",
+      "difficulty": 2,
+      "question_text": "What happens to the tadpole's tail as it changes?",
+      "choices": ["It becomes smaller.", "It grows longer than the body.", "It turns into a wing.", "It disappears before any legs grow."],
+      "correct_answer": "It becomes smaller.",
+      "explanation": "The passage says the tail becomes smaller as the young frog develops."
+    },
+    {
+      "id": "RLT-L-085",
+      "passage_id": "tadpoles",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "What is this passage mostly about?",
+      "choices": ["How a frog changes as it grows", "How frogs find a warm stone", "Why tadpoles build a pond", "How a frog catches a flying kite"],
+      "correct_answer": "How a frog changes as it grows",
+      "explanation": "The text follows the changes from egg to tadpole to young frog."
+    },
+    {
+      "id": "RLT-L-086",
+      "passage_id": "garden-stone",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Stone in the sun",
+      "difficulty": 1,
+      "question_text": "What happened to the stone by lunchtime?",
+      "choices": ["The sun had warmed its top.", "A lizard had carried it away.", "Rain had covered it with water.", "A plant had grown over it."],
+      "correct_answer": "The sun had warmed its top.",
+      "explanation": "Ravi notices that the stone's top feels warm by lunchtime."
+    },
+    {
+      "id": "RLT-L-087",
+      "passage_id": "garden-stone",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Cloud and stone",
+      "difficulty": 2,
+      "question_text": "What happened when a cloud covered the sun?",
+      "choices": ["The stone slowly felt cooler.", "The stone began to grow.", "The lizard flew away.", "The garden path became warmer."],
+      "correct_answer": "The stone slowly felt cooler.",
+      "explanation": "The text says that when the sun was covered, the stone slowly felt cooler."
+    },
+    {
+      "id": "RLT-L-088",
+      "passage_id": "garden-stone",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Lizard's choice",
+      "difficulty": 2,
+      "question_text": "Why did the lizard move beneath the leafy plant?",
+      "choices": ["It may have wanted a cooler, shady place.", "It wanted to carry the stone away.", "It was looking for Ravi's kite string.", "It planned to hide from the rain that had stopped."],
+      "correct_answer": "It may have wanted a cooler, shady place.",
+      "explanation": "The teacher says the lizard moves when it needs shade, and it slips under a leafy plant."
+    },
+    {
+      "id": "RLT-L-089",
+      "passage_id": "garden-stone",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of warmth",
+      "difficulty": 2,
+      "question_text": "What does “taken in warmth” mean in the passage?",
+      "choices": ["The stone absorbed heat from the sun.", "The stone had been carried indoors.", "The stone had turned into a plant.", "The stone had made the sun shine."],
+      "correct_answer": "The stone absorbed heat from the sun.",
+      "explanation": "The stone feels warm after sitting in the sunlight, so it has absorbed some heat."
+    },
+    {
+      "id": "RLT-L-090",
+      "passage_id": "garden-stone",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "Which idea best fits the passage?",
+      "choices": ["Sunlight can warm a stone, and an animal may move to find shade.", "Lizards use stones to build their nests.", "Clouds make every garden plant stop growing.", "Stones stay the same temperature all day."],
+      "correct_answer": "Sunlight can warm a stone, and an animal may move to find shade.",
+      "explanation": "The passage connects the sun warming the stone with the lizard resting there and later moving to shade."
+    }
+  ]
+}

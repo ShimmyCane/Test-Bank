@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f6f2">
-  <title>CASp Test Bank | ShimmyAI</title>
+  <title>Test Bank | ShimmyAI</title>
   <style>
     :root {
       color-scheme: light;
@@ -53,6 +53,15 @@
     .step-title { display: flex; align-items: baseline; gap: 10px; margin: 30px 0 14px; }
     .step-number { color: #8a9b94; font-size: 12px; font-weight: 800; letter-spacing: .1em; }
     .bank-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+    .bank-catalog-controls { display: flex; justify-content: flex-end; margin: -4px 0 12px; }
+    .bank-topic-list { display: grid; gap: 10px; }
+    .bank-topic { border: 1px solid var(--line); border-radius: 14px; background: white; overflow: hidden; }
+    .bank-topic-toggle { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 52px; padding: 12px 16px; border: 0; background: transparent; color: var(--ink); text-align: left; font-size: 15px; font-weight: 750; }
+    .bank-topic-toggle:hover { background: #f7faf7; }
+    .bank-topic-icon { display: grid; place-items: center; width: 27px; height: 27px; flex: 0 0 auto; border-radius: 8px; background: var(--green-soft); color: var(--green-dark); font-size: 20px; line-height: 1; }
+    .bank-topic-count { margin-left: auto; color: var(--muted); font-size: 12px; font-weight: 600; }
+    .bank-topic-banks { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; padding: 0 12px 12px; }
+    .bank-topic-banks .bank-card { min-width: 0; }
     .bank-card { display: flex; align-items: flex-start; gap: 12px; border: 1px solid var(--line); border-radius: 15px; padding: 16px; background: white; transition: border-color .15s, background .15s; }
     .bank-card:has(input:checked) { border-color: var(--green); background: #f1f8f3; }
     .bank-card input { accent-color: var(--green); width: 17px; height: 17px; margin: 2px 0 0; flex: 0 0 auto; }
@@ -77,6 +86,9 @@
     .setup-footer p { margin: 0; font-size: 13px; }
     .quiz { padding: clamp(22px, 5vw, 42px); }
     .quiz-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; }
+    .reading-passage { margin: 19px 0 17px; padding: 18px 20px; border: 2px solid #d5e4d7; border-radius: 16px; background: #f5faf4; }
+    .reading-passage h3 { color: var(--green-dark); font-size: 18px; margin: 0 0 8px; }
+    .reading-passage p { margin: 0; color: var(--ink); font-size: 16px; line-height: 1.75; white-space: pre-line; }
     .quiz-head-actions { display: flex; align-items: center; gap: 9px; }
     .keyboard-help { position: relative; margin-top: 14px; padding: 15px 42px 15px 16px; border: 1px solid var(--line); border-radius: 13px; background: #f7faf7; font-size: 13px; line-height: 1.55; }
     .keyboard-help h2 { font-size: 15px; margin-bottom: 6px; }
@@ -178,7 +190,7 @@
         <button class="icon-button" id="settingsButton" type="button" aria-label="Settings" aria-expanded="false" aria-controls="settingsPanel">⚙</button>
         <div class="settings-panel" id="settingsPanel" role="group" aria-labelledby="settingsTitle" hidden>
           <h2 id="settingsTitle">Practice settings</h2>
-          <label class="setting-option"><input id="readAloudSetting" type="checkbox"> <span>Read questions and answer choices aloud; read a choice again when hovered.</span></label>
+          <label class="setting-option"><input id="readAloudSetting" type="checkbox"> <span>Read passages, questions, and answer choices aloud; read a choice again when hovered.</span></label>
           <label class="setting-option"><input id="columnsSetting" type="checkbox"> <span>Arrange answer choices in columns.</span></label>
           <label class="setting-option"><input id="skipUnansweredSetting" type="checkbox"> <span>Skip unanswered questions and finish with only the questions you answered.</span></label>
           <p class="settings-status" id="settingsStatus" role="status" aria-live="polite"></p>
@@ -187,11 +199,14 @@
     </header>
 
     <section class="panel intro" id="setupScreen">
-      <div class="eyebrow">CASp certification preparation</div>
+      <div class="eyebrow">Reading and learning</div>
       <h1>Practice with purpose.</h1>
-      <p class="intro-copy">Choose one or more test banks to begin. Review each explanation as you go, flag questions to revisit, and use your results to see where to focus next.</p>
+      <p class="intro-copy">Choose a test bank, read each question carefully, and learn from every answer. You can flag a question to come back to later.</p>
 
       <div class="step-title"><span class="step-number">01</span><h2>Choose your test bank</h2></div>
+      <div class="bank-catalog-controls">
+        <button class="button" id="showAllBanksButton" type="button" aria-expanded="false">Show all test banks</button>
+      </div>
       <div class="bank-list" id="bankList" aria-label="Available test banks"></div>
       <div class="file-tools">
         <label class="file-button">＋ Load JSON test bank(s)<input id="fileInput" type="file" accept=".json,application/json" multiple></label>
@@ -209,7 +224,7 @@
     <section class="panel quiz" id="quizScreen" hidden aria-labelledby="questionText">
       <div class="quiz-head">
         <div>
-          <div class="eyebrow">CASp practice</div>
+          <div class="eyebrow">Quiz practice</div>
           <div class="quiz-bank" id="quizBank"></div>
         </div>
         <div class="quiz-head-actions">
@@ -228,6 +243,10 @@
       </div>
       <div id="questionContent">
         <div class="question-meta" id="questionMeta"></div>
+        <section class="reading-passage" id="readingPassage" aria-labelledby="readingPassageTitle" hidden>
+          <h3 id="readingPassageTitle"></h3>
+          <p id="readingPassageText"></p>
+        </section>
         <h2 class="question-text" id="questionText" tabindex="-1"></h2>
         <div class="choices" id="choices" role="group" aria-labelledby="questionText"></div>
         <div class="answer-entry" id="answerEntry" hidden>
@@ -259,11 +278,30 @@
       const HISTORY_KEY = "shimmyai.casp.categoryMastery.v1";
       const SETTINGS_KEY = "shimmyai.testBank.settings.v1";
       const predefinedBanks = [
-        { path: "CASp/CASp Test/CASp_batch_1.json", label: "CASp · Batch 1", description: "Foundational CASp practice questions." },
-        { path: "CASp/CASp Test/CASp_batch_2.json", label: "CASp · Batch 2", description: "Additional CASp practice questions." }
+        { path: "CASp/CASp Test/CASp_batch_1.json", label: "CASp · Batch 1", description: "Foundational CASp practice questions.", topic: "CASp" },
+        { path: "CASp/CASp Test/CASp_batch_2.json", label: "CASp · Batch 2", description: "Additional CASp practice questions.", topic: "CASp" },
+        { path: "Reader Level Test/reader_level_l_01.json", label: "Reader Level L · The Map in the Library Book", description: "Follow the clues to a garden surprise in this original story quiz.", topic: "Reader Level Test" },
+        { path: "Reader Level Test/reader_level_l_02.json", label: "Reader Level L · The Bridge of Paper Cranes", description: "A quiet mystery about a classroom display and a missing note.", topic: "Reader Level Test" },
+        { path: "Reader Level Test/reader_level_l_03.json", label: "Reader Level L · A Night for the Owls", description: "Discover how a neighborhood helps young owls stay safe.", topic: "Reader Level Test" },
+        { path: "Reader Level Test/reader_level_l_04.json", label: "Reader Level L · The Sound of the Rain", description: "A music club finds a way to turn a rainy-day problem into a performance.", topic: "Reader Level Test" },
+        { path: "Reader Level Test/reader_level_l_05.json", label: "Reader Level L · Quick Reads: Small Discoveries", description: "Three short original passages with five questions each.", topic: "Reader Level Test", featured: true },
+        { path: "Reader Level Test/reader_level_l_06.json", label: "Reader Level L · Quick Reads: Wind and Water", description: "Three short original passages with five questions each.", topic: "Reader Level Test", featured: true },
+        { path: "Reader Level Test/reader_level_l_07.json", label: "Reader Level L · Quick Reads: Clues and Kindness", description: "Three short original passages with five questions each.", topic: "Reader Level Test", featured: true },
+        { path: "Chinese/chinese_batch1.json", label: "Chinese · Beginner Basics 1", description: "Introductory Mandarin tones, characters, and useful phrases.", topic: "Chinese", featured: true },
+        { path: "Trivia/trivia_batch1.json", label: "Trivia · Family Basics 1", description: "Family culture, child safety, and general awareness.", topic: "Trivia", featured: true },
+        { path: "Sky/Test Bank/sky_batch1.json", label: "Sky · Batch 1", description: "Foundational Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch2.json", label: "Sky · Batch 2", description: "Additional Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch3.json", label: "Sky · Batch 3", description: "More Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch4.json", label: "Sky · Batch 4", description: "More Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch5.json", label: "Sky · Batch 5", description: "More Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch6.json", label: "Sky · Batch 6", description: "More Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch7.json", label: "Sky · Batch 7", description: "More Sky practice questions.", topic: "Sky" },
+        { path: "Sky/Test Bank/sky_batch8.json", label: "Sky · Batch 8", description: "More Sky practice questions.", topic: "Sky" }
       ];
       const state = {
         banks: new Map(),
+        expandedBankTopics: new Set(),
+        showAllBanks: false,
         questions: [],
         currentIndex: 0,
         selectedChoice: null,
@@ -274,9 +312,10 @@
         settings: { readAloud: false, columns: false, skipUnanswered: false }
       };
       const elements = Object.fromEntries([
-        "setupScreen", "quizScreen", "resultsScreen", "bankList", "fileInput", "folderInput",
+        "setupScreen", "quizScreen", "resultsScreen", "bankList", "showAllBanksButton", "fileInput", "folderInput",
         "setupNotice", "selectionSummary", "startButton", "historyButton", "quizBank", "timer",
-        "progressBar", "progressFill", "progressLabel", "questionMeta", "questionText", "choices",
+        "progressBar", "progressFill", "progressLabel", "questionMeta", "readingPassage",
+        "readingPassageTitle", "readingPassageText", "questionText", "choices",
         "explanation", "flagButton", "backButton", "nextButton", "resultsTitle", "resultsContent",
         "settingsButton", "settingsPanel", "readAloudSetting", "columnsSetting", "skipUnansweredSetting",
         "settingsStatus", "keyboardHelpButton", "keyboardHelp", "keyboardHelpClose", "answerEntry", "answerInput"
@@ -313,6 +352,14 @@
         }
         const explicitType = raw.question_type ?? raw.questionType ?? raw.answer_type ?? raw.answerType ?? raw.type;
         const answerType = inferAnswerType(explicitType, questionText, choices, wordBank);
+        const passage = raw.passage;
+        const passageTitle = raw.passage_title ?? raw.passageTitle;
+        if (passage !== undefined && (typeof passage !== "string" || !passage.trim())) {
+          throw new Error(`Question ${index + 1} in ${filename} has an invalid passage.`);
+        }
+        if (passageTitle !== undefined && (typeof passageTitle !== "string" || !passageTitle.trim())) {
+          throw new Error(`Question ${index + 1} in ${filename} has an invalid passage_title.`);
+        }
         if (answerType === "fill_in_blank") {
           if (!String(answer).trim()) throw new Error(`Question ${index + 1} in ${filename} needs a non-empty correct_answer.`);
         } else if (choices.length < 2 || !choices.includes(String(answer))) {
@@ -360,19 +407,55 @@
         if (!records || records.length === 0) {
           throw new Error(`${filename} must contain a non-empty question array (or an object with a questions array).`);
         }
-        return records.map((question, index) => normalizeQuestion(question, index, filename));
+        const passageRecords = !Array.isArray(parsed) && parsed.passages !== undefined
+          ? parsed.passages
+          : [];
+        if (!Array.isArray(passageRecords)) {
+          throw new Error(`${filename} passages must be a list.`);
+        }
+        const passages = new Map();
+        passageRecords.forEach((passage, index) => {
+          if (!passage || typeof passage !== "object" || Array.isArray(passage)
+            || typeof passage.id !== "string" || !passage.id.trim()
+            || typeof passage.title !== "string" || !passage.title.trim()
+            || typeof passage.text !== "string" || !passage.text.trim()) {
+            throw new Error(`Passage ${index + 1} in ${filename} needs a non-empty id, title, and text.`);
+          }
+          if (passages.has(passage.id)) {
+            throw new Error(`${filename} has a duplicate passage id "${passage.id}".`);
+          }
+          passages.set(passage.id, passage);
+        });
+        const sharedPassage = !Array.isArray(parsed) ? parsed.passage : undefined;
+        const sharedPassageTitle = !Array.isArray(parsed) ? parsed.passage_title : undefined;
+        if (sharedPassage !== undefined && (typeof sharedPassage !== "string" || !sharedPassage.trim())) {
+          throw new Error(`${filename} has an invalid shared passage.`);
+        }
+        if (sharedPassageTitle !== undefined && (typeof sharedPassageTitle !== "string" || !sharedPassageTitle.trim())) {
+          throw new Error(`${filename} has an invalid shared passage_title.`);
+        }
+        return records.map((question, index) => {
+          if (!question || typeof question !== "object" || Array.isArray(question)) {
+            return normalizeQuestion(question, index, filename);
+          }
+          const linkedPassage = question.passage_id === undefined
+            ? undefined
+            : passages.get(question.passage_id);
+          if (question.passage_id !== undefined && !linkedPassage) {
+            throw new Error(`Question ${index + 1} in ${filename} refers to an unknown passage_id.`);
+          }
+          return normalizeQuestion({
+            ...question,
+            passage: question.passage ?? linkedPassage?.text ?? sharedPassage,
+            passage_title: question.passage_title ?? linkedPassage?.title ?? sharedPassageTitle
+          }, index, filename);
+        });
       }
 
       function renderBankList() {
         elements.bankList.replaceChildren();
         const banks = [...state.banks.values()];
-        if (!banks.length) {
-          const empty = document.createElement("div");
-          empty.className = "bank-empty";
-          empty.textContent = "No test banks loaded yet. Load a JSON file, or serve this folder locally to load the included batches.";
-          elements.bankList.append(empty);
-        }
-        banks.forEach((bank) => {
+        const makeBankCard = (bank) => {
           const label = document.createElement("label");
           label.className = "bank-card";
           const checkbox = document.createElement("input");
@@ -390,8 +473,64 @@
           description.textContent = `${bank.description} ${bank.questions.length} questions`;
           copy.append(title, description);
           label.append(checkbox, copy);
-          elements.bankList.append(label);
+          return label;
+        };
+        const topicGroups = new Map();
+        banks.forEach((bank) => {
+          const topic = bank.topic || "Other test banks";
+          if (!topicGroups.has(topic)) topicGroups.set(topic, []);
+          topicGroups.get(topic).push(bank);
         });
+        const latestBanks = banks.filter((bank) => bank.featured || bank.userLoaded);
+        const hasMoreBanks = banks.length > latestBanks.length;
+        elements.showAllBanksButton.hidden = !hasMoreBanks;
+        elements.showAllBanksButton.textContent = state.showAllBanks ? "Back to latest test banks" : "Show all test banks";
+        elements.showAllBanksButton.setAttribute("aria-expanded", String(state.showAllBanks));
+        if (state.showAllBanks) {
+          const topics = document.createElement("div");
+          topics.className = "bank-topic-list";
+          topicGroups.forEach((topicBanks, topic) => {
+            const section = document.createElement("section");
+            section.className = "bank-topic";
+            const expanded = state.expandedBankTopics.has(topic);
+            const toggle = document.createElement("button");
+            toggle.type = "button";
+            toggle.className = "bank-topic-toggle";
+            toggle.setAttribute("aria-expanded", String(expanded));
+            const icon = document.createElement("span");
+            icon.className = "bank-topic-icon";
+            icon.setAttribute("aria-hidden", "true");
+            icon.textContent = expanded ? "−" : "+";
+            const title = document.createElement("span");
+            title.textContent = topic;
+            const count = document.createElement("span");
+            count.className = "bank-topic-count";
+            count.textContent = `${topicBanks.length} test bank${topicBanks.length === 1 ? "" : "s"}`;
+            toggle.append(icon, title, count);
+            toggle.addEventListener("click", () => {
+              if (state.expandedBankTopics.has(topic)) state.expandedBankTopics.delete(topic);
+              else state.expandedBankTopics.add(topic);
+              renderBankList();
+            });
+            section.append(toggle);
+            if (expanded) {
+              const topicBankList = document.createElement("div");
+              topicBankList.className = "bank-topic-banks";
+              topicBanks.forEach((bank) => topicBankList.append(makeBankCard(bank)));
+              section.append(topicBankList);
+            }
+            topics.append(section);
+          });
+          elements.bankList.append(topics);
+        } else {
+          latestBanks.forEach((bank) => elements.bankList.append(makeBankCard(bank)));
+          if (!banks.length) {
+            const empty = document.createElement("div");
+            empty.className = "bank-empty";
+            empty.textContent = "No test banks loaded yet. Load a JSON file, or serve this folder locally to load the included batches.";
+            elements.bankList.append(empty);
+          }
+        }
         updateSelectionSummary();
       }
 
@@ -410,6 +549,9 @@
           filename,
           label: existing ? existing.label : filename.replace(/\.json$/i, "").replace(/[_-]+/g, " "),
           description: existing ? existing.description : "User-loaded test bank.",
+          topic: existing ? existing.topic : "Your loaded banks",
+          featured: existing ? existing.featured : false,
+          userLoaded: true,
           questions,
           selected
         });
@@ -436,7 +578,7 @@
         renderBankList();
         const failures = outcomes.filter(Boolean);
         if (failures.length === 0) {
-          showNotice("Included CASp batches are ready. Select one or both to begin.", "success");
+          showNotice("Included test banks are ready. Select one or more to begin.", "success");
         } else {
           showNotice(`Some included banks could not be loaded. You can select the JSON files manually. ${failures.join(" ")}`, "error");
         }
@@ -562,6 +704,10 @@
           flag.textContent = "Flagged";
           elements.questionMeta.append(flag);
         }
+        const hasPassage = typeof question.passage === "string" && question.passage.trim() !== "";
+        elements.readingPassage.hidden = !hasPassage;
+        elements.readingPassageTitle.textContent = question.passage_title || "Read the story";
+        elements.readingPassageText.textContent = hasPassage ? question.passage : "";
         elements.questionText.textContent = question.question_text;
         elements.choices.replaceChildren();
         elements.choices.classList.toggle("columns", state.settings.columns);
@@ -631,10 +777,14 @@
       function speakCurrentQuestion(question) {
         if (!("speechSynthesis" in window)) return;
         window.speechSynthesis.cancel();
+        const passage = typeof question.passage === "string" ? question.passage.trim() : "";
         const prompt = question.question_type === "fill_in_blank"
           ? `${question.question_text}. Type your answer.`
           : `${question.question_text}. Answer choices: ${question.choices.map((choice, index) => `${letters[index] || index + 1}: ${choice}`).join(". ")}.`;
-        window.speechSynthesis.speak(new SpeechSynthesisUtterance(prompt));
+        const passageText = passage
+          ? `${question.passage_title || "Read the passage"}. ${passage}. `
+          : "";
+        window.speechSynthesis.speak(new SpeechSynthesisUtterance(`${passageText}${prompt}`));
       }
 
       function toggleFlag() {
@@ -875,6 +1025,10 @@
 
       elements.fileInput.addEventListener("change", (event) => readSelectedFiles(event.target.files));
       elements.folderInput.addEventListener("change", (event) => readSelectedFiles(event.target.files));
+      elements.showAllBanksButton.addEventListener("click", () => {
+        state.showAllBanks = !state.showAllBanks;
+        renderBankList();
+      });
       elements.startButton.addEventListener("click", startQuiz);
       elements.nextButton.addEventListener("click", () => navigateQuestion(1));
       elements.backButton.addEventListener("click", () => navigateQuestion(-1));

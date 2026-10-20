@@ -1,0 +1,220 @@
+{
+  "bank_id": "reader-level-l-05",
+  "title": "Quick Reads: Small Discoveries",
+  "level": "L",
+  "level_note": "Original short-passage comprehension practice informed by broad Fountas & Pinnell Level L context. Not an official benchmark assessment.",
+  "passages": [
+    {
+      "id": "red-scarf",
+      "title": "The Red Scarf",
+      "text": "Mina found a red scarf on the playground after lunch. She carried it to the office, but no one had asked for it. The next morning, she saw Jay looking under the swings. “I lost my scarf,” he said. Mina showed him the lost-and-found box. Jay's face brightened when he spotted the red scarf inside. “I thought the wind took it,” he said. Mina smiled. The wind had moved the scarf, but a careful friend had helped it find its way home."
+    },
+    {
+      "id": "busy-bees",
+      "title": "Busy Bees",
+      "text": "A bee visits a flower to find nectar, a sweet liquid. As the bee moves from flower to flower, tiny grains of pollen stick to its body. Some pollen rubs off on the next flower. This helps the plant make seeds. Bees do not carry pollen because they are trying to help plants. They are looking for food. Still, the bee and the flower both benefit from the visit."
+    },
+    {
+      "id": "chalk-arrow",
+      "title": "The Chalk Arrow",
+      "text": "After the rain, Lila saw a chalk arrow on the sidewalk. It pointed toward the park gate. Beside it lay a damp paper bag with a bright green handle. Lila followed the arrows and found two more. At the last arrow, a little boy was searching the grass. “My lunch bag!” he cried. Lila handed it to him. “I made arrows so I could find my way back,” he said. The rain had washed away the first mark, but not every clue."
+    }
+  ],
+  "questions": [
+    {
+      "id": "RLT-L-061",
+      "passage_id": "red-scarf",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Finding the scarf",
+      "difficulty": 1,
+      "question_text": "Where did Mina find the scarf?",
+      "choices": ["On the playground", "In the classroom", "Beside the office door", "Under the lunch table"],
+      "correct_answer": "On the playground",
+      "explanation": "The passage says Mina found the scarf on the playground after lunch."
+    },
+    {
+      "id": "RLT-L-062",
+      "passage_id": "red-scarf",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Finding the owner",
+      "difficulty": 1,
+      "question_text": "What was Jay doing the next morning?",
+      "choices": ["Looking under the swings", "Eating lunch in the office", "Drawing arrows on the sidewalk", "Playing beside the school gate"],
+      "correct_answer": "Looking under the swings",
+      "explanation": "Mina sees Jay looking under the swings before he tells her he lost his scarf."
+    },
+    {
+      "id": "RLT-L-063",
+      "passage_id": "red-scarf",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of spotted",
+      "difficulty": 2,
+      "question_text": "Jay “spotted” the red scarf. What does spotted mean here?",
+      "choices": ["Saw it", "Washed it", "Borrowed it", "Folded it"],
+      "correct_answer": "Saw it",
+      "explanation": "Jay sees the scarf in the box, so spotted means noticed or saw it."
+    },
+    {
+      "id": "RLT-L-064",
+      "passage_id": "red-scarf",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Jay's feeling",
+      "difficulty": 2,
+      "question_text": "How did Jay probably feel when he saw the scarf?",
+      "choices": ["Relieved and happy", "Angry with Mina", "Sleepy and bored", "Worried about the wind"],
+      "correct_answer": "Relieved and happy",
+      "explanation": "Jay's face brightens when he finds his lost scarf, which suggests he is glad to have it back."
+    },
+    {
+      "id": "RLT-L-065",
+      "passage_id": "red-scarf",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "Which idea best fits this passage?",
+      "choices": ["Mina helps Jay find something he lost.", "Jay teaches Mina how to play on the swings.", "The wind carries Mina's lunch to the office.", "Lila draws a map of the playground."],
+      "correct_answer": "Mina helps Jay find something he lost.",
+      "explanation": "The events are about Mina finding the scarf and helping Jay recognize it."
+    },
+    {
+      "id": "RLT-L-066",
+      "passage_id": "busy-bees",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "What bees seek",
+      "difficulty": 1,
+      "question_text": "What sweet liquid does a bee look for in a flower?",
+      "choices": ["Nectar", "Pollen", "Rainwater", "Sap"],
+      "correct_answer": "Nectar",
+      "explanation": "The first sentence says a bee visits a flower to find nectar."
+    },
+    {
+      "id": "RLT-L-067",
+      "passage_id": "busy-bees",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Moving pollen",
+      "difficulty": 2,
+      "question_text": "What happens after pollen sticks to a bee?",
+      "choices": ["Some pollen rubs off on another flower.", "The bee turns the pollen into nectar.", "The flower carries the bee to its hive.", "The pollen falls into the bee's nest."],
+      "correct_answer": "Some pollen rubs off on another flower.",
+      "explanation": "The passage explains that pollen sticks to the bee and then rubs off on the next flower."
+    },
+    {
+      "id": "RLT-L-068",
+      "passage_id": "busy-bees",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of benefit",
+      "difficulty": 2,
+      "question_text": "The bee and flower both “benefit.” What does benefit mean?",
+      "choices": ["Get something helpful", "Move to a new place", "Make a loud sound", "Become the same size"],
+      "correct_answer": "Get something helpful",
+      "explanation": "The bee gets food, and pollen helps the plant make seeds, so each gets something useful."
+    },
+    {
+      "id": "RLT-L-069",
+      "passage_id": "busy-bees",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Bee and flower relationship",
+      "difficulty": 2,
+      "question_text": "Why does the passage say both the bee and flower benefit?",
+      "choices": ["The bee finds food, and the flower can make seeds.", "The bee makes a home inside each flower.", "The flower keeps the bee warm at night.", "The bee gives the flower its sweet nectar."],
+      "correct_answer": "The bee finds food, and the flower can make seeds.",
+      "explanation": "The bee gathers nectar for food, while moving pollen helps the plant make seeds."
+    },
+    {
+      "id": "RLT-L-070",
+      "passage_id": "busy-bees",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "What is this short text mostly about?",
+      "choices": ["How bees and flowers help one another", "How bees build a nest in a tree", "Why flowers close when it rains", "How to make sweet nectar"],
+      "correct_answer": "How bees and flowers help one another",
+      "explanation": "The text describes how bees get nectar and how pollen helps plants make seeds."
+    },
+    {
+      "id": "RLT-L-071",
+      "passage_id": "chalk-arrow",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "First clue",
+      "difficulty": 1,
+      "question_text": "What did Lila see on the sidewalk?",
+      "choices": ["A chalk arrow", "A red scarf", "A yellow flower", "A paper crane"],
+      "correct_answer": "A chalk arrow",
+      "explanation": "The passage begins with Lila noticing a chalk arrow after the rain."
+    },
+    {
+      "id": "RLT-L-072",
+      "passage_id": "chalk-arrow",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Within the Text",
+      "topic": "Lost item",
+      "difficulty": 1,
+      "question_text": "What was the little boy trying to find?",
+      "choices": ["His lunch bag", "A park map", "A red scarf", "His chalk"],
+      "correct_answer": "His lunch bag",
+      "explanation": "The boy calls out when Lila hands him the lunch bag."
+    },
+    {
+      "id": "RLT-L-073",
+      "passage_id": "chalk-arrow",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Following clues",
+      "difficulty": 2,
+      "question_text": "What did Lila do after she saw the first arrow?",
+      "choices": ["She followed the arrows.", "She went back to class.", "She drew a picture of the rain.", "She looked inside the office."],
+      "correct_answer": "She followed the arrows.",
+      "explanation": "Lila follows the first arrow and then finds two more along the way."
+    },
+    {
+      "id": "RLT-L-074",
+      "passage_id": "chalk-arrow",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Beyond the Text",
+      "topic": "Boy's plan",
+      "difficulty": 2,
+      "question_text": "Why had the boy made arrows?",
+      "choices": ["So he could find his way back", "So he could lead bees to flowers", "So he could mark a place to play", "So he could show Lila where to eat"],
+      "correct_answer": "So he could find his way back",
+      "explanation": "The boy says he made arrows to help him find his way back."
+    },
+    {
+      "id": "RLT-L-075",
+      "passage_id": "chalk-arrow",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "About the Text",
+      "topic": "Main idea",
+      "difficulty": 2,
+      "question_text": "Which sentence best tells what happened?",
+      "choices": ["Lila follows chalk clues and helps a boy find his lunch bag.", "Lila teaches a boy how to draw paper cranes.", "A boy finds a scarf beside the school swings.", "Rain washes every clue away before Lila can help."],
+      "correct_answer": "Lila follows chalk clues and helps a boy find his lunch bag.",
+      "explanation": "Lila follows the remaining arrows and finds the boy searching for his lunch bag."
+    }
+  ]
+}

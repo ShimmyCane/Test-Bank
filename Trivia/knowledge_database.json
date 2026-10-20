@@ -1,21 +1,20 @@
 {
   "schema_version": "2.1.0",
   "title": "Trivia Knowledge Database",
-  "generated_on": "2026-10-03",
-  "purpose": "Knowledge map for broad trivia and family-oriented learning. This project is initialized before any quiz banks are created.",
+  "generated_on": "2026-10-19",
+  "purpose": "Knowledge map for broad trivia and family-oriented learning, with an introductory family quiz linked to its topic areas.",
   "important_limitations": [
     "This database tracks topic structure and knowledge coverage, not question content.",
-    "No test-bank question files are linked yet. The project is currently not populated.",
-    "Use this map to organize topic clusters and later add quiz banks for each subject."
+    "This introductory quiz covers selected topics and does not represent complete coverage of the taxonomy."
   ],
   "coverage": {
-    "test_bank_source_files": 0,
-    "question_records_at_link_creation": 0,
-    "topic_count": 0,
+    "test_bank_source_files": 1,
+    "question_records_at_link_creation": 10,
+    "topic_count": 3,
     "reference_file_count": 0,
-    "taxonomy_node_count": 0,
-    "maximum_topic_depth": 0,
-    "linked_question_count": 0
+    "taxonomy_node_count": 4,
+    "maximum_topic_depth": 1,
+    "linked_question_count": 10
   },
   "authorities_to_verify": [],
   "taxonomy": [
@@ -24,12 +23,24 @@
       "name": "Family Trivia",
       "description": "General knowledge and light educational topics for fun learning.",
       "important": true,
+      "test_bank_links": [
+        {
+          "source_file": "Trivia/trivia_batch1.json",
+          "question_ids": ["TRV-001", "TRV-002", "TRV-003", "TRV-004", "TRV-005", "TRV-006", "TRV-007", "TRV-008", "TRV-009", "TRV-010"]
+        }
+      ],
       "subtopics": [
         {
           "id": "trivia-culture",
           "name": "Family culture",
           "description": "Shared traditions, customs, and cultural learning.",
           "important": false,
+          "test_bank_links": [
+            {
+              "source_file": "Trivia/trivia_batch1.json",
+              "question_ids": ["TRV-001", "TRV-002", "TRV-003"]
+            }
+          ],
           "subtopics": []
         },
         {
@@ -37,6 +48,12 @@
           "name": "Children safety",
           "description": "Practical safety facts and responsible habits.",
           "important": false,
+          "test_bank_links": [
+            {
+              "source_file": "Trivia/trivia_batch1.json",
+              "question_ids": ["TRV-004", "TRV-005", "TRV-006"]
+            }
+          ],
           "subtopics": []
         },
         {
@@ -44,18 +61,30 @@
           "name": "General awareness",
           "description": "Broad trivia and everyday knowledge for learning and playful practice.",
           "important": false,
+          "test_bank_links": [
+            {
+              "source_file": "Trivia/trivia_batch1.json",
+              "question_ids": ["TRV-007", "TRV-008", "TRV-009", "TRV-010"]
+            }
+          ],
           "subtopics": []
         }
       ]
     }
   ],
   "reference_documents": [],
-  "version_number": 1,
-  "version_label": "v1",
+  "version_number": 2,
+  "version_label": "v2",
   "change_log": [
     {
       "timestamp": "2026-10-03T00:00:00Z",
       "action": "initialize",
+      "node_name": "Family Trivia",
+      "parent_topic": null
+    },
+    {
+      "timestamp": "2026-10-19T00:00:00Z",
+      "action": "add_test_bank",
       "node_name": "Family Trivia",
       "parent_topic": null
     }
@@ -67,6 +96,12 @@
     "allow_node_creation": true,
     "expanded_node_ids": ["trivia-root"]
   },
-  "test_bank_sources": [],
-  "status": "not_populated"
+  "test_bank_sources": [
+    {
+      "source_file": "Trivia/trivia_batch1.json",
+      "question_count": 10,
+      "question_ids": ["TRV-001", "TRV-002", "TRV-003", "TRV-004", "TRV-005", "TRV-006", "TRV-007", "TRV-008", "TRV-009", "TRV-010"]
+    }
+  ],
+  "status": "populated"
 }

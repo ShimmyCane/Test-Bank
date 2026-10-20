@@ -1,0 +1,265 @@
+{
+  "bank_id": "reader-level-l-04",
+  "title": "The Sound of the Rain",
+  "level": "L",
+  "level_note": "Original Fountas & Pinnell Guided Reading Level L practice material; not an official benchmark assessment.",
+  "passage_title": "The Sound of the Rain",
+  "passage": "Tessa's music club had practiced for weeks for the school courtyard concert. They planned to play a short tune on xylophones, hand drums, and shakers. On Friday afternoon, just as the club carried its instruments outside, dark clouds rolled over the playground. Rain began tapping on the courtyard roof.\n\n“We could wait inside,” said Tessa. “But the families are already arriving.” Mr. Lee, the music teacher, listened to the rain for a moment. “Let us see what sounds we can make safely,” he said. He asked everyone to keep instruments away from the wet ground. The children moved the tables under the covered walkway.\n\nAt first, the rain sounded like a steady drum. Tessa tapped a soft pattern on her hand drum: tap, tap-tap, rest. Her friend Omar shook a seed pod, making a dry rattle. The xylophone player added three bright notes. Together, the sounds reminded Tessa of a walk through a forest after a storm. She wrote the pattern on a card so the group could remember it.\n\nThen the rain grew louder. The seed-pod rattle could hardly be heard. Omar frowned. Tessa did not tell him to shake harder. Instead, she asked him to move closer to the xylophone. The bright notes and the rattle blended when he stood beside it. Mr. Lee suggested that the group pause between patterns, so the audience could hear each sound.\n\nWhen the families gathered, the club played its new rain song. The roof added a gentle beat, and the children answered with their instruments. A little girl in the front row closed her eyes and smiled. After the final note, the audience clapped. Omar said, “I thought the rain had ruined the concert.” Tessa grinned. “It changed the concert. We listened, and then we changed our plan.” The club agreed to save the rain song for another day.",
+  "questions": [
+    {
+      "id": "RLT-L-046",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Music club",
+      "difficulty": 1,
+      "question_text": "Where had the music club planned to perform?",
+      "choices": [
+        "In the school courtyard",
+        "At Willow Pond",
+        "Inside the library",
+        "On the playground roof"
+      ],
+      "correct_answer": "In the school courtyard",
+      "explanation": "The first paragraph says the club had practiced for a school courtyard concert."
+    },
+    {
+      "id": "RLT-L-047",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Instruments",
+      "difficulty": 1,
+      "question_text": "Which instrument did Tessa play?",
+      "choices": [
+        "A hand drum",
+        "A trumpet",
+        "A violin",
+        "A flute"
+      ],
+      "correct_answer": "A hand drum",
+      "explanation": "Tessa taps a pattern on her hand drum while the other children play their instruments."
+    },
+    {
+      "id": "RLT-L-048",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Changing the concert plan",
+      "difficulty": 1,
+      "question_text": "Why did the club move its tables under the covered walkway?",
+      "choices": [
+        "Rain began falling in the courtyard.",
+        "The families asked to sit at the tables.",
+        "The xylophone was too heavy to carry.",
+        "Mr. Lee wanted to end the concert."
+      ],
+      "correct_answer": "Rain began falling in the courtyard.",
+      "explanation": "The rain starts just as the club goes outside, so the children move under cover."
+    },
+    {
+      "id": "RLT-L-049",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "First musical idea",
+      "difficulty": 2,
+      "question_text": "What sound did Tessa notice first when the rain began?",
+      "choices": [
+        "A steady tapping like a drum",
+        "A loud whistle from the playground",
+        "A bell ringing near the tables",
+        "A rattle coming from the roof"
+      ],
+      "correct_answer": "A steady tapping like a drum",
+      "explanation": "Tessa hears the rain tapping steadily on the roof and compares it to a drum."
+    },
+    {
+      "id": "RLT-L-050",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of pattern",
+      "difficulty": 2,
+      "question_text": "What is Tessa's “pattern” on the hand drum?",
+      "choices": [
+        "A planned group of beats with a rest",
+        "A picture of rain on a card",
+        "A way to carry the drum outside",
+        "A list of the club members"
+      ],
+      "correct_answer": "A planned group of beats with a rest",
+      "explanation": "The story shows the pattern as “tap, tap-tap, rest,” a repeated arrangement of sounds."
+    },
+    {
+      "id": "RLT-L-051",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Forest comparison",
+      "difficulty": 2,
+      "question_text": "Why might the sounds have reminded Tessa of a forest after a storm?",
+      "choices": [
+        "The rain and instruments made a mix of natural-sounding noises.",
+        "The concert was held beside a forest.",
+        "The club had brought real birds to perform.",
+        "Tessa had forgotten the tune they practiced."
+      ],
+      "correct_answer": "The rain and instruments made a mix of natural-sounding noises.",
+      "explanation": "The roof's rain beat, the seed-pod rattle, and bright notes combine into sounds Tessa imagines in a forest."
+    },
+    {
+      "id": "RLT-L-052",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Rattle hard to hear",
+      "difficulty": 2,
+      "question_text": "Why could the audience hardly hear Omar's seed-pod rattle?",
+      "choices": [
+        "The rain had grown louder.",
+        "Omar had left the seed pod inside.",
+        "Tessa stopped playing her drum.",
+        "The families had gone home."
+      ],
+      "correct_answer": "The rain had grown louder.",
+      "explanation": "The passage says the rain grew louder, and the soft rattle could hardly be heard over it."
+    },
+    {
+      "id": "RLT-L-053",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Character and Motivation",
+      "topic": "Tessa's response",
+      "difficulty": 2,
+      "question_text": "What did Tessa do to help Omar's rattle blend with the other sounds?",
+      "choices": [
+        "She asked him to move closer to the xylophone.",
+        "She told him to stop playing.",
+        "She gave him a louder drum.",
+        "She asked him to stand outside in the rain."
+      ],
+      "correct_answer": "She asked him to move closer to the xylophone.",
+      "explanation": "Tessa suggests moving Omar beside the xylophone so the sounds blend together."
+    },
+    {
+      "id": "RLT-L-054",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of blend",
+      "difficulty": 2,
+      "question_text": "In this passage, what does it mean for two sounds to “blend”?",
+      "choices": [
+        "They fit together as part of the music.",
+        "They stop at exactly the same time.",
+        "They become too quiet to hear.",
+        "They change into words."
+      ],
+      "correct_answer": "They fit together as part of the music.",
+      "explanation": "The rattle and bright xylophone notes blend when Omar moves closer, so the sounds fit together."
+    },
+    {
+      "id": "RLT-L-055",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Problem and Solution",
+      "topic": "Hearing each sound",
+      "difficulty": 2,
+      "question_text": "What did Mr. Lee suggest so listeners could hear each sound?",
+      "choices": [
+        "Pause between musical patterns",
+        "Play every instrument at once",
+        "Move the audience into the rain",
+        "Cover the roof with a blanket"
+      ],
+      "correct_answer": "Pause between musical patterns",
+      "explanation": "Mr. Lee suggests pauses so each pattern has room to be heard."
+    },
+    {
+      "id": "RLT-L-056",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Audience response",
+      "difficulty": 3,
+      "question_text": "What does the little girl's reaction suggest about the rain song?",
+      "choices": [
+        "She enjoyed listening to it.",
+        "She wanted to leave the courtyard.",
+        "She was waiting for the rain to stop.",
+        "She could not hear any instruments."
+      ],
+      "correct_answer": "She enjoyed listening to it.",
+      "explanation": "The little girl closes her eyes and smiles while listening, which suggests she enjoys the music."
+    },
+    {
+      "id": "RLT-L-057",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Character Change",
+      "topic": "Omar's feelings",
+      "difficulty": 3,
+      "question_text": "How does Omar's thinking change during the story?",
+      "choices": [
+        "He first thinks the rain ruined the concert, then sees that it inspired a new song.",
+        "He first wants to play outdoors, then decides he dislikes music.",
+        "He first enjoys the rain, then asks everyone to go home.",
+        "He first wants a seed pod, then gives it to Tessa."
+      ],
+      "correct_answer": "He first thinks the rain ruined the concert, then sees that it inspired a new song.",
+      "explanation": "Omar says he thought the rain ruined the concert, but the club turns the rain into part of its performance."
+    },
+    {
+      "id": "RLT-L-058",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Theme",
+      "topic": "Adapting to change",
+      "difficulty": 3,
+      "question_text": "Which idea is best supported by the story?",
+      "choices": [
+        "Listening and changing a plan can turn a problem into an opportunity.",
+        "A concert should always sound exactly as it was first planned.",
+        "Rain makes it impossible for people to make music.",
+        "Only the music teacher can solve a problem."
+      ],
+      "correct_answer": "Listening and changing a plan can turn a problem into an opportunity.",
+      "explanation": "The club listens to the rain, adjusts its plan, and creates a new performance."
+    },
+    {
+      "id": "RLT-L-059",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Main Idea",
+      "topic": "Rain song",
+      "difficulty": 3,
+      "question_text": "Which sentence best summarizes the story?",
+      "choices": [
+        "A music club adapts to rainy weather and turns the sounds of the rain into a successful performance.",
+        "Tessa teaches Omar how to build a covered walkway.",
+        "The families cancel a concert because they do not like xylophones.",
+        "Mr. Lee asks the club to practice the same tune indoors."
+      ],
+      "correct_answer": "A music club adapts to rainy weather and turns the sounds of the rain into a successful performance.",
+      "explanation": "The rain changes the club's plans, but listening and teamwork help them create and perform a rain song."
+    },
+    {
+      "id": "RLT-L-060",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Text Structure",
+      "topic": "How the problem is solved",
+      "difficulty": 3,
+      "question_text": "How does the club solve the problem caused by the rain?",
+      "choices": [
+        "It moves to a covered place, listens to the rain, and changes the music.",
+        "It waits until the next school year to perform.",
+        "It asks the families to play all the instruments.",
+        "It carries the instruments back to the music room."
+      ],
+      "correct_answer": "It moves to a covered place, listens to the rain, and changes the music.",
+      "explanation": "The club keeps the instruments dry under the walkway and uses the rain's rhythm in its new song."
+    }
+  ]
+}

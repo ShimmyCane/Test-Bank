@@ -1,0 +1,265 @@
+{
+  "bank_id": "reader-level-l-02",
+  "title": "The Bridge of Paper Cranes",
+  "level": "L",
+  "level_note": "Original Fountas & Pinnell Guided Reading Level L practice material; not an official benchmark assessment.",
+  "passage_title": "The Bridge of Paper Cranes",
+  "passage": "Every spring, the children at Maple Street School made something for the neighborhood art walk. This year, their teacher, Mr. Ruiz, suggested a bridge of paper cranes. Each student would fold one bird and write a kind message on its wings. The class planned to hang the cranes between two tall posts outside the community center.\n\nNora chose yellow paper because it reminded her of sunshine. She wrote, “You can begin again tomorrow.” Then she folded one corner too far. The paper would not meet in the middle, and the crane leaned to one side. Nora crumpled the sheet and reached for another. Across the table, Ben was carefully flattening each crease with his thumbnail. His first crane stood straight, but he had written nothing on it.\n\n“Would you show me how you make the wings even?” Nora asked. Ben turned his bird around and pointed to the folded edges. “I line up the corners first. Then I press the crease.” Nora tried again. This time the wings matched. “I like your message,” Ben said when he read it. He took a blue square and began writing. His words were, “Someone is glad you are here.”\n\nThe next afternoon, the class carried a basket of cranes to the community center. Mr. Ruiz tied each bird to a long cord. As the children worked, they noticed one space between the posts was wider than the others. The cord sagged there. Nora suggested moving two cranes closer together, but the cord still drooped. Ben found an empty wooden hoop in the center's craft room. The children fixed it under the cord and looped the middle around the hoop. Now the bridge held firm.\n\nOn the day of the art walk, people stopped beneath the bright paper bridge. A woman read Ben's message twice, then smiled at the children. Nora looked at her own crane. Its wings were not perfect, but her message was easy to read. She felt proud that she had kept trying—and glad that Ben had shared his idea.",
+  "questions": [
+    {
+      "id": "RLT-L-016",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Class project",
+      "difficulty": 1,
+      "question_text": "What did the class plan to make for the art walk?",
+      "choices": [
+        "A bridge made of paper cranes",
+        "A row of painted wooden signs",
+        "A basket filled with real birds",
+        "A large map of the neighborhood"
+      ],
+      "correct_answer": "A bridge made of paper cranes",
+      "explanation": "Mr. Ruiz suggests a bridge of paper cranes, and the class plans to hang them outside the community center."
+    },
+    {
+      "id": "RLT-L-017",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Kind messages",
+      "difficulty": 1,
+      "question_text": "What were students asked to write on their paper cranes?",
+      "choices": [
+        "A kind message",
+        "Their home address",
+        "A list of art supplies",
+        "The name of a bird"
+      ],
+      "correct_answer": "A kind message",
+      "explanation": "The first paragraph says each student would write a kind message on the crane's wings."
+    },
+    {
+      "id": "RLT-L-018",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Character and Motivation",
+      "topic": "Nora's choice",
+      "difficulty": 1,
+      "question_text": "Why did Nora choose yellow paper?",
+      "choices": [
+        "It reminded her of sunshine.",
+        "It was the only paper left.",
+        "Ben asked her to use it.",
+        "The community center was painted yellow."
+      ],
+      "correct_answer": "It reminded her of sunshine.",
+      "explanation": "The story directly tells us that the yellow paper reminded Nora of sunshine."
+    },
+    {
+      "id": "RLT-L-019",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "First folding attempt",
+      "difficulty": 2,
+      "question_text": "Why did Nora's first crane lean to one side?",
+      "choices": [
+        "One corner was folded too far.",
+        "The yellow paper was too heavy.",
+        "Ben pulled one wing off.",
+        "The table was shaking."
+      ],
+      "correct_answer": "One corner was folded too far.",
+      "explanation": "Nora folds one corner too far, so the paper edges do not meet in the middle."
+    },
+    {
+      "id": "RLT-L-020",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Ben's unfinished crane",
+      "difficulty": 2,
+      "question_text": "What might Ben have been unsure about when Nora first saw him?",
+      "choices": [
+        "What message to write on his crane",
+        "Where the community center was",
+        "How to fold a paper square",
+        "Which color the posts should be"
+      ],
+      "correct_answer": "What message to write on his crane",
+      "explanation": "Ben has folded a crane but written nothing on it yet, so he may still be thinking of a message."
+    },
+    {
+      "id": "RLT-L-021",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Sequence",
+      "topic": "Learning to fold",
+      "difficulty": 2,
+      "question_text": "What did Ben tell Nora to do before pressing the crease?",
+      "choices": [
+        "Line up the corners",
+        "Write the message",
+        "Turn the paper blue",
+        "Cut off the folded edge"
+      ],
+      "correct_answer": "Line up the corners",
+      "explanation": "Ben explains the steps: first line up the corners, then press the crease."
+    },
+    {
+      "id": "RLT-L-022",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of crease",
+      "difficulty": 2,
+      "question_text": "In the story, what is a crease?",
+      "choices": [
+        "A line made by folding paper",
+        "A spot of paint on a bird",
+        "A message written in blue ink",
+        "A string used to hang the cranes"
+      ],
+      "correct_answer": "A line made by folding paper",
+      "explanation": "Ben presses the crease after lining up the corners, so a crease is the line left by a fold."
+    },
+    {
+      "id": "RLT-L-023",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Key Details",
+      "topic": "Ben's message",
+      "difficulty": 1,
+      "question_text": "What message did Ben write?",
+      "choices": [
+        "Someone is glad you are here.",
+        "You can begin again tomorrow.",
+        "Look beneath the wooden hoop.",
+        "Welcome to Maple Street School."
+      ],
+      "correct_answer": "Someone is glad you are here.",
+      "explanation": "Ben writes, “Someone is glad you are here,” after reading Nora's message."
+    },
+    {
+      "id": "RLT-L-024",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Cause and Effect",
+      "topic": "Sagging cord",
+      "difficulty": 2,
+      "question_text": "Why did the cord sag between the posts?",
+      "choices": [
+        "The space between the posts was wider there.",
+        "The cranes were made from wet paper.",
+        "Mr. Ruiz tied the birds to the basket.",
+        "The children forgot to bring the cord."
+      ],
+      "correct_answer": "The space between the posts was wider there.",
+      "explanation": "The children notice that one space is wider than the others, and the cord sags in that spot."
+    },
+    {
+      "id": "RLT-L-025",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Problem and Solution",
+      "topic": "Supporting the bridge",
+      "difficulty": 2,
+      "question_text": "What helped the paper-crane bridge hold firm?",
+      "choices": [
+        "The children fixed a wooden hoop under the cord.",
+        "Nora tied every crane to the basket.",
+        "Ben added more paper to the widest space.",
+        "Mr. Ruiz moved the two tall posts together."
+      ],
+      "correct_answer": "The children fixed a wooden hoop under the cord.",
+      "explanation": "They loop the middle of the cord around an empty wooden hoop, which supports the sagging section."
+    },
+    {
+      "id": "RLT-L-026",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Vocabulary in Context",
+      "topic": "Meaning of sagged",
+      "difficulty": 2,
+      "question_text": "What does “the cord sagged” mean in this story?",
+      "choices": [
+        "The cord drooped in the middle.",
+        "The cord snapped into pieces.",
+        "The cord changed to a different color.",
+        "The cord became longer by itself."
+      ],
+      "correct_answer": "The cord drooped in the middle.",
+      "explanation": "The next sentence says the cord drooped, and the children fix it by supporting the middle."
+    },
+    {
+      "id": "RLT-L-027",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Inference",
+      "topic": "Woman's response",
+      "difficulty": 3,
+      "question_text": "Why might the woman have smiled after reading Ben's message?",
+      "choices": [
+        "The kind words may have made her feel welcome.",
+        "She wanted to take the cranes home.",
+        "She was glad the art walk was over.",
+        "She had written the message herself."
+      ],
+      "correct_answer": "The kind words may have made her feel welcome.",
+      "explanation": "The message tells someone they are glad to have them there, and the woman smiles after reading it."
+    },
+    {
+      "id": "RLT-L-028",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Character Change",
+      "topic": "Nora's confidence",
+      "difficulty": 3,
+      "question_text": "How does Nora feel about her crane at the end?",
+      "choices": [
+        "Proud that she kept trying, even though its wings were not perfect",
+        "Angry that Ben wrote a better message",
+        "Worried that the art walk will never begin",
+        "Disappointed that the crane is not made of wood"
+      ],
+      "correct_answer": "Proud that she kept trying, even though its wings were not perfect",
+      "explanation": "Nora notices the wings are imperfect but feels proud that she continued and finished her message."
+    },
+    {
+      "id": "RLT-L-029",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Theme",
+      "topic": "Sharing skills",
+      "difficulty": 3,
+      "question_text": "Which idea is best supported by the story?",
+      "choices": [
+        "Sharing what you know can help everyone make something together.",
+        "A project works best when one person does all the work.",
+        "Paper crafts should always look exactly alike.",
+        "Kind messages are only useful at school."
+      ],
+      "correct_answer": "Sharing what you know can help everyone make something together.",
+      "explanation": "Ben shares his folding method, Nora keeps practicing, and the children work together to support the bridge."
+    },
+    {
+      "id": "RLT-L-030",
+      "question_type": "multiple_choice",
+      "category": "Reading Comprehension",
+      "subcategory": "Main Idea",
+      "topic": "Class collaboration",
+      "difficulty": 3,
+      "question_text": "Which sentence best summarizes the story?",
+      "choices": [
+        "Nora and Ben help make a paper-crane display by sharing ideas and solving a problem together.",
+        "Nora visits the community center to learn how to grow flowers.",
+        "Ben folds a paper bird and hides it under the art table.",
+        "Mr. Ruiz asks the class to build two new posts for the center."
+      ],
+      "correct_answer": "Nora and Ben help make a paper-crane display by sharing ideas and solving a problem together.",
+      "explanation": "The story follows Nora and Ben as they learn from one another and solve the display's sagging-cord problem."
+    }
+  ]
+}

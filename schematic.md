@@ -36,10 +36,22 @@ This is not a single monolithic app; it is a structured content system for learn
   - Example subject implementation with planning and question-bank content.
   - Includes study or learning docs, a knowledge database, and batch question files.
 
+- [Reader Level Test](./Reader%20Level%20Test)
+  - Original, child-friendly reading-comprehension practice, beginning with one 15-question school Level L bank.
+  - Uses the shared quiz app and stores passage and question content in a bank JSON file.
+
+- [Chinese](./Chinese)
+  - Beginner Mandarin practice covering pronunciation and tones, characters and writing, and vocabulary and phrases.
+  - Keeps its quiz bank separate from the Chinese learning knowledge map.
+
+- [Trivia](./Trivia)
+  - Family-oriented practice covering culture, children’s safety, and general awareness.
+  - Keeps its quiz bank separate from the trivia knowledge map.
+
 - [Archive](./Archive)
   - Historical snapshots, prior versions, raw exports, and earlier working materials.
 
-The project is designed so additional subject areas can be added in parallel as separate folders or banks without changing the core app architecture.
+The Chinese and Trivia starter banks are registered in the shared quiz app and load alongside the other included banks. Additional subject areas can be added in parallel as separate folders or banks without changing the core app architecture.
 
 ## Core design principle: question bank vs. knowledge map
 
@@ -124,6 +136,8 @@ This matches the project’s goal of “teaching materials” and “tracking mi
 ## Content strategy
 
 The documents describe a reusable study workflow that can support many subject areas.
+
+For reading-comprehension banks, keep an original shared passage at the bank level and link every question to that text. Use answer explanations to model where to look in the passage and how to reason, not just reveal the answer.
 
 ### Main learning goals
 
